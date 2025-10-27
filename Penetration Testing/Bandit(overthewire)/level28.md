@@ -5,7 +5,7 @@
 
 ![image break](/Pictur/Level28/bandit1.png) <br>
 
-전단계처럼 
+전단계와 같습니다.
 
 
 
