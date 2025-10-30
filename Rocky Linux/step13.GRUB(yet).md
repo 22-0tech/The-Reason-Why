@@ -34,19 +34,26 @@ BIOS 단계 : 하드웨어 검사 → 부팅장치 선택 → MBR 로드 → 부
 systemd가 첫 번째 프로세스로 실행된 후, 핵심 서비스와 데몬이 활성화됩니다.<br>
 초기 프로세스인 init과의 호환성도 여전히 유지됩니다.<br>
 
+init = 모든 프로세스의 조상 역할, 현대는 systemed로 대체 <br>
+<br>
+<br>
+vi /etc/inittab<br>
+
+init + 런레벨 = 시스템 상태 즉시 변경<br>
+      (0 ~ 6)
+init 0 = poweroff<br>
+init 6 = reboot<br>
 
 
 
-![image break](../Pictur/step13/GRUB2.png)<br>
+<br>
+<br>
 
+![image break](../Pictur/step13/GRUB.2.png)<br>
 
-
-vi /etc/inittab
-
-init + 런레벨 = 시스템 상태 즉시 변경
-
-런레벨 2, 3, 4 → CLI 모드, 다중 사용자 모드
-
+로그인 프롬포트 화면, 부팅 과정 완료<br>
+<br>
+<Br>
 
 
 vi /etc/grub.d/00_header
