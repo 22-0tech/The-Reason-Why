@@ -1,31 +1,15 @@
-데몬(daemon)
-
-sshd, crond, httpd, atd, quotaon 등은 모두 백그라운드 서비스
-
-이 중 쿼터 관련 서비스는 디스크 사용을 주기적으로 감시하고 제한
-
-→ 즉, quota 데몬(서비스) 도 systemd가 관리하는 하나의 데몬
+**Quota<br>
+<Br>
+정해진 한도<br>
+<Br>
 
 
-소켓/inetd 방식 vs 독자형(standalone)
+Systemed가 데몬(daemon)을 시작합니다. quota도 systemd가 관리하는 하나의 데몬입니다.<br>
+<br>
+<Br>
 
-quota는 독자형(standalone) 방식 → 부팅 시 바로 활성화됨
-
-telnet처럼 inetd(socket) 방식은 요청 있을 때만 실행
-
-→ 즉, 쿼터는 항상 시스템이 켜져 있을 때 상시 감시하는 서비스
-
-
-5️⃣ sync (디스크 저장)
-
-시스템 종료 시 메모리의 변경 내용을 디스크로 동기화
-
-쿼터 역시 디스크 사용량 정보(aquota.user)를 파일로 저장하므로
-sync는 쿼터 데이터 손실 방지 역할도 함
-
-
-
-
+usrquota : 개별 사용자의 쿼터 제한할 수 있는 속성<br>
+qrpquota : 개별 그룹의 쿼터 제한할 수 있는 속성<br>
 
 
 
