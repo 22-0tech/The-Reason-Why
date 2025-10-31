@@ -114,6 +114,7 @@ After resetting the password, create a file that causes SELinux to relabel the e
 * 암호 복구 방어 (Bootloader Lock)
 <br>
 vi /etc/grub.d/00_header<br>
+
 *Why-The script file that is read first when creating the bootloader configuration.<br>
 *Why-부트로더 설정 생성시 가장 먼저 읽히는 스크립트 파일<br>
 <br>
