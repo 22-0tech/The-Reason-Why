@@ -66,3 +66,5 @@ ACL configuration is possible for remote access services like Telnet and SSH<br>
 but in this case, the term "class" is used instead of "group."<br>
 telnet,SSH같은 원격 접속도 ACL 설정이 가능한데, 이 경우는 group이 아닌 class가 사용됩니다. 
 
+
+
