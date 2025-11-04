@@ -16,13 +16,10 @@ qrpquota : 개별 그룹의 쿼터 제한할 수 있는 속성<br>
 This is the current disk status.<br>
 현재 디스크 상태입니다.
 
-Command : vi /etc/fstab<br>
-<br>
-An option must be added to the script to activate the quota function.<Br>
-해당 스크립트에 옵션을 추가해야 쿼터 기능이 활성화됩니다.<br>
 <br>
 <br>
 <Br>
+
 ![image break](../Pictur/step14/1.png)<br>
 The disk will be formatted before the quota is set.<Br>
 쿼터 설정하기 전에, 디스크 포맷을 먼저하겠습니다<br>
@@ -41,6 +38,12 @@ Mounts to each mount point.<br>
 ![image break](../Pictur/step14/4.png)<br>
 It is configured according to individual user properties.<br>
 개별 사용자 속성에 맞게 작성합니다<br>
+<br>
+<Br>
+Command : vi /etc/fstab<br>
+<br>
+An option must be added to the script to activate the quota function.<Br>
+해당 스크립트에 옵션을 추가해야 쿼터 기능이 활성화됩니다.<br>
 <br>
 <br>
 <Br>
