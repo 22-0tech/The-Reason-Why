@@ -53,12 +53,18 @@ http는 tcp기반으로 80번포트를 허용합니다.<br>
 <Br>
 <Br>
 
-*tcp/udp사용하는 DNS관련 포트는 차단하고 이외 허용 설정
+* tcp/udp사용하는 DNS관련 포트는 차단하고 이외 허용 설정
 
 ![image break](../../Pictur/step13/ACL15.png)<Br>
 
 <Br>
 <Br>
+
+* 좌측 Webterm에서 출발하는 dns 관련 패킷은 차단
+- 좌측 Webterm에서 출발하는 R2를 대상으로 하는 HTTP 패킷은 허용
+- 좌측 Webterm에서 출발하는 Toolbox를 대상으로 하는 HTTP 패킷은 허용
+- 나머지는 모두 차단
+
 
 ![image break](../../Pictur/step13/ACL16.png)<Br>
 
@@ -66,12 +72,9 @@ http는 tcp기반으로 80번포트를 허용합니다.<br>
 <Br>
 
 
-![image break](../../Pictur/step13/ACL17.png)<Br>
-
 <Br>
 <Br>
-
-![image break](../../Pictur/step13/ACL18.png)<Br>
+* D에서 R1으로 오는 http, dns, telnet, ssh차단 및 ip허용 설정
 
 ![image break](../../Pictur/step13/ACL19.png)<Br>
 
