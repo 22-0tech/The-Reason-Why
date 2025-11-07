@@ -53,7 +53,7 @@ http는 tcp기반으로 80번포트를 허용합니다.<br>
 <Br>
 <Br>
 
-* tcp/udp사용하는 DNS관련 포트는 차단하고 이외 허용 설정
+* tcp/udp사용하는 DNS관련 포트는 차단하고 ip 허용 설정
 
 ![image break](../../Pictur/step13/ACL15.png)<Br>
 
