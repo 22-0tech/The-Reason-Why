@@ -45,54 +45,66 @@
 <br>
 
 ![image break](../Pictur/step16/6.png)<br>
-
-
+<br>
+IP를 입력하면 웹페이지가 나옵니다.<br>
 
 <br>
 <br>
+<br>
+<Br>
+<Br>
+<Br>
+
+* 일반 사용자 계정의 웹 설정<br>
+<br>
+
 
 ![image break](../Pictur/step16/7.png)<br>
 <br>
 <br>
 ![image break](../Pictur/step16/8.png)<br>
 <br>
+각각 주석처리와 적용을 합니다.<br>
+
+
 <br>
+<br>
+
 ![image break](../Pictur/step16/9.png)<br>
 <br>
+적용 후에 다시 동작시킵니다.<br>
+
 <br>
+<br>
+
 ![image break](../Pictur/step16/10.png)<br>
 <br>
+일반 계정 생성 후 디렉터리를 만듭니다. 최소 권한 설정을 합니다.<br>
+
+
 <br>
+<br>
+
 ![image break](../Pictur/step16/11.png)<br>
+
+HTML 형식에 맞게 작성합니다.<br>
+
 <br>
 <br>
+
+
 ![image break](../Pictur/step16/12.png)<br>
 <br>
+IP 주소 아래 사용자 계정까지 입력 접속합니다. 이런 식으로 접근 권한이 없다고 나올 수 있습니다.<br>
+
 <br>
+<br>
+
+
+
 ![image break](../Pictur/step16/13.png)<br>
 
+Selinux 보안 적용을 해제 하는 setenforce 0을 적용시키면 접속이 가능합니다.<br>
 
 
-
-
-
-
-/etc/httpd/conf/httpd.conf
-httpd 서버 기본 설정 파일
-<BR>
-<bR>
-<bR>
-<BR>
-
-
-아파치 사용자 계정 설정 파일
-/etc/httpd/conf.d/userdir.conf
-<br>
-
-#    UserDir disabled
-UserDir public_html
-<br>
-**chmod 701 .(현재 디렉터리)
-
-chmod 701 public_html
 
