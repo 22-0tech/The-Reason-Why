@@ -45,6 +45,7 @@ It can be confirmed that the public key has been sent.<br>
 <br>
 <br>
 <Br>
+
 ![image break](../Pictur/step1/SSH13.png)<br>
 SSH 접근 제어
 vi /etc/ssh/sshd_config <br>
