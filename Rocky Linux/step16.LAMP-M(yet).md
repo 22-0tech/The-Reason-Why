@@ -67,30 +67,37 @@ d_grade, d_info라는 테이블에 각 항목을 지정합니다. varchar는 변
 
 ![image break](../Pictur/step16/db8.png)<br>
 
-테이블의 구조입니다. 각 행마다 고유성을 가져 키를 보유해야 합니다. 
-
+테이블의 구조입니다. 각 행마다 고유성을 가져 키를 보유해야 합니다.<br>
+Null값은 없다는 뜻이므로, 기본 키 값에 Null을 허용하면 안 되므로, 먼저 null을 허용하지 않겠습니다.<br>
 <br>
 <br>
 <br>
 <br>
 
-![image break](../Pictur/step16/db9.png)<br>
+![image break](../Pictur/step16/db9.png) ![image break](../Pictur/step16/db10.png)<br>
 
+Null 허용에서 거부로 바꿨으며, 기본 키를 생성했습니다.<br>
 <br>
 <br>
+
 
 ![image break](../Pictur/step16/db9-1.png)<br>
 
 <br>
 <br>
-
-
-![image break](../Pictur/step16/db10.png)<br>
-
 <br>
 <br>
+<Br>
+<Br>
+<Br>
+<Br>
+<Br>
+
+
 
 ![image break](../Pictur/step16/db11.png)<br>
+
+데이터로 문자열과 정수를 입력합니다.<br>
 
 <br>
 <br>
@@ -98,19 +105,7 @@ d_grade, d_info라는 테이블에 각 항목을 지정합니다. varchar는 변
 ![image break](../Pictur/step16/db12.png)<br>
 
 
+테이블을 조회하면 입력 값이 보입니다.<br>
 
 
 
-
-
-
-
-
-
-<br>
-dnf -y install mariadb-server
-<br>
-systemctl --now enable mariadb
-<br>
-mysql
-<br>
