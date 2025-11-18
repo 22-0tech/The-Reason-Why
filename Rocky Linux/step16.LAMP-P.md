@@ -26,12 +26,14 @@ Only what is necessary for the web server and the database to be linked will be 
 <br>
 <Br>
 
+
 ![image break](../Pictur/step16/2.png)<br>
 It is written in the web server's default directory, instructing the PHP engine to output all its current information.<br>
 웹 서버 기본디렉토리에 작성하는데, php 엔진에게 현재 모든 정보를 출력하도록 지시합니다.<br>
 <br>
 <br>
 <br>
+
 
 ![image break](../Pictur/step16/3.png)<br>
 When searching for IP_address/phpinfo.php, a web page is displayed.<Br>
