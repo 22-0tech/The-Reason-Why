@@ -11,13 +11,12 @@ The wireless Wi-Fi adapter is currently in the default Managed Mode.<br>
 <br>
 <Br>
 <br>
-<Br>
-<br>
-<Br>
+
 
 ![image break](../../Pictur/Aireplay/airo1.png)<br>
 Monitor mode is initiated using airmon-ng.<br>
 This is the special mode designed to capture all wireless network traffic and inject new packets into the network.<Br>
+
 airmon-ng로 모니터 모드를 실행합니다.<br> 
 모든 무선네트워크를 캡처하고 새로운 패킷을 주입하기 위해 설계된 특수 모드입니다.<Br>
 <br>
@@ -25,7 +24,6 @@ airmon-ng로 모니터 모드를 실행합니다.<br>
 <br>
 <Br>
 <br>
-<Br>
 
 ![image break](../../Pictur/Aireplay/airo2.png)<br>
 After the transition to Monitor Mode, the attack is executed.<br>
@@ -65,10 +63,13 @@ the command is executed using the unique identifier (BSSID), the channel, a save
 
 ![image break](../../Pictur/Aireplay/airo7.png)<br>
 Among the devices utilizing the Wi-Fi network named 2class, the specific target can be identified using its unique identifier.<br>
-As packet injection has not commenced, smooth and uninterrupted internet service is maintained.<br>
 2class라는 와이파이를 사용하고 있는 기기 중에 고유 식별자로 대상을 특정할 수 있습니다.<Br>
-아직 패킷을 주입하기 전이므로 인터넷을 원할하게 사용 가능한 상태입니다.
 <br>
+<br>
+
+![image break](../../Pictur/Aireplay/airo14.png)![image break](../../Pictur/Aireplay/airo10.png)<br>
+As packet injection has not commenced, smooth and uninterrupted internet service is maintained.<br>
+아직 패킷을 주입하기 전이므로 인터넷을 원할하게 사용 가능한 상태입니다.
 <Br>
 <br>
 <Br>
@@ -82,20 +83,10 @@ Deauthentication 디인증 공격으로 공유기(AP)로부터 강제 연결을 
 <Br>
 <br>
 
-![image break](../../Pictur/Aireplay/airo14.png)<br>
+
 Although the Wi-Fi connection was active, it was immediately disconnected the moment the packet was injected.<br>
 현재 와이파이가 연결 중인데, 패킷을 주입하는 순간 바로 연결 해제되었습니다.<br>
 
 
-![image break](../../Pictur/Aireplay/airo13.png)<br>
-<br>
-<Br>
-![image break](../../Pictur/Aireplay/airo10.png)<br>
-The internet connection keeps getting disconnected like this.<br>
-인터넷을 사용하고 있다가도 이렇게 연결이 끊깁니다.<br>
-<br>
-<br>
-<Br>
-
-![image break](../../Pictur/Aireplay/airo9.png)<br>
+![image break](../../Pictur/Aireplay/airo13.png)![image break](../../Pictur/Aireplay/airo9.png)<br>
 
