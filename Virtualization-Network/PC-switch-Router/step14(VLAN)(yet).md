@@ -16,7 +16,9 @@ vlan10, 20, 30을 이용해 양쪽의 통신을 위한 도식입니다.<br>
 <br>
 <br>
 <Br>
-
+<br>
+<br>
+<Br>
 
 ![image break](../../Pictur/step14/vlan2.png)<Br>
 <Br>
@@ -24,10 +26,16 @@ vlan10, 20, 30을 이용해 양쪽의 통신을 위한 도식입니다.<br>
 <br>
 <br>
 <Br>
+<br>
+<br>
+<Br>
 
 ![image break](../../Pictur/step14/vlan4.png)<Br>
 
 가상의 개별적인 링크이지만 이를 편리하게 하나의 가상의 링크로 만들 수 있습니다. 
+<br>
+<br>
+<Br>
 <br>
 <br>
 <Br>
