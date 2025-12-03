@@ -1,5 +1,7 @@
 ![image break](/Pictur/Level2/nar1.png) <br>
 
+
+인자와 같이 실행파일을 실행해야 합니다.
 <br>
 <br>
 
