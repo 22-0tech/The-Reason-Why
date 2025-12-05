@@ -36,20 +36,113 @@ If a 0.0.0.0/0 default route to the outside is configured on the ISP, default-in
 default-information originate는 ISP에 외부로 나가는 0.0.0.0/0 기본 경로가 설정되어 있다면 연결된 다른 라우터에 전파합니다.
 
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 
 
 **distribute-list
 <br>
 <br>
 
+ACL과 Prefix로 작동하여 경로를 필터링합니다.
+<br>
+<br>
+<br>
+![image break](../../Pictur/step15/rip8.png)<Br>
 
 
 
 
+<br>
+<br>
+<br>
+<br>
+(GNS3)
+
+![image break](../../Pictur/step15/rip5.png)<Br>
+
+네트워크에 맞게 동적 라우팅 설정을 합니다. R6에도 똑같이 합니다.<BR>
+<br>
+
+![image break](../../Pictur/step15/rip6.png)<Br>
+<br>
+<Br>
+
+* R7에서 나가는 모든 RIP 네트워크 정보를 차단할 경우
+<br>
+<br>
+<br>
+
+![image break](../../Pictur/step15/rip8.png)<Br>
+
+distribute-list 아래 ACL과 prefix-list가 있습니다.
+
+![image break](../../Pictur/step15/rip9.png)<Br>
+
+deny any를 적용한 ACL을 적용합니다.
+
+
+![image break](../../Pictur/step15/rip10.png)<Br>
+
+le는 32 이하를 말하므로, prefix에서 0.0.0.0/0 le 32 모든 네트워크 범위를 말합니다.
+
+<br>
+<Br>
+<br>
+<br>
+<br>
+
+
+* R7에서 나가는 L0(7.7.7.0/24)만 차단할 경우
+
+
+![image break](../../Pictur/step15/rip11.png)<Br>
+![image break](../../Pictur/step15/rip12.png)<Br>
+![image break](../../Pictur/step15/rip13.png)<Br>
+![image break](../../Pictur/step15/rip14.png)<Br>
+![image break](../../Pictur/step15/rip15.png)<Br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 
 
+* R6에서 나가는 L1(6.6.5.0/24)만 허용할 경우
+
+![image break](../../Pictur/step15/rip16.png)<Br>
+
+
+명시된 규칙들이 적용된 후 마지막에 묵시적 거부 규칙이 있습니다. 그래서 허용만 설정하면 됩니다. 
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 **offset-list
 <br>
 <br>
