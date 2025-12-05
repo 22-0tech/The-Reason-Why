@@ -100,14 +100,36 @@ le는 32 이하를 말하므로, prefix에서 0.0.0.0/0 le 32 모든 네트워�
 
 
 * R7에서 나가는 L0(7.7.7.0/24)만 차단할 경우
-
+<br>
+<br>
+ACL,Prefix 모두 사용하겠습니다.
+<br>
+<br>
+<br>
 
 ![image break](../../Pictur/step15/rip11.png)<Br>
+
+ACL 먼저 설정하는데, 7.7.7.0/24를 7.7.7.0 와일드마스크 0.0.0.255로 표현합니다.
+
 ![image break](../../Pictur/step15/rip12.png)<Br>
+
+7.7.7.0/24만 차단일 경우 묵시적인 차단 때문에 나머지는 허용해야 합니다.
+<br>
+<br>
+<br>
+<br>
+
 ![image break](../../Pictur/step15/rip13.png)<Br>
-![image break](../../Pictur/step15/rip14.png)<Br>
+
+prefix를 조회하면 seq 숫자가 나오는데, sequence 낮을 수록 우선 적용되는 순서를 나타냅니다.
+<br>
+<br>
+<Br>
+
 ![image break](../../Pictur/step15/rip15.png)<Br>
 
+<Br>
+숫자를 적용해 우선순위를 설정할 수 있습니다.
 <br>
 <br>
 <br>
