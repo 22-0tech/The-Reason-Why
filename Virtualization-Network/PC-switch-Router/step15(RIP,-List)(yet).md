@@ -154,22 +154,39 @@ There is an implicit deny rule at the end after the specified rules are applied,
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
 <br>
 <br>
 **offset-list
 <br>
 <br>
-
-
-
-
-
-
-**PBR
 <br>
 <br>
+
+To control traffic flow by changing the priority of a specific route.<br>
+특정 경로의 우선순위를 변경하여 트래픽의 흐름 제어
+<br>
+
+
+![image break](../../Pictur/step15/rip5.png)<Br>
+Let interface g0/0 be the primary line and g0/1 be the backup line.<br>
+인터페이스 g0/0이 주회선 g0/1이 보조회선이라고 하겠습니다. 
+<br>
+<br>
+<Br>
+
+![image break](../../Pictur/step15/rip17.png)<Br>
+On R6, the address of R7 is permitted, and on R7, the address of R6 is permitted.<br>
+R6에서는 R7, R7에서는 R6의 주소를 허용합니다. <br>
+<Br>
+
+![image break](../../Pictur/step15/rip18.png)<Br>
+The pre-created list MOREHOP is applied to the offset-list to assign priority.<br>
+The lower the number, the higher the priority.Since g0/0 has the lower value, it becomes the primary line.<br>
+미리 만든 리스트 MOREHOP을 offset-list에 적용시켜 우선 순위를 부여합니다.<Br>
+숫자가 낮을 수록 우선순위가 됩니다. 숫자가 낮은 g0/0이 주회선이 됩니다.<br>
+
+![image break](../../Pictur/step15/rip19.png)<Br>
+The same configuration is applied to R7 as well.<br>
+R7에도 똑같이 적용합니다. 
+
