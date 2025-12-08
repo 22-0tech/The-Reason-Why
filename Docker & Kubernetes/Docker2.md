@@ -67,3 +67,19 @@ postgres는 오픈 소스로, 데이터베이스 관리 시스템입니다.
 ![image break](/Pictur/Docker/docker2/do2-10.png)<br>
 
 <Br>
+<br>
+<Br>
+
+
+![image break](/Pictur/Docker/docker2/do2-11.png)<br>
+
+
+
+
+![image break](/Pictur/Docker/docker2/do2-12.png)<br>
+
+![image break](/Pictur/Docker/docker2/do2-13.png)<br>
+
+![image break](/Pictur/Docker/docker2/do2-14.png)<br>
+
+
