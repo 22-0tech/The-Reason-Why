@@ -52,8 +52,8 @@ default-information originate는 ISP에 외부로 나가는 0.0.0.0/0 기본 경
 **distribute-list
 <br>
 <br>
-Operates with ACLs and prefixes to filter paths.<br>
-ACL과 Prefix로 작동하여 경로를 필터링합니다.
+It operates with ACLs and prefixes, filtering routes to permit or deny the matching ones.<br>
+ACL과 Prefix로 작동하며 경로를 필터링해 매칭되는 경로를 허용 및 차단합니다. 
 <br>
 <br>
 <br>
