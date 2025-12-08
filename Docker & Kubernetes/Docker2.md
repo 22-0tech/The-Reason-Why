@@ -73,13 +73,32 @@ postgres는 오픈 소스로, 데이터베이스 관리 시스템입니다.
 
 ![image break](/Pictur/Docker/docker2/do2-11.png)<br>
 
-
+postgresql 실행 전에 컨테이너를 만듭니다.<BR>
+-n으로 이름을 설정, -e로 Superuser의 비밀번호를 정합니다. -d로 백그라운드에서도 실행될 수 있도록 합니다.<br>
+<br>
+<br>
+<Br>
 
 
 ![image break](/Pictur/Docker/docker2/do2-12.png)<br>
 
+만들어진 컨테이너를 bash쉘로 열어 postgres에 진입합니다.<br> 
+Superuser를 생성하고 데이터베이스를 생성합니다.<br
+<br>
+<br>
+<br>
+
+
 ![image break](/Pictur/Docker/docker2/do2-13.png)<br>
 
+
+데이터베이스에서 테이블을 생성하고 \dt로 테이블을 조회합니다.<br>
+<br>
+<Br>
+<Br>
+
 ![image break](/Pictur/Docker/docker2/do2-14.png)<br>
+
+id와 name에 값을 입력합니다.<br>
 
 
