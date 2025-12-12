@@ -7,7 +7,7 @@ The ability to transmit data over a single cable using multiple virtual links.<b
 <Br>
 <br>
 <br>
-(GNS3)
+(Packer Tracer)
 
 ![image break](../../Pictur/step14/vlan1.png)<Br>
 A diagram for communication between both sides using VLANs 10, 20, and 30.<br>
@@ -38,8 +38,6 @@ Although the links are individual virtual links, they can be conveniently combin
 <br>
 <Br>
 <br>
-<br>
-<Br>
 
 ![image break](../../Pictur/step14/vlan3.png)<Br>
 Trunk mode must be applied to each interface, and encapsulation must be configured first.<br>
@@ -47,6 +45,32 @@ Trunk mode must be applied to each interface, and encapsulation must be configur
 <br>
 <br>
 <Br>
+<br>
+<br>
+<Br>
+<br>
+<br>
 
+**VLAN Double Tagging - Attack
+<br>
+<br>
+<br>
+(GNS3)
 
+![image break](../../Pictur/step14/vlan5.png)<Br>
+Only traffic belonging to VLAN 10 can communicate between Switch 4 and Ubuntu. Traffic from VLAN 20, such as from Kali, cannot reach Ubuntu.<br>
+However, packets can be delivered to Ubuntu through double tagging.<br>
+스위치4와 우분투 사이에서 vlan10 소속 트래픽만 통신할 수 있습니다. vlan20 소속 트래픽인 칼리에서는 우분투로 패킷을 전달할 수 없습니다.<br>
+하지만, 이중 태깅을 통해 우분투까지 패킷을 전달할 수 있습니다.<br>
+<br>
+<br>
+pkt = Ether() / Dot1Q(vlan=20) / Dot1Q(vlan=10) / IP(dst='192.168.0.1') / ICMP()<br>
+sendp(pkt,iface='etho0<br>
+이렇게 vlan20을 지정하면서 바깥 쪽 태그를 벗겨낸 후 vlan 10으로 패킷 도달이 성공합니다.<br>
+By specifying VLAN 20 and stripping the outer tag, the packet successfully reaches VLAN 10<br>
+<br>
+<br>
 
+![image break](../../Pictur/step14/vlan6.png)<Br>
+Packets from 192.168.0.2 have reached Ubuntu.<br>
+192.168.0.2로부터 우분투에 패킷이 도달했습니다.
