@@ -26,7 +26,7 @@ EGG를 설정해야 하는데, 권한상승을 실행하는 쉘코드로 설정�
 <br>
 <br>
 There are many types of shellcodes, but because a privilege escalation shellcode is not included, the ID remains 'narnia1'.<br>
-쉘코드도 종류가 많지만, 권한상승 쉘 코드를 포함하지 않기 때문에 ID가 그대로 narnia1입니다.<br>
+많은 쉘코드 중의 권한상승 쉘 코드를 포함하지 않기 때문에 ID가 그대로 narnia1입니다.<br>
 
 <br>
 <Br>
