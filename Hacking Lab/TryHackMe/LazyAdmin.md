@@ -1,4 +1,4 @@
 
 
 
-![image break](/Pictur/Hackinglab/1.png) <br>
+![image break](/Pictur/Hackinglab/lazyadmin/1.png) <br>
