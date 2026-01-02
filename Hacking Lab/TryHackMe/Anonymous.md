@@ -64,13 +64,14 @@ Note: The condition if [ $tmp_files=0 ] will always evaluate to true in Bash, ma
 <br>
 <br>
 ![image 7](/Pictur/Hacking%20lab/anonymous/7.png)<br>
+After setting the attacker's IP and port number, the response will be awaited on that port.<br>
+공격자의 IP와 포트 번호를 설정한 후, 해당 포트 번호로의 응답을 기다립니다. 
+<br>
+<br>
+<br>
+<br>
+<br>
 
-
-<br>
-<br>
-<br>
-<br>
-<br>
 ![image 8](/Pictur/Hacking%20lab/anonymous/8.png)<br>
 <br>
 <br>
@@ -78,18 +79,24 @@ Note: The condition if [ $tmp_files=0 ] will always evaluate to true in Bash, ma
 <br>
 <br>
 ![image 9](/Pictur/Hacking%20lab/anonymous/9.png)<br>
+Uploading the reverse shell script will grant access to a shell on port 7777.<br>
+리버스 쉘 스크립트를 업로드하면 7777번 포트의 쉘을 획득합니다.
 <br>
 <br>
 <br>
 <br>
 <br>
 ![image 10](/Pictur/Hacking%20lab/anonymous/10.png)<br>
+One could consider the type of steganography in CTF where other data is hidden within the image.<br>
+사진 안의 다른 데이터가 숨어있는 CTF의 스테가노그래피의 유형을 생각할 수도 있습니다. 
 <br>
 <br>
 <br>
 <br>
 <br>
 ![image 11](/Pictur/Hacking%20lab/anonymous/11.png)<br>
+
+
 <br>
 <br>
 <br>
