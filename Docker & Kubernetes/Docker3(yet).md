@@ -19,23 +19,59 @@
 
 
 ![image break](/Pictur/Docker/docker3/do1.png)<br>
+First, the repository will be checked.<br>
+먼저 저장소를 확인하겠습니다.
+<br>
+<br>
+<br>
 
 ![image break](/Pictur/Docker/docker3/do2.png)<br>
 
+<br>
+<br>
+<br>
 
 ![image break](/Pictur/Docker/docker3/do3.png)<br>
 
+<br>
+<br>
+<br>
+
 ![image break](/Pictur/Docker/docker3/do4.png)<br>
+
+<br>
+<br>
+<br>
 
 ![image break](/Pictur/Docker/docker3/do5.png)<br>
 
+<br>
+<br>
+<br>
+
 ![image break](/Pictur/Docker/docker3/do6.png)<br>
+
+<br>
+<br>
+<br>
 
 ![image break](/Pictur/Docker/docker3/do7.png)<br>
 
+<br>
+<br>
+<br>
+
 ![image break](/Pictur/Docker/docker3/do8.png)<br>
 
+<br>
+<br>
+<br>
+
 ![image break](/Pictur/Docker/docker3/do9.png)<br>
+
+<br>
+<br>
+<br>
 
 ![image break](/Pictur/Docker/docker3/do10.png)<br>
 
