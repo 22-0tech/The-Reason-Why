@@ -94,48 +94,67 @@ One could consider the type of steganography in CTF where other data is hidden w
 <br>
 <br>
 <br>
+
 ![image 11](/Pictur/Hacking%20lab/anonymous/11.png)<br>
+Since it is not a tty shell, the sudo command was denied. A tty shell will be secured.<br>
+현재 tty shell이 아니기 때문에 sudo 명령을 거부당했습니다. tty shell 쉘을 확보하겠습니다.
+<br>
+<br>
+<br>
+<br>
+<br>
 
-
-<br>
-<br>
-<br>
-<br>
-<br>
 ![image 12](/Pictur/Hacking%20lab/anonymous/12.png)<br>
 <br>
 <br>
 <br>
 <br>
 <br>
+
 ![image 13](/Pictur/Hacking%20lab/anonymous/13.png)<br>
 <br>
 <br>
 <br>
 <br>
 <br>
+
 ![image 14](/Pictur/Hacking%20lab/anonymous/14.png)<br>
+A tty shell has been secured.<br>
+tty Shell을 확보했습니다.
 <br>
 <br>
 <br>
 <br>
 <br>
+
 ![image 15](/Pictur/Hacking%20lab/anonymous/15.png)<br>
+Even after securing a tty shell, a password is still being requested, so the approach will be changed.<br>
+SUID bit set files will be queried.<br>
+
+tty Shell을 확보했는데도 비밀번호를 요구하기 때문에, 다른 방향으로 선회하겠습니다.<br>
+SUID 비트가 설정된 파일을 조회하겠습니다.<br>
 <br>
 <br>
 <br>
 <br>
 <br>
+
 ![image 16](/Pictur/Hacking%20lab/anonymous/16.png)<br>
+Using env, privilege escalation can be easily achieved.<br>
+env를 이용해 쉽게 권한을 획득할 수 있습니다. 
 <br>
 <br>
 <br>
 <br>
 <br>
+
 ![image 17](/Pictur/Hacking%20lab/anonymous/17.png)<br>
 <br>
 <br>
 <br>
 <br>
 <br>
+
 ![image 18](/Pictur/Hacking%20lab/anonymous/18.png)<br>
+Privilege escalation to root has been successfully achieved.<br>
+최고 관리자 root로 권한 상승(Privilege escalation)에 성공했습니다.
