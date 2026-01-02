@@ -30,13 +30,28 @@ An anonymous connection was made, and the directory will be accessed.<br>
 <br>
 <br>
 ![image 4](/Pictur/Hacking%20lab/anonymous/4.png)<br>
+Everything can be downloaded using mget, and due to the weak security, put can also be considered.<br>
+mget을 이용해 전부 다운로드가 가능했고, 허술한 탓에 put까지 고려할 수 있습니다.
+<br>
+<br>
+<br>
+<br>
+![image 4](/Pictur/Hacking%20lab/anonymous/4-1.png)<br>
+If the attacker modifies this script to a reverse shell and uploads it, they could gain access.<br>
+Note: The condition if [ $tmp_files=0 ] will always evaluate to true in Bash, making it a potential vulnerability.<br>
+<br>
+공격자가 이 스크립트를 리버스 쉘로 수정해서 업로드를 하면 권한을 얻을 수도 있습니다.<br>
+참고-if [ $tmp_files=0 ] 이 부분은 Bash 쉘에서 항상 참(True)이 되기 때문에, 취약점이 될 수 있습니다.<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
-mget을 이용해 전부 다운로드가 가능했고, 허술한 탓에 put까지 이용할 수도 있습니다.
-<br>
-<br>
-<br>
-<br>
 ![image 5](/Pictur/Hacking%20lab/anonymous/5.png)<br>
+*WHY: A one-liner reverse shell is required for the attack's likelihood and convenience.<br>
+*WHY-공격 확률과 편의성을 위해 한 줄 리버스 쉘이 요구됩니다.
 <br>
 <br>
 <br>
@@ -49,6 +64,8 @@ mget을 이용해 전부 다운로드가 가능했고, 허술한 탓에 put까�
 <br>
 <br>
 ![image 7](/Pictur/Hacking%20lab/anonymous/7.png)<br>
+
+
 <br>
 <br>
 <br>
