@@ -64,7 +64,7 @@ Rubeus가 있습니다. 커버로스 공격을 다루는 걸 강력하게 추론
 
 ![image 1](/Pictur/Hacking%20lab/AD/template/5-3.png)<br>
 Given that the title is AD Certificate Templates, it follows the standard flow of the AD CS vulnerability attack ESC1 technique, first using certutil.<br>
-제목이 AD 인증서 템플릿인 만큼, AD CS취약점 공격 ESC1기법의 정석적인 흐름으로 certutil을 먼저 이용합니다.
+제목이 AD 인증서 템플릿인 만큼, AD CS 취약점 공격 ESC1 기법의 정석적인 흐름으로 certutil을 먼저 이용합니다.
 <br>
 <br>
 <br>
@@ -210,8 +210,8 @@ A TGT ticket granting administrator privileges has been issued.<br>
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/AD/template/20-2.png)<br>
-A certificate will be obtained with the aaaa account, and a TGT will be requested.<br>
-aaaa라는 계정으로 인증서를 받아 TGT를 발급 받아 보겠습니다.
+This time, a certificate will be obtained using the aaaa account, and a TGT will be requested.<br>
+이번엔 aaaa라는 계정으로 인증서를 받아 TGT를 발급 받아 보겠습니다.
 <br>
 <br>
 <br>
