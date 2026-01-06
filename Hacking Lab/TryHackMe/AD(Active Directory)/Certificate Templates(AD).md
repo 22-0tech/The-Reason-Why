@@ -229,7 +229,7 @@ The issuance failed. The reason for the failure will be examined.<br>
 
 ![image 1](/Pictur/Hacking%20lab/AD/template/20-4.png)<br>
 This time, the certificate will be requested using the name gpage.<br>
-이번엔 gpage라는 이름으로 발급을 받겠습니다.
+또 다른 gpage라는 이름으로 발급을 받겠습니다.
 <br>
 <br>
 <br>
