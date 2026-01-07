@@ -14,7 +14,7 @@ A telnet connection is made to localhost on port 30000, and the current password
 <br>
 <br>
 
-* Apprach 2
+* Approach 2
 
 ![image break](/Pictur/Level14/bandit2.png) <br>
 Another method is available: the password can be sent using netcat (nc).<br>
