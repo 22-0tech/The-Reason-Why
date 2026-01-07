@@ -106,8 +106,8 @@ All users are able to exercise full permissions. By copying reverse.exe to the c
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/AD/privesc/12.png)<br>
-reverse.exe is copied to the target file and started.<br>
-reverse.exe를 해당 파일에 복사하고 start 하겠습니다. 
+The malware (reverse.exe) will be copied to the specified file and executed.<br>
+악성코드(reverse.exe)를 해당 파일에 복사하고 start 하겠습니다. 
 <br>
 <br>
 <br>
