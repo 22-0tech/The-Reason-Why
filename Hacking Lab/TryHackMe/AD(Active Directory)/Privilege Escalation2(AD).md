@@ -19,6 +19,10 @@ The second method will be to perform privilege escalation following the standard
 <br>
 
 ![image 2](/Pictur/Hacking%20lab/AD/privesc2/2.png)<br>
+The /accepteula option automatically accepts pop-up prompts during the attack.<br>
+The -uwcqv options represent: -u (ignore errors), -w (write permission), -c (service), -q (quiet mode), and -v (verbose).<br>
+The Discretionary Access Control List (DACL), which is applied to all files in Windows, is analyzed to identify vulnerabilities.<br>
+A misconfiguration in the target service settings is identified.<br>
 
 /accepteula : 공격 시 팝업 자동 수락<br>
 -uwcqv (u:오류 무시, -w:쓰기 권한, -c: 서비스, -q:조용히, -v: 상세)<br>
@@ -35,8 +39,9 @@ The second method will be to perform privilege escalation following the standard
 
 
 ![image 3](/Pictur/Hacking%20lab/AD/privesc2/3.png)<br>
-
-daclsvc 서비스 정보 확인을 하겠습니다. 
+The daclsvc service information will be examined.<br>
+If the service is manipulated while running as LocalSystem, the highest level of privileges can be obtained.<br>
+daclsvc 서비스 정보 확인을 하겠습니다. LocalSystem으로 서비스 조작했을 때 최고 권한을 얻을 수 있습니다.
 <br>
 <br>
 <br>
@@ -51,6 +56,41 @@ daclsvc 서비스 정보 확인을 하겠습니다.
 <br>
 
 ![image 5](/Pictur/Hacking%20lab/AD/privesc2/5.png)<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+![image 5](/Pictur/Hacking%20lab/AD/privesc2/5-2.png)<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+![image 5](/Pictur/Hacking%20lab/AD/privesc2/5-3.png)<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+* accesschk.exe 
+<br>
+
+<br>
+<br>
+<br>
+
+![image 6](/Pictur/Hacking%20lab/AD/privesc2/6-0.png)<br>
+Current user privileges.<br>
+현재 권한입니다.
 <br>
 <br>
 <br>
@@ -63,6 +103,7 @@ daclsvc 서비스 정보 확인을 하겠습니다.
 <br>
 <br>
 <br>
+
 
 ![image 7](/Pictur/Hacking%20lab/AD/privesc2/7.png)<br>
 <br>
@@ -430,6 +471,14 @@ daclsvc 서비스 정보 확인을 하겠습니다.
 <br>
 
 ![image 59](/Pictur/Hacking%20lab/AD/privesc2/59.png)<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+![image 59](/Pictur/Hacking%20lab/AD/privesc2/59-1.png)<br>
+
 <br>
 <br>
 <br>
