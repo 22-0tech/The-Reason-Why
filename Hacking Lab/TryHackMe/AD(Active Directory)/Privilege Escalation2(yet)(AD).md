@@ -9,7 +9,7 @@ The second method will be to perform privilege escalation following the standard
 <br>
 <br>
 
-* accesschk.exe
+* accesschk.exe 1
 <br>
 <br>
 <br>
@@ -75,7 +75,7 @@ After the shell was opened, the superuser was confirmed.<br>
 <br>
 <br>
 
-* accesschk.exe 
+* accesschk.exe 2
 <br>
 
 <br>
