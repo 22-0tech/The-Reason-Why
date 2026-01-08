@@ -190,6 +190,14 @@ The shell opened and confirmed execution with elevated administrator privileges.
 <br>
 <br>
 
+* accesschk.exe 4
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 ![image 15](/Pictur/Hacking%20lab/AD/privesc2/15.png)<br>
 <br>
 <br>
