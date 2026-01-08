@@ -181,7 +181,9 @@ After placing the malware at the specified path, the regsvc service will be star
 <br>
 <br>
 
-![image 14](/Pictur/Hacking%20lab/AD/privesc2/14.png)<br>
+![image 5](/Pictur/Hacking%20lab/AD/privesc2/5-3.png)<br>
+The shell opened and confirmed execution with elevated administrator privileges.<br>
+쉘이 열리면서 최고 관리자 권한을 확인했습니다.
 <br>
 <br>
 <br>
