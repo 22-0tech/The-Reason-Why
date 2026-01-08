@@ -33,9 +33,6 @@ A misconfiguration in the target service settings is identified.<br>
 <br>
 <br>
 <br>
-<br>
-<br>
-
 
 
 ![image 3](/Pictur/Hacking%20lab/AD/privesc2/3.png)<br>
