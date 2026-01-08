@@ -49,6 +49,8 @@ daclsvc 서비스 정보 확인을 하겠습니다. LocalSystem으로 서비스 
 <br>
 
 ![image 4](/Pictur/Hacking%20lab/AD/privesc2/4.png)<br>
+Based on the above CHANGE_CONFIG, the file path is configured to point to malware.<br>
+위의 CHANGE_CONFIG대로 파일 경로를 악성코드로 설정하겠습니다.
 <br>
 <br>
 <br>
@@ -63,7 +65,6 @@ daclsvc 서비스 정보 확인을 하겠습니다. LocalSystem으로 서비스 
 <br>
 <br>
 
-![image 5](/Pictur/Hacking%20lab/AD/privesc2/5-2.png)<br>
 
 <br>
 <br>
