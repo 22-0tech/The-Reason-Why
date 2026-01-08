@@ -9,21 +9,34 @@ The second method will be to perform privilege escalation following the standard
 <br>
 <br>
 
+* accesschk.exe
+<br>
+<br>
+<br>
+
 ![image 1](/Pictur/Hacking%20lab/AD/privesc2/1.png)<br>
-<br>
-<br>
-<br>
-<br>
+
 <br>
 
 ![image 2](/Pictur/Hacking%20lab/AD/privesc2/2.png)<br>
+
+/accepteula : 공격 시 팝업 자동 수락<br>
+-uwcqv (u:오류 무시, -w:쓰기 권한, -c: 서비스, -q:조용히, -v: 상세)<br>
+윈도우의 모든 파일에 붙는 계정 목록인 DACL을 약점을 찾겠습니다. 해당 서비스의 설정 변경을 발견했습니다. <br>
+<br>
+<br>
+<br>
 <br>
 <br>
 <br>
 <br>
 <br>
 
+
+
 ![image 3](/Pictur/Hacking%20lab/AD/privesc2/3.png)<br>
+
+daclsvc 서비스 정보 확인을 하겠습니다. 
 <br>
 <br>
 <br>
