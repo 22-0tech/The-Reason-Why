@@ -108,6 +108,8 @@ C:\Program Files\Unquoted Path Service\Common.exe(Malware) 앞에 있는 악성 
 
 
 ![image 7](/Pictur/Hacking%20lab/AD/privesc2/7.png)<br>
+Read and write permissions are granted for the specified path.<br>
+해당 경로에 읽고 쓰기 가능한 권한이 있습니다.
 <br>
 <br>
 <br>
