@@ -189,6 +189,10 @@ The shell opened and confirmed execution with elevated administrator privileges.
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
 
 * accesschk.exe 4
 <br>
@@ -199,6 +203,8 @@ The shell opened and confirmed execution with elevated administrator privileges.
 <br>
 
 ![image 15](/Pictur/Hacking%20lab/AD/privesc2/15.png)<br>
+This time, the executable permission service will be examined.<br>
+이번에는 실행 파일 권한 서비스를 보겠습니다. 
 <br>
 <br>
 <br>
