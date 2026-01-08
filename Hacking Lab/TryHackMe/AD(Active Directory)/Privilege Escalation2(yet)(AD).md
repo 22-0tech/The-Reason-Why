@@ -127,7 +127,13 @@ Common.exe라는 경로에 악성코드(reverse.exe)를 설정합니다.
 
 ![image 9](/Pictur/Hacking%20lab/AD/privesc2/9.png)<br>
 
-+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+![image 5](/Pictur/Hacking%20lab/AD/privesc2/5-3.png)<br>
 <br>
 <br>
 <br>
