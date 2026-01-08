@@ -12,6 +12,7 @@ It can also be used to hide a file.<br>
 Unlike the previous steps, it is described simply as an empty file.<br>
 이전단계들과는 다르게 그냥 빈파일이라는 내용입니다.<br>
 <br>
+<br>
 
 ![image break](/Pictur/Level30/bandit2.png) <br>
 In a Git repository, it can be hidden in the history or elsewhere.<br>
