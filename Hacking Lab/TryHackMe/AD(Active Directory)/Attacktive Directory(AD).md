@@ -64,7 +64,7 @@ The special account managing the entire domain, krbtgt, has been identified, con
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/AD/attacktivedirectory/9.png)<br>
-Since further progress is difficult without the password, a valid account is needed through kerbrute. 
+Since further progress is difficult without the password, a valid account is needed through kerbrute.<br>
 The User List provided by TryHackMe was used.<br>
 
 비밀번호 없이 더 이상의 진전은 어렵기 때문에, kerbrute를 통한 유효한 계정이 필요합니다.<br>
