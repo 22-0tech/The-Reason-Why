@@ -58,22 +58,18 @@ Based on the above CHANGE_CONFIG, the file path is configured to point to malwar
 <br>
 
 ![image 5](/Pictur/Hacking%20lab/AD/privesc2/5.png)<br>
-
+After executing the malware, the activated ports will be examined.<br>
+악성코드 실행 후 활성화된 포트를 보겠습니다. 
 <br>
 <br>
 <br>
 <br>
 <br>
 
-
-<br>
-<br>
-<br>
-<br>
-<br>
 
 ![image 5](/Pictur/Hacking%20lab/AD/privesc2/5-3.png)<br>
-
+After the shell was opened, the superuser was confirmed.<br>
+쉘이 열리면서 최고 관리자를 확인했습니다. 
 <br>
 <br>
 <br>
@@ -99,6 +95,14 @@ Current user privileges.<br>
 <br>
 
 ![image 6](/Pictur/Hacking%20lab/AD/privesc2/6.png)<br>
+In this case, the service uses an unquoted service path.<br>
+For example, if C:\Program Files\Unquoted Path Service\Common Files\service.exe is the legitimate executable,<br>
+Because the service path is unquoted, the malware at C:\Program Files\Unquoted Path Service\Common.exe<br>
+is executed before the legitimate service binary.<br>
+
+이번엔 따옴표가 없는 서비스 경로입니다. 예를 들어, C:\Program Files\Unquoted Path Service\Common Files\service.exe 이게 원래 실행 파일이면<br>
+C:\Program Files\Unquoted Path Service\Common.exe(Malware) 앞에 있는 악성 코드를 먼저 실행하게 됩니다. 따옴표가 없기 때문입니다.
+
 <br>
 <br>
 <br>
