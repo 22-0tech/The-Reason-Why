@@ -153,8 +153,8 @@ When the shell was opened, privileges were escalated to the superuser level.<br>
 <br>
 
 ![image 11](/Pictur/Hacking%20lab/AD/privesc2/11.png)<br>
-
-
+This time, the registry permission service will be checked.<br>
+이번엔 레지스트리 권한 서비스를 확인하겠습니다.
 <br>
 <br>
 <br>
