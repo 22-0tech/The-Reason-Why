@@ -162,6 +162,10 @@ This time, the registry permission service will be checked.<br>
 <br>
 
 ![image 12](/Pictur/Hacking%20lab/AD/privesc2/12.png)<br>
+This is the actual location within the Windows Registry where the configuration information for a specific service is stored.<br>
+All actions are permitted on this key.<br>
+
+윈도우 레지스트리 내에서 특정 서비스의 설정 정보가 저장되는 실제 위치입니다. 해당 키에 모든 행위를 허용한다고 합니다.
 <br>
 <br>
 <br>
@@ -169,6 +173,8 @@ This time, the registry permission service will be checked.<br>
 <br>
 
 ![image 13](/Pictur/Hacking%20lab/AD/privesc2/13.png)<br>
+After placing the malware at the specified path, the regsvc service will be started.<br>
+해당 경로에 악성코드를 설정 후 regsvc를 시작하겠습니다.
 <br>
 <br>
 <br>
