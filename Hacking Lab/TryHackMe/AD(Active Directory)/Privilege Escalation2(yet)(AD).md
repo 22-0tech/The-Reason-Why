@@ -126,7 +126,8 @@ Common.exe라는 경로에 악성코드(reverse.exe)를 설정합니다.
 <br>
 
 ![image 9](/Pictur/Hacking%20lab/AD/privesc2/9.png)<br>
-
+After execution, the shell will be checked.<br>
+실행 후 쉘을 확인하겠습니다.
 <br>
 <br>
 <br>
@@ -134,6 +135,8 @@ Common.exe라는 경로에 악성코드(reverse.exe)를 설정합니다.
 <br>
 
 ![image 5](/Pictur/Hacking%20lab/AD/privesc2/5-3.png)<br>
+When the shell was opened, privileges were escalated to the superuser level.<br>
+쉘이 열리면서 최고 관리자 권한으로 상승했습니다.
 <br>
 <br>
 <br>
