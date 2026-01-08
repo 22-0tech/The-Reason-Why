@@ -142,15 +142,19 @@ When the shell was opened, privileges were escalated to the superuser level.<br>
 <br>
 <br>
 <br>
-
-![image 10](/Pictur/Hacking%20lab/AD/privesc2/10.png)<br>
 <br>
+<br>
+<br>
+<br>
+* accesschk.exe 3
 <br>
 <br>
 <br>
 <br>
 
 ![image 11](/Pictur/Hacking%20lab/AD/privesc2/11.png)<br>
+
+
 <br>
 <br>
 <br>
