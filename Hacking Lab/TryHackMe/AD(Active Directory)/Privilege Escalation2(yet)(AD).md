@@ -117,6 +117,8 @@ Read and write permissions are granted for the specified path.<br>
 <br>
 
 ![image 8](/Pictur/Hacking%20lab/AD/privesc2/8.png)<br>
+The malware (reverse.exe) is placed at the Common.exe path.<br>
+Common.exe라는 경로에 악성코드(reverse.exe)를 설정합니다.
 <br>
 <br>
 <br>
@@ -124,6 +126,8 @@ Read and write permissions are granted for the specified path.<br>
 <br>
 
 ![image 9](/Pictur/Hacking%20lab/AD/privesc2/9.png)<br>
+
++
 <br>
 <br>
 <br>
