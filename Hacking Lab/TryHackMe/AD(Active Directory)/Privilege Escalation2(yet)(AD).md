@@ -230,6 +230,17 @@ The malware (reverse.exe) will be copied to the specified file.<br>
 <br>
 
 ![image 18](/Pictur/Hacking%20lab/AD/privesc2/18.png)<br>
+After the configuration is completed, the filepermsvc service will be started.<br>
+설정 후, filepermsvc를 시작하겠습니다.
+<br>
+<br>
+<br>
+<br>
+<br>
+
+![image 5](/Pictur/Hacking%20lab/AD/privesc2/5-3.png)<br>
+The shell opened with elevated administrator privileges.<br>
+쉘이 열리면서 최고 관리자 권한을 획득했습니다.
 <br>
 <br>
 <br>
