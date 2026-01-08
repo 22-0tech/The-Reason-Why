@@ -8,12 +8,6 @@ The objective is Windows privilege escalation.<br>
 <br>
 <br>
 
-* 방법 1
-* Approach 1
-<br>
-<br>
-<br>
-<Br>
 <Br>
 <br>
 
@@ -125,10 +119,4 @@ An active port opens, and identity verification confirms the highest administrat
 <br>
 <Br>
 <Br>
-
-
-
-* 방법 2
-* Approach 2
-
 
