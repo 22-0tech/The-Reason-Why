@@ -212,6 +212,8 @@ This time, the executable permission service will be examined.<br>
 <br>
 
 ![image 16](/Pictur/Hacking%20lab/AD/privesc2/16.png)<br>
+The file is accessible to all users.<br>
+모든 유저가 파일에 접근이 가능합니다.
 <br>
 <br>
 <br>
@@ -219,6 +221,8 @@ This time, the executable permission service will be examined.<br>
 <br>
 
 ![image 17](/Pictur/Hacking%20lab/AD/privesc2/17.png)<br>
+The malware (reverse.exe) will be copied to the specified file.<br>
+해당 파일에 악성코드(reverse.exe)를 복사하겠습니다.
 <br>
 <br>
 <br>
