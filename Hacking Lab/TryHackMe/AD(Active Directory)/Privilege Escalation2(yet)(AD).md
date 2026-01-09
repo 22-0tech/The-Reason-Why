@@ -1,6 +1,6 @@
 ![image 1](/Pictur/Hacking%20lab/AD/privesc/1.png)<br>
 The second method will be to perform privilege escalation following the standard approach provided by TryHackMe.<br>
-두 번째 방법은 Tryhackme에서 제공하는 힌트대로 권한상승을 하겠습니다. 
+두 번째 방법은 Tryhackme에서 제공하는 힌트대로 권한상승을 하겠습니다.
 
 <br>
 <br>
@@ -13,7 +13,6 @@ The second method will be to perform privilege escalation following the standard
 <br>
 <br>
 <br>
-(Kali)
 
 ![image 1](/Pictur/Hacking%20lab/AD/privesc2/1.png)<br>
 
@@ -274,17 +273,24 @@ The retrieved file has read and write permissions enabled.<br>
 <br>
 
 ![image 22](/Pictur/Hacking%20lab/AD/privesc2/22.png)<br>
+The executable at that path was replaced by a malicious program (reverse.exe) instead of program.exe.<br>
+해당 경로에 program.exe 대신 악성코드(reverse.exe)로 복사했습니다.
 <br>
 <br>
 <br>
 <br>
 <br>
-<br>
-<br>
+
 ![image 22](/Pictur/Hacking%20lab/AD/privesc2/22-0.png)<br>
+An RDP connection will be established.<br>
+rdp접속을 하겠습니다.
+<br>
+<br>
+<br>
 
 ![image 22](/Pictur/Hacking%20lab/AD/privesc2/22-1.png)<br>
-
+The permissions were checked and administrator privileges are present.<br>
+권한을 확인해보니 관리자 권한을 가지고 있습니다.
 <br>
 <br>
 <br>
