@@ -142,6 +142,6 @@ To secure sufficient space, the return address is set to 0xffffd4f0.<br>
 <br>
 
 ![image break](/Pictur/Level4/nar15.png) <br>
-By satisfying the source code conditions and preserving the effective UID until the end, the narnia5 privileges can be confirmed.<br>
-소스코드 조건에 만족 및 최종까지 euid를 유지해 narnia5 권한을 확인할 수 있습니다. 
+*WHY - Because it includes (/bin/sh -p), which preserves the effective UID until the end, the narnia5 privileges can be confirmed.<br>
+*WHY - 최종까지 euid를 유지하는 (/bin/sh -p) 를 포함하고 있어 narnia5 권한을 확인할 수 있습니다. 
 
