@@ -211,7 +211,7 @@ This time, the executable permission service will be examined.<br>
 <br>
 <br>
 
-![image 16](/Pictur/Hacking%20lab/AD/privesc2/16.png)<br>
+![image 16](/Pictur/Hacking%20lab/AD/privesc2/16-1.png)<br>
 The file is accessible to all users.<br>
 모든 유저가 파일에 접근이 가능합니다.
 <br>
