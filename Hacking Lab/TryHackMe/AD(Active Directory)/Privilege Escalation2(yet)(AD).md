@@ -327,7 +327,7 @@ AlwaysInstallElevated는 MSI 형식만 적용이 가능합니다. 확장자 msi�
 <br>
 <br>
 
-![image 25](/Pictur/Hacking%20lab/AD/privesc2/25--.png)<br>
+![image 25](/Pictur/Hacking%20lab/AD/privesc2/253.png)<br>
 
 <br>
 <br>
