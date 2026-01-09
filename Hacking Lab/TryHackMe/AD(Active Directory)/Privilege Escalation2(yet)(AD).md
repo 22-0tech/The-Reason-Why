@@ -249,13 +249,13 @@ The shell opened with elevated administrator privileges.<br>
 <br>
 <br>
 <br>
-* Autoruns
+* accesschk.exe 5
 <br>
 <br>
 <br>
 
 ![image 19](/Pictur/Hacking%20lab/AD/privesc2/19.png)<br>
-
+The registry storing the auto-run settings will be checked.<br>
 자동 실행 설정이 저장된 레지스트를 조회하겠습니다.
 <br>
 <br>
@@ -263,8 +263,16 @@ The shell opened with elevated administrator privileges.<br>
 <br>
 <br>
 
+
 ![image 20](/Pictur/Hacking%20lab/AD/privesc2/20.png)<br>
 ![image 21](/Pictur/Hacking%20lab/AD/privesc2/21.png)<br>
+The retrieved file has read and write permissions enabled.<br>
+조회된 파일에 읽고 쓸 수 있는 권한이 허용되고 있습니다.
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 <br>
 <br>
