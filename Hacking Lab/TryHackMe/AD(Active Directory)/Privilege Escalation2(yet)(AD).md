@@ -280,6 +280,7 @@ The retrieved file has read and write permissions enabled.<br>
 <br>
 <br>
 <br>
+![image 22](/Pictur/Hacking%20lab/AD/privesc2/22-0.png)<br>
 
 ![image 22](/Pictur/Hacking%20lab/AD/privesc2/22-1.png)<br>
 
