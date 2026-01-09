@@ -253,6 +253,7 @@ The shell opened with elevated administrator privileges.<br>
 <br>
 <br>
 <br>
+<br>
 
 ![image 19](/Pictur/Hacking%20lab/AD/privesc2/19.png)<br>
 The registry storing the auto-run settings will be checked.<br>
@@ -286,11 +287,10 @@ An RDP connection will be established.<br>
 rdp접속을 하겠습니다.
 <br>
 <br>
-<br>
 
 ![image 22](/Pictur/Hacking%20lab/AD/privesc2/22-1.png)<br>
-The permissions were checked and administrator privileges are present.<br>
-권한을 확인해보니 관리자 권한을 가지고 있습니다.
+Administrator privileges were successfully obtained.<br>
+관리자 권한 확보에 성공했습니다.
 <br>
 <br>
 <br>
