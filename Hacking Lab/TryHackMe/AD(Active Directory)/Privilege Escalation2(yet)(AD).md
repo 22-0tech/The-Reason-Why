@@ -281,6 +281,7 @@ The retrieved file has read and write permissions enabled.<br>
 <br>
 <br>
 
+![image 22](/Pictur/Hacking%20lab/AD/privesc2/22-1.png)<br>
 
 <br>
 <br>
