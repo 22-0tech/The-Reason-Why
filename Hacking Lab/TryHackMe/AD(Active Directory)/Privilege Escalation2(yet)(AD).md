@@ -317,7 +317,7 @@ reg query를 이용해 항상 최고 권한으로 설치를 진행하는 Insatll
 <br>
 <br>
 
-![image 24](/Pictur/Hacking%20lab/AD/privesc2/24.png)<br>
+![image 24](/Pictur/Hacking%20lab/AD/privesc2/24-4.png)<br>
 AlwaysInstallElevated applies only to MSI packages. A reverse shell payload is generated with the .msi extension.<br>
 AlwaysInstallElevated는 MSI 형식만 적용이 가능합니다. 확장자 msi로 리버스 쉘 페이로드를 생성합니다. 
 <br>
