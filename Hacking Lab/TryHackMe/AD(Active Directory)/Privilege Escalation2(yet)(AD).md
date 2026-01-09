@@ -255,6 +255,8 @@ The shell opened with elevated administrator privileges.<br>
 <br>
 
 ![image 19](/Pictur/Hacking%20lab/AD/privesc2/19.png)<br>
+
+자동 실행 설정이 저장된 레지스트를 조회하겠습니다.
 <br>
 <br>
 <br>
@@ -262,12 +264,6 @@ The shell opened with elevated administrator privileges.<br>
 <br>
 
 ![image 20](/Pictur/Hacking%20lab/AD/privesc2/20.png)<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
 ![image 21](/Pictur/Hacking%20lab/AD/privesc2/21.png)<br>
 <br>
 <br>
