@@ -307,7 +307,10 @@ Administrator privileges were successfully obtained.<br>
 
 ![image 23](/Pictur/Hacking%20lab/AD/privesc2/23.png)<br>
 Using reg query, check the Installer policies that always allow elevated installation in two locations: user level (HKCU) and system level (HKLM).<br>
-reg query를 이용해 항상 최고 권한으로 설치를 진행하는 Insatller 정책 두 곳을 확인합니다. 사용자 수준(HKCU) & 시스템 수준(HKLM)
+It is possible to attack using impersonal hexadecimal 0x1 and 1 with all permissions allowed.<br>
+
+reg query를 이용해 항상 최고 권한으로 설치를 진행하는 Insatller 정책 두 곳을 확인합니다. 사용자 수준(HKCU) & 시스템 수준(HKLM)<br>
+0x1 16진수 1로 모두 허용으로 공격이 가능합니다. 
 <br>
 <br>
 <br>
@@ -315,17 +318,17 @@ reg query를 이용해 항상 최고 권한으로 설치를 진행하는 Insatll
 <br>
 
 ![image 24](/Pictur/Hacking%20lab/AD/privesc2/24.png)<br>
-It is possible to attack using impersonal hexadecimal 0x1 and 1 with all permissions allowed.<br>
-16진수 0x1 1로 모두 허용으로 공격이 가능합니다. 
+AlwaysInstallElevated applies only to MSI packages. A reverse shell payload is generated with the .msi extension.<br>
+AlwaysInstallElevated는 MSI 형식만 적용이 가능합니다. 확장자 msi로 리버스 쉘 페이로드를 생성합니다. 
+<br>
 <br>
 <br>
 <br>
 <br>
 <br>
 
-![image 25](/Pictur/Hacking%20lab/AD/privesc2/25.png)<br>
-AlwaysInstallElevated applies only to MSI packages. A reverse shell payload is generated with the .msi extension.<br>
-AlwaysInstallElevated는 MSI 형식만 적용이 가능합니다. 확장자 msi로 리버스 쉘 페이로드를 생성합니다. 
+![image 25](/Pictur/Hacking%20lab/AD/privesc2/25--.png)<br>
+
 <br>
 <br>
 <br>
