@@ -246,6 +246,13 @@ The shell opened with elevated administrator privileges.<br>
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+* Autoruns
+<br>
+<br>
+<br>
 
 ![image 19](/Pictur/Hacking%20lab/AD/privesc2/19.png)<br>
 <br>
