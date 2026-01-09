@@ -271,6 +271,8 @@ The retrieved file has read and write permissions enabled.<br>
 <br>
 <br>
 <br>
+
+![image 22](/Pictur/Hacking%20lab/AD/privesc2/22.png)<br>
 <br>
 <br>
 <br>
@@ -279,7 +281,10 @@ The retrieved file has read and write permissions enabled.<br>
 <br>
 <br>
 
-![image 22](/Pictur/Hacking%20lab/AD/privesc2/22.png)<br>
+
+<br>
+<br>
+<br>
 <br>
 <br>
 <br>
