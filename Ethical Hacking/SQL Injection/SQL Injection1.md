@@ -371,7 +371,8 @@ WHERE 절로 'owasp10'라는 데이터베이스의 테이블만 타겟해서 조
 <br>
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/.36.png)<br>
-
+The column names of the table named ‘accounts’ are queried.<br>
+'accounts'라는 이름의 테이블 중 column 이름을 조회합니다.
 <br>
 <br>
 <br>
@@ -379,7 +380,8 @@ WHERE 절로 'owasp10'라는 데이터베이스의 테이블만 타겟해서 조
 <br>
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/37.png)<br>
-
+These represent the column names.<br>
+column의 이름입니다.
 <br>
 <br>
 <br>
@@ -393,8 +395,18 @@ WHERE 절로 'owasp10'라는 데이터베이스의 테이블만 타겟해서 조
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+* The core concept of SQL Injection
+<br>
+<br>
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/39.png)<br>
+After FROM, the table accounts contains the core data, including account names, passwords, and administrator status<br>
+FROM 뒤는 TABLE로 accounts라는 테이블의 계정과 비밀번호 그리고 관리자 여부를 나타내는 핵심적인 데이터입니다.
 <br>
 <br>
 <br>
@@ -402,16 +414,5 @@ WHERE 절로 'owasp10'라는 데이터베이스의 테이블만 타겟해서 조
 <br>
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/40.png)<br>
-
-
-
-
-
-
-
-
-
-
-
-
-
+TRUE indicates an administrator.<br>
+TRUE는 관리자를 나타냅니다. 
