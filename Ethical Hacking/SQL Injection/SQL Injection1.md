@@ -174,7 +174,6 @@ admin 대신 admin'#와 숫자를 랜덤으로 로그인 하겠습니다.
 <br>
 * Login
 <br>
-<br>
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/16.png)<br>
 Login was successful.<br>
