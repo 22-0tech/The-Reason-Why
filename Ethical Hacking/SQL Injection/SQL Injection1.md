@@ -260,6 +260,8 @@ admin 계정의 세부 정보가 나왔습니다.
 
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/23.png)<br>
+By using UNION SELECT * FROM accounts, all accounts can be queried.<br>
+UNION SELECT * FROM accounts를 넣어 모든 계정을 조회할 수 있습니다.
 <br>
 <br>
 <br>
@@ -267,6 +269,8 @@ admin 계정의 세부 정보가 나왔습니다.
 <br>
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/24.png)<br>
+These are all the accounts in the database.<br>
+데이터베이스에 있는 모든 계정입니다.
 <br>
 <br>
 <br>
@@ -274,6 +278,8 @@ admin 계정의 세부 정보가 나왔습니다.
 <br>
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/25.png)<br>
+ORDER BY 1 sorts the data by the first column. By using numbers, the number of columns can be determined.<br>
+ORDER BY 1은 1열의 데이터 정렬로 숫자를 넣음으로써 컬럼(칸)의 개수를 알 수 있습니다. 
 <br>
 <br>
 <br>
@@ -281,20 +287,8 @@ admin 계정의 세부 정보가 나왔습니다.
 <br>
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/26.png)<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-![image break](/Pictur/ethicalhacking/sqlinjection/27.png)<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-![image break](/Pictur/ethicalhacking/sqlinjection/28.png)<br>
+For example, if 10 is used and a syntax error occurs, it indicates that the number of columns is fewer than 10.<br>
+예를 들어, 10을 넣어서 구문 오류가 나왔으면 컬럼의 개수가 10개 미만임을 나타냅니다. 
 <br>
 <br>
 <br>
