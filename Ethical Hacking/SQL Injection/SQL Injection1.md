@@ -313,23 +313,39 @@ It can be determined that values exist in columns 2, 3, and 4.<br>
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
+* Database Name
+<br>
+<br>
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/31.png)<br>
 The database can be queried using parentheses.<br>
-데이터베이스는 괄호를 사용해서 조회할 수 있습니다.
+데이터베이스는 정보를 추출할 때 괄호를 사용해서 조회할 수 있습니다.
 <br>
 <br>
 <br>
 <br>
 
-![image break](/Pictur/ethicalhacking/sqlinjection/32.png)<br>
+![image break](/Pictur/ethicalhacking/sqlinjection/.32.png)<br>
+It displays the database name, user, and version.<br>
+DB의 이름과 유저 그리고 버전을 나타냅니다.
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
+* Tables
 <br>
 <br>
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/33.png)<br>
+The table name (table_name) and the names of all tables (information_schema.tables) can be queried.<br>
+테이블의 이름(table_name)과 모든 테이블의 이름(information_schema.tables) 조회할 수 있습니다.
 <br>
 <br>
 <br>
@@ -337,6 +353,8 @@ The database can be queried using parentheses.<br>
 <br>
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/34.png)<br>
+All tables from all databases are listed.<br>
+모든 데이터베이스의 모든 테이블의 목록입니다.
 <br>
 <br>
 <br>
@@ -344,6 +362,8 @@ The database can be queried using parentheses.<br>
 <br>
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/35.png)<br>
+By using a WHERE clause, only the tables of the owasp10 database can be targeted and queried. This improves the efficiency of the attack.<br>
+WHERE 절로 owasp10라는 데이터베이스의 테이블만 타겟해서 조회할 수 있습니다. 해킹의 효율성을 높입니다.
 <br>
 <br>
 <br>
