@@ -75,26 +75,30 @@ An account will be created.<br>
 <br>
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/8.png)<br>
-
-
+An account named ‘james’ has been created.<br>
+james라는 이름으로 계정이 생성되었습니다.
 <br>
 <br>
 <br>
 <br>
 <br>
 
-![image break](/Pictur/ethicalhacking/sqlinjection/9.png)<br>
+![image break](/Pictur/ethicalhacking/sqlinjection/.9.png)<br>
+When logging in with the created account using an incorrect password, the system crashes and an error occurs. The AND operator will be used to log in.<br>
+만든 계정으로 올바른 암호가 아닌 '만 입력하면 시스템이 망가지면서 오류가 나옵니다. 이 AND를 이용해서 로그인 하도록 하겠습니다.
 <br>
 <br>
 <br>
 <br>
 <br>
+
 ![image break](/Pictur/ethicalhacking/sqlinjection/10.png)<br>
 <br>
 <br>
 <br>
 <br>
 <br>
+
 ![image break](/Pictur/ethicalhacking/sqlinjection/11.png)<br>
 <br>
 <br>
