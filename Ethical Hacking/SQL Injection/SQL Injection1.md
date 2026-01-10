@@ -93,6 +93,9 @@ The AND operator will be used to log in.<br>
 <br>
 <br>
 <br>
+* Post Method Injection
+<br>
+<br>
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/10.png)<br>
 The password for ‘james’ is 222222. Login will be attempted using the AND operator and # to test whether 2 equals 3.<br>
@@ -174,6 +177,9 @@ Login was successful.<br>
 <br>
 <br>
 <br>
+<br>
+<br>
+* Get Method Injection
 <br>
 <br>
 
