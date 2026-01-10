@@ -61,9 +61,13 @@ owasp10으로 변경합니다.
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/7.png)<br>
-
+An account will be created.<br>
+계정을 생성하겠습니다.
 <br>
 <br>
 <br>
@@ -71,6 +75,7 @@ owasp10으로 변경합니다.
 <br>
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/8.png)<br>
+
 
 <br>
 <br>
