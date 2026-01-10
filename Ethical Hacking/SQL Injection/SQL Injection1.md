@@ -240,6 +240,8 @@ Get 방식을 이용할 때는 #을 특수한 용도로 인식하기 때문에 H
 
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/22.png)<br>
+The account details for the admin account have been displayed.<br>
+admin 계정의 세부 정보가 나왔습니다.
 <br>
 <br>
 <br>
