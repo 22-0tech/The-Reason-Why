@@ -238,12 +238,6 @@ Get 방식을 이용할 때는 #을 특수한 용도로 인식하기 때문에 H
 <br>
 <br>
 
-![image break](/Pictur/ethicalhacking/sqlinjection/21.png)<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/22.png)<br>
 <br>
