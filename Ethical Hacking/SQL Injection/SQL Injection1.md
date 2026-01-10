@@ -84,7 +84,9 @@ james라는 이름으로 계정이 생성되었습니다.
 <br>
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/.9.png)<br>
-When logging in with the created account using an incorrect password, the system crashes and an error occurs. The AND operator will be used to log in.<br>
+When logging in with the created account using an incorrect password, the system crashes and an error occurs.<br>
+The AND operator will be used to log in.<br>
+
 만든 계정으로 올바른 암호가 아닌 '만 입력하면 시스템이 망가지면서 오류가 나옵니다. 이 AND를 이용해서 로그인 하도록 하겠습니다.
 <br>
 <br>
@@ -93,6 +95,8 @@ When logging in with the created account using an incorrect password, the system
 <br>
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/10.png)<br>
+The password for ‘james’ is 222222. Login will be attempted using the AND operator to check if 2 equals 3.<br>
+james의 비밀번호는 222222입니다. 2와 3이 같다는 걸 AND를 이용해 로그인 하겠습니다.
 <br>
 <br>
 <br>
@@ -100,6 +104,8 @@ When logging in with the created account using an incorrect password, the system
 <br>
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/11.png)<br>
+Login attempt failed.<br>
+로그인에 실패했습니다.
 <br>
 <br>
 <br>
@@ -107,6 +113,8 @@ When logging in with the created account using an incorrect password, the system
 <br>
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/12.png)<br>
+This time, login will be attempted using the AND operator to check if 2 equals 2.<br>
+이번엔 2는 2와 같다는 걸 AND로 이용해 로그인 하겠습니다.
 <br>
 <br>
 <br>
@@ -114,6 +122,8 @@ When logging in with the created account using an incorrect password, the system
 <br>
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/13.png)<br>
+Login was successful.<br>
+로그인에 성공했습니다.
 <br>
 <br>
 <br>
