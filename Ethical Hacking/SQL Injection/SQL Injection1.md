@@ -142,7 +142,8 @@ Only the portion from 2' up to the hash sign (#) will be used as the password.<b
 <br>
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/14-1.png)<br>
-
+Login was successful.<br>
+로그인에 성공했습니다.
 <br>
 <br>
 <br>
@@ -150,6 +151,8 @@ Only the portion from 2' up to the hash sign (#) will be used as the password.<b
 <br>
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/15.png)<br>
+Login will be attempted using admin'# with random numbers instead of admin.<br>
+admin 대신 admin'#와 숫자를 랜덤으로 로그인 하겠습니다.
 <br>
 <br>
 <br>
@@ -157,6 +160,9 @@ Only the portion from 2' up to the hash sign (#) will be used as the password.<b
 <br>
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/16.png)<br>
+
+Login was successful.<br>
+로그인에 성공했습니다.
 <br>
 <br>
 <br>
@@ -164,6 +170,8 @@ Only the portion from 2' up to the hash sign (#) will be used as the password.<b
 <br>
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/17.png)<br>
+
+
 <br>
 <br>
 <br>
