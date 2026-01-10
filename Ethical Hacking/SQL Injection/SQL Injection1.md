@@ -295,6 +295,8 @@ For example, if 10 is used and a syntax error occurs, it indicates that the numb
 <br>
 <br>
 <br>
+<br>
+<br>
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/29.png)<br>
 
@@ -313,11 +315,13 @@ It can be determined that values exist in columns 2, 3, and 4.<br>
 <br>
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/31.png)<br>
+The database can be queried using parentheses.<br>
+데이터베이스는 괄호를 사용해서 조회할 수 있습니다.
 <br>
 <br>
 <br>
 <br>
-<br>
+
 ![image break](/Pictur/ethicalhacking/sqlinjection/32.png)<br>
 <br>
 <br>
