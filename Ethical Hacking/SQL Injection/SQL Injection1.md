@@ -95,8 +95,8 @@ The AND operator will be used to log in.<br>
 <br>
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/10.png)<br>
-The password for ‘james’ is 222222. Login will be attempted using the AND operator to check if 2 equals 3.<br>
-james의 비밀번호는 222222입니다. 2와 3이 같다는 걸 AND를 이용해 로그인 하겠습니다.
+The password for ‘james’ is 222222. Login will be attempted using the AND operator and # to test whether 2 equals 3.<br>
+james의 비밀번호는 222222입니다. 2와 3이 같다는 걸 AND와 #을 이용해 로그인 하겠습니다.
 <br>
 <br>
 <br>
@@ -113,8 +113,8 @@ Login attempt failed.<br>
 <br>
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/12.png)<br>
-This time, login will be attempted using the AND operator to check if 2 equals 2.<br>
-이번엔 2는 2와 같다는 걸 AND로 이용해 로그인 하겠습니다.
+This time, login will be attempted using # to test whether 2 equals 2.<br>
+이번엔 2는 2와 같다는 걸 (해시사인) # 이용해 로그인 하겠습니다.
 <br>
 <br>
 <br>
