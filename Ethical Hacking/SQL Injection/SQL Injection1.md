@@ -363,14 +363,15 @@ All tables from all databases are listed.<br>
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/35.png)<br>
 By using a WHERE clause, only the tables of the owasp10 database can be targeted and queried. This improves the efficiency of the attack.<br>
-WHERE 절로 owasp10라는 데이터베이스의 테이블만 타겟해서 조회할 수 있습니다. 해킹의 효율성을 높입니다.
+WHERE 절로 'owasp10'라는 데이터베이스의 테이블만 타겟해서 조회할 수 있습니다. 해킹의 효율성을 높입니다.
 <br>
 <br>
 <br>
 <br>
 <br>
 
-![image break](/Pictur/ethicalhacking/sqlinjection/36.png)<br>
+![image break](/Pictur/ethicalhacking/sqlinjection/.36.png)<br>
+
 <br>
 <br>
 <br>
@@ -378,6 +379,7 @@ WHERE 절로 owasp10라는 데이터베이스의 테이블만 타겟해서 조�
 <br>
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/37.png)<br>
+
 <br>
 <br>
 <br>
@@ -385,6 +387,7 @@ WHERE 절로 owasp10라는 데이터베이스의 테이블만 타겟해서 조�
 <br>
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/38png)<br>
+
 <br>
 <br>
 <br>
