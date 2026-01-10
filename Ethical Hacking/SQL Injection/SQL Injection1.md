@@ -211,9 +211,18 @@ When logging in with the initially created credentials (james / 222222), the acc
 <br>
 <br>
 
-![image break](/Pictur/ethicalhacking/sqlinjection/19.png)<br>
+![image break](/Pictur/ethicalhacking/sqlinjection/.19.png)<br>
+As with the POST method, the # symbol will be used to perform login by attaching it directly to the URL.<br>
+Post Method 방법처럼 '#를 이용해 Url 그대로 url에 붙여넣어서 로그인을 하겠습니다. 
+<br>
+<br>
+<br>
+<br>
+<br>
 
-
+![image break](/Pictur/ethicalhacking/sqlinjection/19-1.png)<br>
+No response is received.<br>
+아무런 응답이 없습니다.
 <br>
 <br>
 <br>
@@ -221,6 +230,8 @@ When logging in with the initially created credentials (james / 222222), the acc
 <br>
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/20.png)<br>
+When using the GET method, # is interpreted as a special character, so it must be replaced with its HTML-encoded value %23 before sending.<br>
+Get 방식을 이용할 때는 #을 특수한 용도로 인식하기 때문에 HTML 인코딩 값인 %23으로 바꿔서 전달해야합니다.<br>
 <br>
 <br>
 <br>
