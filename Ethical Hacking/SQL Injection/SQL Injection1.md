@@ -122,8 +122,8 @@ This time, login will be attempted using # to test whether 2 equals 2.<br>
 <br>
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/13.png)<br>
-Login was successful.<br>
-로그인에 성공했습니다.
+Login was successful. Login was successful. Using the hash sign (#), it is possible to log in without knowing the password.<br>
+로그인에 성공했습니다. 해시사인 #을 이용해 비밀번호를 몰라도 로그인할 수 있습니다. 
 <br>
 <br>
 <br>
@@ -131,6 +131,18 @@ Login was successful.<br>
 <br>
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/14.png)<br>
+This time, an attempt will be made using the administrator account name ‘admin’.<br>
+Only the portion from 2' up to the hash sign (#) will be used as the password.<br>
+
+이번엔 admin 관리자 이름으로 시도하겠습니다. 2'부터 해시사인까지만 비밀번호로 사용하겠습니다.
+<br>
+<br>
+<br>
+<br>
+<br>
+
+![image break](/Pictur/ethicalhacking/sqlinjection/14-1.png)<br>
+
 <br>
 <br>
 <br>
