@@ -120,6 +120,9 @@ This time, login will be attempted using # to test whether 2 equals 2.<br>
 <br>
 <br>
 <br>
+* Login
+<br>
+<br>
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/13.png)<br>
 Login was successful. Login was successful. Using the hash sign (#), it is possible to log in without knowing the password.<br>
@@ -140,6 +143,9 @@ Only the portion from 2' up to the hash sign (#) will be used as the password.<b
 <br>
 <br>
 <br>
+* Login
+<br>
+<br>
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/14-1.png)<br>
 Login was successful.<br>
@@ -158,9 +164,11 @@ admin 대신 admin'#와 숫자를 랜덤으로 로그인 하겠습니다.
 <br>
 <br>
 <br>
+* Login
+<br>
+<br>
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/16.png)<br>
-
 Login was successful.<br>
 로그인에 성공했습니다.
 <br>
@@ -170,8 +178,8 @@ Login was successful.<br>
 <br>
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/17.png)<br>
-
-
+This time, user information will be extracted.<br>
+이번엔 사용자 정보를 추출하겠습니다.
 <br>
 <br>
 <br>
@@ -179,6 +187,8 @@ Login was successful.<br>
 <br>
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/18.png)<br>
+When logging in with the initially created credentials (james / 222222), the account details are displayed.<br>
+초기 생성대로 james 222222로 로그인하면 계정 세부 정보가 나옵니다.
 <br>
 <br>
 <br>
@@ -186,6 +196,8 @@ Login was successful.<br>
 <br>
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/19.png)<br>
+
+
 <br>
 <br>
 <br>
