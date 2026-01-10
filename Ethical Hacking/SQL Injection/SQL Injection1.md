@@ -37,6 +37,8 @@ The account was created, but record creation failed.<br>
 <br>
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/4.png)<br>
+The configuration file will be accessed to change the settings.<br>
+설정 파일로 이동해 설정 변경을 하겠습니다.
 <br>
 <br>
 <br>
@@ -44,14 +46,16 @@ The account was created, but record creation failed.<br>
 <br>
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/5.png)<br>
-
+These are the default settings.<br>
+기본 설정값입니다.
 <br>
 <br>
 <br>
 <br>
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/6.png)<br>
-
+The setting will be changed to OWASP 10.<br>
+owasp10으로 변경합니다.
 <br>
 <br>
 <br>
