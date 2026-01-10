@@ -386,7 +386,7 @@ WHERE 절로 'owasp10'라는 데이터베이스의 테이블만 타겟해서 조
 <br>
 <br>
 
-![image break](/Pictur/ethicalhacking/sqlinjection/38png)<br>
+![image break](/Pictur/ethicalhacking/sqlinjection/38.png)<br>
 
 <br>
 <br>
