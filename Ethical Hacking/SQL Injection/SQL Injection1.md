@@ -297,15 +297,18 @@ For example, if 10 is used and a syntax error occurs, it indicates that the numb
 <br>
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/29.png)<br>
+
+<br>
+
+
+![image break](/Pictur/ethicalhacking/sqlinjection/30.png)<br>
+
 It can be determined that values exist in columns 2, 3, and 4.<br>
 값에 2,3,4열에 값이 존재함을 알 수 있습니다. 
 <br>
 <br>
 <br>
 <br>
-<br>
-
-![image break](/Pictur/ethicalhacking/sqlinjection/30.png)<br>
 <br>
 <br>
 
