@@ -1,6 +1,17 @@
 ![image break](/Pictur/ethicalhacking/sqlinjection/1.png)<br>
+The database will be obtained by exploiting an SQL injection vulnerability.<br>
+SQL 인젝션 취약점을 이용해 데이터베이스를 획득하겠습니다.
+<br>
+<br>
+<br>
+<br>
+<br>
 
-메타스플로잇2에서 
+![image break](/Pictur/ethicalhacking/sqlinjection/1-1.png)<br>
+![image break](/Pictur/ethicalhacking/sqlinjection/1-2.png)<br>
+![image break](/Pictur/ethicalhacking/sqlinjection/1-3.png)<br>
+![image break](/Pictur/ethicalhacking/sqlinjection/1-4.png)<br>
+
 <br>
 <br>
 <br>
@@ -8,6 +19,8 @@
 <br>
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/2.png)<br>
+Mutillidae will be used. First, an account will be created.<br>
+Mutillidae를 이용하겠습니다. 먼저 계정을 만들겠습니다.
 <br>
 <br>
 <br>
@@ -15,6 +28,8 @@
 <br>
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/3.png)<br>
+The account was created, but record creation failed.<br>
+계정을 만들었는데 레코드 생성에 실패했습니다. 
 <br>
 <br>
 <br>
