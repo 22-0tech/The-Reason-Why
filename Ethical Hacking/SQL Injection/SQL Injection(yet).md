@@ -400,7 +400,9 @@ column의 이름입니다.
 <br>
 <br>
 <br>
+
 * The core concept of SQL Injection
+
 <br>
 <br>
 
@@ -414,5 +416,7 @@ FROM 뒤는 TABLE로 accounts라는 테이블의 계정과 비밀번호 그리�
 <br>
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/40.png)<br>
+<br>
+<br>
 TRUE indicates an administrator.<br>
 TRUE는 관리자를 나타냅니다. 
