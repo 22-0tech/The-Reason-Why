@@ -247,6 +247,17 @@ admin 계정의 세부 정보가 나왔습니다.
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+* Database
+<br>
+<br>
+<br>
+
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/23.png)<br>
 <br>
