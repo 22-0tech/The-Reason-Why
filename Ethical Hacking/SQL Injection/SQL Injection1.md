@@ -287,6 +287,7 @@ ORDER BY 1은 1열의 데이터 정렬로 숫자를 넣음으로써 컬럼(칸)�
 <br>
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/26.png)<br>
+
 For example, if 10 is used and a syntax error occurs, it indicates that the number of columns is fewer than 10.<br>
 예를 들어, 10을 넣어서 구문 오류가 나왔으면 컬럼의 개수가 10개 미만임을 나타냅니다. 
 <br>
@@ -296,10 +297,6 @@ For example, if 10 is used and a syntax error occurs, it indicates that the numb
 <br>
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/29.png)<br>
-<br>
-<br>
-<br>
-<br>
 <br>
 
 ![image break](/Pictur/ethicalhacking/sqlinjection/30.png)<br>
