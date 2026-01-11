@@ -747,8 +747,12 @@ When the administrator logs in, the attacker’s waiting Command Prompt opens, r
 * Token Impersonation
 <br>
 <br>
+![image 59](/Pictur/Hacking%20lab/AD/privesc2/59-1.png)<br>
+
 
 ![image 58](/Pictur/Hacking%20lab/AD/privesc2/58.png)<br>
+
+특정 계정의 권한으로 권한으로 프로그램을 실행해주는 도구 PSExec64 
 <br>
 <br>
 <br>
@@ -763,11 +767,6 @@ When the administrator logs in, the attacker’s waiting Command Prompt opens, r
 <br>
 
 ![image 59](/Pictur/Hacking%20lab/AD/privesc2/59-1.png)<br>
-
-<br>
-<br>
-<br>
-<br>
 <br>
 
 ![image 60](/Pictur/Hacking%20lab/AD/privesc2/60.png)<br>
