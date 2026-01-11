@@ -429,8 +429,8 @@ A shell is opened, and an admin shell is obtained using the corresponding creden
 <br>
 
 ![image 33](/Pictur/Hacking%20lab/AD/privesc2/33.png)<br>
-
-
+A Samba server is launched using the known user account user.<br>
+알고 있는 계정 user로 samba 서버를 실행합니다.
 <br>
 <br>
 <br>
@@ -438,6 +438,11 @@ A shell is opened, and an admin shell is obtained using the corresponding creden
 <br>
 
 ![image 34](/Pictur/Hacking%20lab/AD/privesc2/34.png)<br>
+On the Windows side, legitimate credentials are registered using net use to establish a secure connection.<br>
+The SAM and SYSTEM files are copied in order to extract password hashes for all Windows accounts.<br>
+
+윈도우 쪽에서는 net use를 통해 정당한 자격증명을 등록해서 안전하게 연결을 맺습니다.<br>
+*WHY - SAM과 SYSTEM을 복사합니다. 윈도우 모든 계정의 비밀번호 해시를 훔치기 위함입니다. 
 <br>
 <br>
 <br>
@@ -445,6 +450,8 @@ A shell is opened, and an admin shell is obtained using the corresponding creden
 <br>
 
 ![image 35](/Pictur/Hacking%20lab/AD/privesc2/35.png)<br>
+
+
 <br>
 <br>
 <br>
