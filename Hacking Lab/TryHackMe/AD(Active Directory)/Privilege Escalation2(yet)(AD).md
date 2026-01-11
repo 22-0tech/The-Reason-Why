@@ -672,6 +672,8 @@ However, when the Command Prompt was launched simply via File Explorer, it ran u
 <br>
 
 ![image 53](/Pictur/Hacking%20lab/AD/privesc2/53.png)<br>
+Permissions on the Start Menu path were checked using accesschk.exe, and read and write permissions for a standard user were confirmed.<br>
+accesschk.exe를 통해 시작메뉴 경로에 권한을 확인합니다. 일반 사용자 읽고, 쓰기 권한을 확인했습니다. 
 <br>
 <br>
 <br>
@@ -679,9 +681,64 @@ However, when the Command Prompt was launched simply via File Explorer, it ran u
 <br>
 
 ![image 54](/Pictur/Hacking%20lab/AD/privesc2/54.png)<br>
+
+
 <br>
 <br>
 <br>
+<br>
+<br>
+
+![image 54](/Pictur/Hacking%20lab/AD/privesc2/102.png)<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+![image 54](/Pictur/Hacking%20lab/AD/privesc2/103.png)<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+![image 54](/Pictur/Hacking%20lab/AD/privesc2/104.png)<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+![image 54](/Pictur/Hacking%20lab/AD/privesc2/105.png)<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+![image 54](/Pictur/Hacking%20lab/AD/privesc2/106.png)<br>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+*
 <br>
 <br>
 
