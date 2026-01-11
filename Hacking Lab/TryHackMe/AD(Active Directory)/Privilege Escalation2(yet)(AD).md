@@ -328,19 +328,19 @@ AlwaysInstallElevated는 MSI 형식만 적용이 가능합니다. 확장자 msi�
 <br>
 
 ![image 25](/Pictur/Hacking%20lab/AD/privesc2/253.png)<br>
-
+An MSI file is executed via msiexec, after which SYSTEM-level privileges are obtained.<br>
+확장자 msi 파일을 msiexec를 이용해 실행합니다. 실행 후 윈도우 최고 권한을 획득했습니다.
 <br>
 <br>
 <br>
 <br>
 <br>
-
-
 <br>
 <br>
 <br>
 <br>
 <br>
+![image 25](/Pictur/Hacking%20lab/AD/privesc2/26.png)<br>
 
 ![image 27](/Pictur/Hacking%20lab/AD/privesc2/27.png)<br>
 <br>
