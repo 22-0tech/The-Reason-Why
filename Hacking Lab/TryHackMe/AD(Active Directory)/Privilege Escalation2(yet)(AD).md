@@ -762,7 +762,7 @@ kali 135번 포트로 들어오는 통신을 윈도우 9999 포트로 포워딩(
 
 ![image 58](/Pictur/Hacking%20lab/AD/privesc2/58.png)<br>
 
-특정 계정의 권한으로 권한으로 프로그램을 실행해주는 도구 PSExec64 
+PSExec64는 특정 계정의 권한으로 프로그램을 실행해주는 도구입니다. 
 <br>
 <br>
 <br>
@@ -774,9 +774,6 @@ kali 135번 포트로 들어오는 통신을 윈도우 9999 포트로 포워딩(
 <br>
 <br>
 <br>
-<br>
-
-![image 59](/Pictur/Hacking%20lab/AD/privesc2/59-1.png)<br>
 <br>
 
 ![image 60](/Pictur/Hacking%20lab/AD/privesc2/60.png)<br>
