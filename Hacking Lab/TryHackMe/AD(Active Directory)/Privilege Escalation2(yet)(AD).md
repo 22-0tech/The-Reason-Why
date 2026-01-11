@@ -680,7 +680,9 @@ accesschk.exe를 통해 시작메뉴 경로에 권한을 확인합니다. 일반
 <br>
 <br>
 ![image 54](/Pictur/Hacking%20lab/AD/privesc2/.102.png)<br>
-Assuming a real-world scenario, the attacker creates the two files mentioned above. CreateShortCut is a script used to install a .lnk (shortcut) file.<br>
+Assuming a real-world scenario, the attacker creates the two files mentioned above. <br>
+CreateShortCut is a script used to install a .lnk (shortcut) file.<br>
+
 실제 상황이라고 가정할 때, 공격자는 위에 두 개 파일을 생성합니다. CreateShortCut으로 .lnk(바로가기)를 설치하는 스크립트입니다.
 <br>
 <br>
