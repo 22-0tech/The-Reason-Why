@@ -504,12 +504,12 @@ All successfully cracked hashes can be listed using the --show option.<br>
 <br>
 
 ![image 41](/Pictur/Hacking%20lab/AD/privesc2/41.png)<br>
-
+After obtaining a shell using the cracked admin account, SYSTEM-level privileges are successfully acquired.<br>
+해독에 성공한 admin 계정으로 쉘을 획득 후 관리자 권한 획득에 성공했습니다.
 <br>
 <br>
 <br>
 <br>
-
 <br>
 
 <br>
@@ -550,6 +550,8 @@ admin은 로그인에 성공했는데 비밀번호에 이용되는 NT 해시값�
 <br>
 * Scheduled Tasks<br>
 <br>
+<br>
+
 ![image 44](/Pictur/Hacking%20lab/AD/privesc2/44.png)<br>
 <br>
 <br>
