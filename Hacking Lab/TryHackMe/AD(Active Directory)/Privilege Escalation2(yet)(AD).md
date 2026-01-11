@@ -504,7 +504,19 @@ All successfully cracked hashes can be listed using the --show option.<br>
 <br>
 
 ![image 41](/Pictur/Hacking%20lab/AD/privesc2/41.png)<br>
-Although password cracking was successful, 
+
+<br>
+<br>
+<br>
+<br>
+
+<br>
+
+<br>
+<br>
+
+![image 42](/Pictur/Hacking%20lab/AD/privesc2/42.png)<br>
+Although password cracking was successful, <br>
 login attempts failed: the user account lacked sufficient privileges, and the Administrator account was disabled.<br>
 
 비밀번호 해독에 성공했어도 user는 권한 부족, Administrator는 계정 비활성화로 로그인에 실패했습니다.
@@ -512,14 +524,17 @@ login attempts failed: the user account lacked sufficient privileges, and the Ad
 <br>
 <br>
 <br>
-
+<br>
+<br>
+<br>
+<br>
 <br>
 <br>
 * Pass the Hash<br>
 <br>
 <br>
 
-![image 42](/Pictur/Hacking%20lab/AD/privesc2/42.png)<br>
+![image 43](/Pictur/Hacking%20lab/AD/privesc2/43.png)<br>
 The admin account successfully authenticated, <br>
 and login was possible using the NT hash value employed for password authentication without cracking it to plaintext.<br>
 
@@ -533,18 +548,8 @@ admin은 로그인에 성공했는데 비밀번호에 이용되는 NT 해시값�
 <br>
 <br>
 <br>
-<br>
 * Scheduled Tasks<br>
 <br>
-<br>
-
-![image 43](/Pictur/Hacking%20lab/AD/privesc2/43.png)<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
 ![image 44](/Pictur/Hacking%20lab/AD/privesc2/44.png)<br>
 <br>
 <br>
