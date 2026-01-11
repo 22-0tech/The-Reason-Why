@@ -763,8 +763,10 @@ kali 135번 포트로 들어오는 통신을 윈도우 9999 포트로 포워딩(
 ![image 58](/Pictur/Hacking%20lab/AD/privesc2/58.png)<br>
 PSExec64 is a tool that executes programs under the privileges of a specified account.<br>
 The malicious code (reverse.exe) will be executed with low privileges as the Local Service account.<br>
+WHY – The Potato attack is an attack technique that escalates privileges from a low-privileged context to a high-privileged one through token impersonation.<br>
 
-PSExec64는 특정 계정의 권한으로 프로그램을 실행해주는 도구입니다. Local service라는 낮은 권한으로 악성코드(reverse.exe)를 실행하겠습니다.
+PSExec64는 특정 계정의 권한으로 프로그램을 실행해주는 도구입니다. Local service라는 낮은 권한으로 악성코드(reverse.exe)를 실행하겠습니다.<br>
+*WHY - Potate Attack은 낮은 권한에서 토큰 사칭을 통해 높은 권한으로 상승하는 공격 
 <br>
 <br>
 <br>
@@ -772,6 +774,10 @@ PSExec64는 특정 계정의 권한으로 프로그램을 실행해주는 도구
 <br>
 
 ![image 60](/Pictur/Hacking%20lab/AD/privesc2/60.png)<br>
+RoguePotato.exe lures an account with SYSTEM privileges and executes the malicious file (reverse.exe) using the -e option.<br>
+It then activates port 9999 on the Windows system.<br>
+
+RoguePotate.exe가 시스템 권한을 가진 계정을 낚아서 -e로 악성파일(reverse.exe) 실행하며, 윈도우의 9999번 포트 활성화합니다.
 <br>
 <br>
 <br>
@@ -779,6 +785,8 @@ PSExec64는 특정 계정의 권한으로 프로그램을 실행해주는 도구
 <br>
 
 ![image 61](/Pictur/Hacking%20lab/AD/privesc2/61.png)<br>
+A Command Prompt opened on the waiting port, resulting in the acquisition of SYSTEM privileges.<br>
+기다리고 있던 포트에서 프롬포트가 열리면서 시스템 권한을 획득했습니다.
 <br>
 <br>
 <br>
