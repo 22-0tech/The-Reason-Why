@@ -504,8 +504,8 @@ All successfully cracked hashes can be listed using the --show option.<br>
 <br>
 
 ![image 41](/Pictur/Hacking%20lab/AD/privesc2/41.png)<br>
-After obtaining a shell using the cracked admin account, SYSTEM-level privileges are successfully acquired.<br>
-해독에 성공한 admin 계정으로 쉘을 획득 후 관리자 권한 획득에 성공했습니다.
+SYSTEM-level privileges are successfully obtained using the cracked admin credentials.<br>
+해독한 admin 로그인으로 시스템 권한 획득에 성공했습니다
 <br>
 <br>
 <br>
@@ -553,6 +553,12 @@ admin은 로그인에 성공했는데 비밀번호에 이용되는 NT 해시값�
 <br>
 
 ![image 44](/Pictur/Hacking%20lab/AD/privesc2/44.png)<br>
+In practice, there are cases where folders such as DevTools exist for operational convenience.<br>
+These are reported to be executed every minute with the highest Windows operating system privileges (SYSTEM).<br>
+A scenario can be considered in which a malicious executable (reverse.exe) is run in place of the script that is executed every minute.<br>
+
+실무에서 업무 편의를 위해 DevTools 같은 폴더가 있는 경우가 있습니다. 매 분마다 윈도우 운영체제 최고 권한 시스템으로 실행한다고 합니다.<br>
+1분 마다 실행되는 스크립트 대신에 악성코드(reverse.exe)를 실행하는 시나리오를 생각해볼 수 있습니다.
 <br>
 <br>
 <br>
@@ -560,6 +566,8 @@ admin은 로그인에 성공했는데 비밀번호에 이용되는 NT 해시값�
 <br>
 
 ![image 45](/Pictur/Hacking%20lab/AD/privesc2/45.png)<br>
+
+
 <br>
 <br>
 <br>
