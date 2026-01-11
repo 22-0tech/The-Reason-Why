@@ -593,7 +593,23 @@ System privileges were obtained when a prompt was opened by malware executed eve
 <br>
 <br>
 
+![image 48](/Pictur/Hacking%20lab/AD/privesc2/48.png)<br>
+An administrator Paint application (adminpaint) is located on the desktop. Privilege escalation can be performed through this GUI application.<br>
+바탕화면에 adminpaint 관리자 그림판이 있습니다. 이 GUI App을 통해 권한 상승을 할 수 있습니다.
+<br>
+<br>
+<br>
+<br>
+<br>
+
 ![image 47](/Pictur/Hacking%20lab/AD/privesc2/99.png)<br>
+After launching Paint, it can be observed that the account changes from user to admin.<br>
+그림판 실행 후 user에서 admin으로 계정이 바뀐 걸 볼 수 있습니다.
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ![image 47](/Pictur/Hacking%20lab/AD/privesc2/100.png)<br>
 
@@ -604,21 +620,14 @@ System privileges were obtained when a prompt was opened by malware executed eve
 <br>
 <br>
 
-![image 48](/Pictur/Hacking%20lab/AD/privesc2/48.png)<br>
+
 <br>
 <br>
 <br>
 <br>
 <br>
 
-![image 49](/Pictur/Hacking%20lab/AD/privesc2/49.png)<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
-![image 50](/Pictur/Hacking%20lab/AD/privesc2/50.png)<br>
 <br>
 <br>
 <br>
