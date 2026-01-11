@@ -565,9 +565,12 @@ A scenario can be considered in which a malicious executable (reverse.exe) is ru
 <br>
 <br>
 
-![image 45](/Pictur/Hacking%20lab/AD/privesc2/45.png)<br>
+![image 45](/Pictur/Hacking%20lab/AD/privesc2/.45.png)<br>
+There is permission to append content using the >> operator and to write file contents.<br>
+Malicious code (reverse.exe) will be appended using the >> operator.<br>
 
-
+기존 내용에 >> 연산자를 통해 내용 추가와 파일 내용 작성하는 권한이 있습니다.<br>
+>>을 통해 악성코드(reverse.exe)를 추가하겠습니다. 
 <br>
 <br>
 <br>
@@ -575,13 +578,24 @@ A scenario can be considered in which a malicious executable (reverse.exe) is ru
 <br>
 
 ![image 46](/Pictur/Hacking%20lab/AD/privesc2/46.png)<br>
+System privileges were obtained when a prompt was opened by malware executed every minute.<br>
+1분 마다 실행되는 악성코드를 통해 프롬포트가 열리면서 시스템 권한을 획득했습니다.
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+* Insecure GUI Apps<br>
 <br>
 <br>
 
 ![image 47](/Pictur/Hacking%20lab/AD/privesc2/47.png)<br>
+
+
 <br>
 <br>
 <br>
