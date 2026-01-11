@@ -727,7 +727,7 @@ The administrator logs into the system.<br>
 <br>
 
 ![image 54](/Pictur/Hacking%20lab/AD/privesc2/106.png)<br>
-
+<br>
 When the administrator logs in, the attacker’s waiting Command Prompt opens, resulting in the acquisition of administrative privileges.<br>
 관리자가 로그인 하면 기다리고 있던 공격자의 프롬포트가 열리면서 admin 관리자 권한을 획득합니다. 
 <br>
