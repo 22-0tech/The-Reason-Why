@@ -641,15 +641,20 @@ Both methods failed to execute.<br>
 <br>
 <br>
 
-![image 47](/Pictur/Hacking%20lab/AD/privesc2/100.png)<br>
-
-<br>
-<br>
-<br>
-<br>
-<br>
-
 ![image 47](/Pictur/Hacking%20lab/AD/privesc2/101.png)<br>
+A Command Prompt window will be opened via a right-click.<br>
+여기서 우클릭을 통해 cmd 창을 띄우겠습니다.
+<br>
+<br>
+<br>
+<br>
+<br>
+
+![image 47](/Pictur/Hacking%20lab/AD/privesc2/100.png)<br>
+When the Command Prompt was executed through the Paint application, privilege escalation to admin was successful.<br>
+However, when the Command Prompt was launched simply via File Explorer, it ran under the user login session.<br>
+
+그림판을 통해서 cmd를 실행했을 때 admin으로 권한 상승에 성공했습니다. 단순히, 탐색기를 통해 cmd를 실행하면 로그인 세션 user로 나옵니다.
 <br>
 <br>
 <br>
@@ -660,7 +665,9 @@ Both methods failed to execute.<br>
 <br>
 <br>
 <br>
-* 
+
+* Start Apps
+
 <br>
 <br>
 
