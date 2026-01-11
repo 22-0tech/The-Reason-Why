@@ -377,8 +377,17 @@ impacket-psexec로 윈도우 대화형 쉘을 시도할 수 있습니다. 시스
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
+* Password Saved Cred<br>
+<br>
+<br>
 
 ![image 29](/Pictur/Hacking%20lab/AD/privesc2/29.png)<br>
+
+
 <br>
 <br>
 <br>
