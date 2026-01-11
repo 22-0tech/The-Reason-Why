@@ -611,14 +611,7 @@ After launching Paint, it can be observed that the account changes from user to 
 <br>
 <br>
 
-![image 47](/Pictur/Hacking%20lab/AD/privesc2/100.png)<br>
 
-
-<br>
-<br>
-<br>
-<br>
-<br>
 
 
 <br>
@@ -627,6 +620,14 @@ After launching Paint, it can be observed that the account changes from user to 
 <br>
 <br>
 
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+![image 51](/Pictur/Hacking%20lab/AD/privesc2/50.png)<br>
 
 <br>
 <br>
@@ -645,6 +646,22 @@ After launching Paint, it can be observed that the account changes from user to 
 <br>
 <br>
 <br>
+<br>
+<br>
+
+![image 47](/Pictur/Hacking%20lab/AD/privesc2/100.png)<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+* 
 <br>
 <br>
 
