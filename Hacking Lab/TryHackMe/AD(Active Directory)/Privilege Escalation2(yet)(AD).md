@@ -381,13 +381,13 @@ impacket-psexec로 윈도우 대화형 쉘을 시도할 수 있습니다. 시스
 <br>
 <br>
 <br>
-* Password Saved Cred<br>
+* Run as<br>
 <br>
 <br>
 
 ![image 29](/Pictur/Hacking%20lab/AD/privesc2/29.png)<br>
-
-
+Stored credentials can be identified by checking the accounts listed using cmdkey /list.<br>
+cmdkey /list로 비밀번호가 저장되어 있는 계정을 확인할 수 있습니다.<br>
 <br>
 <br>
 <br>
@@ -395,7 +395,8 @@ impacket-psexec로 윈도우 대화형 쉘을 시도할 수 있습니다. 시스
 <br>
 
 ![image 30](/Pictur/Hacking%20lab/AD/privesc2/30.png)<br>
-
+The previously successful admin account can be added.<br>
+앞서 로그인에 성공한 admin 계정을 추가할 수 있습니다.
 <br>
 <br>
 <br>
@@ -403,6 +404,8 @@ impacket-psexec로 윈도우 대화형 쉘을 시도할 수 있습니다. 시스
 <br>
 
 ![image 31](/Pictur/Hacking%20lab/AD/privesc2/31.png)<br>
+Using the stored credentials, a malicious executable (reverse.exe) is executed via runas.<br>
+저장되어 있는 자격으로 runas를 통해 악성코드(reverse.exe)를 실행합니다.
 <br>
 <br>
 <br>
@@ -410,6 +413,8 @@ impacket-psexec로 윈도우 대화형 쉘을 시도할 수 있습니다. 시스
 <br>
 
 ![image 32](/Pictur/Hacking%20lab/AD/privesc2/32.png)<br>
+A shell is opened, and an admin shell is obtained using the corresponding credentials.<br>
+쉘이 열리고 자격대로 admin 쉘을 획득했습니다.
 <br>
 <br>
 <br>
@@ -417,6 +422,8 @@ impacket-psexec로 윈도우 대화형 쉘을 시도할 수 있습니다. 시스
 <br>
 
 ![image 33](/Pictur/Hacking%20lab/AD/privesc2/33.png)<br>
+
+
 <br>
 <br>
 <br>
