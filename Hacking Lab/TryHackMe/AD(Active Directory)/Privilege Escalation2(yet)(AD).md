@@ -748,27 +748,6 @@ When the administrator logs in, the attacker’s waiting Command Prompt opens, r
 <br>
 <br>
 
-![image 55](/Pictur/Hacking%20lab/AD/privesc2/55.png)<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-![image 56](/Pictur/Hacking%20lab/AD/privesc2/56.png)<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-![image 57](/Pictur/Hacking%20lab/AD/privesc2/57.png)<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
 ![image 58](/Pictur/Hacking%20lab/AD/privesc2/58.png)<br>
 <br>
 <br>
