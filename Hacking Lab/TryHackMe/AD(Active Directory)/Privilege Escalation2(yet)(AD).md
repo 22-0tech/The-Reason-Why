@@ -1,4 +1,4 @@
-![image 1](/Pictur/Hacking%20lab/AD/privesc/1.png)<br>
+<img width="810" height="549" alt="image" src="https://github.com/user-attachments/assets/ddf54825-15aa-4507-9b76-ded47d498d9d" />![image 1](/Pictur/Hacking%20lab/AD/privesc/1.png)<br>
 The second method will be to perform privilege escalation following the standard approach provided by TryHackMe.<br>
 두 번째 방법은 Tryhackme에서 제공하는 힌트대로 권한상승을 하겠습니다.
 
@@ -593,7 +593,9 @@ System privileges were obtained when a prompt was opened by malware executed eve
 <br>
 <br>
 
-![image 47](/Pictur/Hacking%20lab/AD/privesc2/47.png)<br>
+![image 47](/Pictur/Hacking%20lab/AD/privesc2/99.png)<br>
+
+![image 47](/Pictur/Hacking%20lab/AD/privesc2/100.png)<br>
 
 
 <br>
