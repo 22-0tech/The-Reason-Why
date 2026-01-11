@@ -357,8 +357,12 @@ HKLM(시스템 수준)에서 하위 폴더(/s)까지 전수 조사로 password�
 ![image 27](/Pictur/Hacking%20lab/AD/privesc2/.27.png)<br>
 This registry path corresponds to the Windows Login Manager (Winlogon), where login traces can be identified.<br>
 The last logged-in user can be confirmed as admin.<br>
+However, since AutoAdminLogon is set to 0, automatic logon is disabled and the password is entered manually at login, 
+so it is not stored in the registry. In this case, an attempt can be made to log in using a common password such as password123.<br>
 
-이 레지스트리의 경로는 윈도우의 로그인 매니저(winlogon)으로 로그인 흔적을 확인할 수 있습니다. 마지막 로그인을 admin을 알 수 있습니다.
+이 레지스트리의 경로는 윈도우의 로그인 매니저(winlogon)으로 로그인 흔적을 확인할 수 있습니다. 마지막 로그인을 admin을 알 수 있습니다.<br>
+하지만 AutoAdminLogon에 0으로 자동 로그인 없이 비밀번호를 수동으로 입력해 로그인하기 때문에 레지스트리에 저장하지 않습니다.<br>
+이럴 경우 흔한 비밀번호 password123으로 로그인을 시도해볼 수 있습니다.<br>
 <br>
 <br>
 <br>
@@ -366,6 +370,8 @@ The last logged-in user can be confirmed as admin.<br>
 <br>
 
 ![image 28](/Pictur/Hacking%20lab/AD/privesc2/28.png)<br>
+An interactive Windows shell can be attempted using impacket-psexec. SYSTEM-level privileges are successfully obtained.<br>
+impacket-psexec로 윈도우 대화형 쉘을 시도할 수 있습니다. 시스템 최고 권한 획득에 성공했습니다.
 <br>
 <br>
 <br>
