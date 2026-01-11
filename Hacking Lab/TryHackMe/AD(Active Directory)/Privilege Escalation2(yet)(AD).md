@@ -340,7 +340,17 @@ An MSI file is executed via msiexec, after which SYSTEM-level privileges are obt
 <br>
 <br>
 <br>
+* Password Registry<br>
+<br>
+
 ![image 25](/Pictur/Hacking%20lab/AD/privesc2/26.png)<br>
+A comprehensive search is performed in HKLM (system level), including all subkeys (/s), to find the string "password"<br>
+HKLM(시스템 수준)에서 하위 폴더(/s)까지 전수 조사로 password라는 글자를 찾습니다.  
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ![image 27](/Pictur/Hacking%20lab/AD/privesc2/27.png)<br>
 <br>
