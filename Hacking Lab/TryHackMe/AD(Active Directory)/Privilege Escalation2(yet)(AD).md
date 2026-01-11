@@ -666,7 +666,7 @@ However, when the Command Prompt was launched simply via File Explorer, it ran u
 <br>
 <br>
 
-* Start Apps
+* Start Apps(From a real attacker’s perspective.)
 
 <br>
 <br>
@@ -680,7 +680,8 @@ accesschk.exe를 통해 시작메뉴 경로에 권한을 확인합니다. 일반
 <br>
 <br>
 ![image 54](/Pictur/Hacking%20lab/AD/privesc2/.102.png)<br>
-
+Assuming a real-world scenario, the attacker creates the two files mentioned above. CreateShortCut is a script used to install a .lnk (shortcut) file.<br>
+실제 상황이라고 가정할 때, 공격자는 위에 두 개 파일을 생성합니다. CreateShortCut으로 .lnk(바로가기)를 설치하는 스크립트입니다.
 <br>
 <br>
 <br>
@@ -688,9 +689,8 @@ accesschk.exe를 통해 시작메뉴 경로에 권한을 확인합니다. 일반
 <br>
 
 ![image 54](/Pictur/Hacking%20lab/AD/privesc2/54.png)<br>
-cscript is an engine used to execute VBScript and JScript, and it runs the CreateShortCut.vbs file to install a .lnk (shortcut) file.<br>
-csript는 VBScript JScript를 실행하는 엔진으로 CreateShortCut.vbs 파일을 실행해 .lnk (바로가기) 파일을 설치합니다. 
-
+cscript is an engine used to execute VBScript and JScript. It installs a .lnk (shortcut) icon.<br>
+csript는 VBScript JScript를 실행하는 엔입니다. .lnk (바로가기) 아이콘을 설치합니다. 
 <br>
 <br>
 <br>
@@ -698,7 +698,8 @@ csript는 VBScript JScript를 실행하는 엔진으로 CreateShortCut.vbs 파�
 <br>
 
 ![image 54](/Pictur/Hacking%20lab/AD/privesc2/103.png)<br>
-
+Malicious code (reverse.lnk) has been installed.<br>
+악성코드(reverse.lnk)가 설치되었습니다.
 <br>
 <br>
 <br>
@@ -706,7 +707,10 @@ csript는 VBScript JScript를 실행하는 엔진으로 CreateShortCut.vbs 파�
 <br>
 
 ![image 54](/Pictur/Hacking%20lab/AD/privesc2/104.png)<br>
+In a real-world scenario, the left side represents the attacker opening a port and waiting.<br>
+The right side assumes a situation where an administrator logs in.<br>
 
+실제 상황이라면, 왼쪽은 공격자가 포트를 열고 기다립니다. 오른쪽은 관리자로 로그인하는 상황을 가정합니다.  
 <br>
 <br>
 <br>
@@ -714,7 +718,8 @@ csript는 VBScript JScript를 실행하는 엔진으로 CreateShortCut.vbs 파�
 <br>
 
 ![image 54](/Pictur/Hacking%20lab/AD/privesc2/105.png)<br>
-
+The administrator logs into the system.<br>
+관리자가 로그인합니다.
 <br>
 <br>
 <br>
@@ -722,8 +727,8 @@ csript는 VBScript JScript를 실행하는 엔진으로 CreateShortCut.vbs 파�
 <br>
 
 ![image 54](/Pictur/Hacking%20lab/AD/privesc2/106.png)<br>
-
-
+When the administrator logs in, the attacker’s waiting Command Prompt opens, resulting in the acquisition of administrative privileges.<br>
+관리자가 로그인 하면 기다리고 있던 공격자의 프롬포트가 열리면서 admin 관리자 권한을 획득합니다. 
 <br>
 <br>
 <br>
@@ -738,7 +743,7 @@ csript는 VBScript JScript를 실행하는 엔진으로 CreateShortCut.vbs 파�
 <br>
 <br>
 
-*
+* Token Impersonation
 <br>
 <br>
 
