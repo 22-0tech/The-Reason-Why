@@ -486,8 +486,7 @@ Administrator의 비밀번호를 평문으로 해독했습니다.
 <br>
 
 ![image 39](/Pictur/Hacking%20lab/AD/privesc2/39.png)<br>
-All successfully cracked hashes can be listed using the --show option.<br>
---show를 이용해 해독에 성공한 해시들을 전부 조회할 수 있습니다. 
+
 <br>
 <br>
 <br>
@@ -495,8 +494,8 @@ All successfully cracked hashes can be listed using the --show option.<br>
 <br>
 
 ![image 40](/Pictur/Hacking%20lab/AD/privesc2/40.png)<br>
-
-
+All successfully cracked hashes can be listed using the --show option.<br>
+--show를 이용해 해독에 성공한 해시들을 전부 조회할 수 있습니다. 
 <br>
 <br>
 <br>
