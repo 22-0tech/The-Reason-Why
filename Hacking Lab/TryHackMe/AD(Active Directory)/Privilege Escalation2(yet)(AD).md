@@ -570,7 +570,7 @@ There is permission to append content using the >> operator and to write file co
 Malicious code (reverse.exe) will be appended using the >> operator.<br>
 
 기존 내용에 >> 연산자를 통해 내용 추가와 파일 내용 작성하는 권한이 있습니다.<br>
->>을 통해 악성코드(reverse.exe)를 추가하겠습니다. 
+' >> '을 통해 악성코드(reverse.exe)를 추가하겠습니다. 
 <br>
 <br>
 <br>
