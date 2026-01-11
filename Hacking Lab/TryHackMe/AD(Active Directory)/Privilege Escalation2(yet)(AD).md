@@ -429,6 +429,14 @@ A shell is opened, and an admin shell is obtained using the corresponding creden
 <br>
 
 ![image 33](/Pictur/Hacking%20lab/AD/privesc2/33.png)<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+![image 34](/Pictur/Hacking%20lab/AD/privesc2/34.png)<br>
 A Samba server is launched using the known user account user.<br>
 알고 있는 계정 user로 samba 서버를 실행합니다.
 <br>
@@ -437,20 +445,12 @@ A Samba server is launched using the known user account user.<br>
 <br>
 <br>
 
-![image 34](/Pictur/Hacking%20lab/AD/privesc2/34.png)<br>
+![image 35](/Pictur/Hacking%20lab/AD/privesc2/35.png)<br>
 On the Windows side, legitimate credentials are registered using net use to establish a secure connection.<br>
 The SAM and SYSTEM files are copied in order to extract password hashes for all Windows accounts.<br>
 
 윈도우 쪽에서는 net use를 통해 정당한 자격증명을 등록해서 안전하게 연결을 맺습니다.<br>
 *WHY - SAM과 SYSTEM을 복사합니다. 윈도우 모든 계정의 비밀번호 해시를 훔치기 위함입니다. 
-<br>
-<br>
-<br>
-<br>
-<br>
-
-![image 35](/Pictur/Hacking%20lab/AD/privesc2/35.png)<br>
-
 
 <br>
 <br>
@@ -459,6 +459,8 @@ The SAM and SYSTEM files are copied in order to extract password hashes for all 
 <br>
 
 ![image 36](/Pictur/Hacking%20lab/AD/privesc2/36.png)<br>
+Password hashes can be extracted from the SYSTEM and SAM files using pwdump.py from the creddump7 toolkit.<br>
+creddump7 툴킷의 pwdump.py을 이용해 SYSTEM, SAM의 파일을 해시로 추출할 수 있습니다.
 <br>
 <br>
 <br>
@@ -466,6 +468,8 @@ The SAM and SYSTEM files are copied in order to extract password hashes for all 
 <br>
 
 ![image 37](/Pictur/Hacking%20lab/AD/privesc2/37.png)<br>
+Among the NTLM hashes, the NT portion is the value actually used and can be cracked to plaintext using Hashcat module 1000.<br>
+NTLM의 해시 중 뒤의 NT가 실제 이용되는 값으로 hashcat 모듈 1000을 이용해 평문으로 해독할 수 있습니다. 
 <br>
 <br>
 <br>
@@ -473,6 +477,8 @@ The SAM and SYSTEM files are copied in order to extract password hashes for all 
 <br>
 
 ![image 38](/Pictur/Hacking%20lab/AD/privesc2/38.png)<br>
+The Administrator password is successfully recovered in plaintext.<br>
+Administrator의 비밀번호를 평문으로 해독했습니다.
 <br>
 <br>
 <br>
@@ -480,6 +486,8 @@ The SAM and SYSTEM files are copied in order to extract password hashes for all 
 <br>
 
 ![image 39](/Pictur/Hacking%20lab/AD/privesc2/39.png)<br>
+All successfully cracked hashes can be listed using the --show option.<br>
+--show를 이용해 해독에 성공한 해시들을 전부 조회할 수 있습니다. 
 <br>
 <br>
 <br>
@@ -487,6 +495,8 @@ The SAM and SYSTEM files are copied in order to extract password hashes for all 
 <br>
 
 ![image 40](/Pictur/Hacking%20lab/AD/privesc2/40.png)<br>
+
+
 <br>
 <br>
 <br>
