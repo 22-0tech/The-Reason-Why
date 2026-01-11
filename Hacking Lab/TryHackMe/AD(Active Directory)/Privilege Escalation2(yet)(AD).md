@@ -747,6 +747,7 @@ When the administrator logs in, the attacker’s waiting Command Prompt opens, r
 * Token Impersonation
 <br>
 <br>
+
 ![image 59](/Pictur/Hacking%20lab/AD/privesc2/59-1.png)<br>
 
 
