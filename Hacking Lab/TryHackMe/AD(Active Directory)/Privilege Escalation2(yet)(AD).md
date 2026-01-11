@@ -749,7 +749,16 @@ When the administrator logs in, the attacker’s waiting Command Prompt opens, r
 <br>
 
 ![image 59](/Pictur/Hacking%20lab/AD/privesc2/59-1.png)<br>
+The RoguePotato attack requires intercepting Windows RPC communication (port 135).<br>
+Incoming traffic to port 135 on Kali must be forwarded (tunneled) to port 9999 on the Windows system.<br>
 
+RoguePotato 공격은 윈도우의 RPC(P:135) 통신을 가로채야합니다.<br>
+kali 135번 포트로 들어오는 통신을 윈도우 9999 포트로 포워딩(통로)을 해야합니다.
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ![image 58](/Pictur/Hacking%20lab/AD/privesc2/58.png)<br>
 
