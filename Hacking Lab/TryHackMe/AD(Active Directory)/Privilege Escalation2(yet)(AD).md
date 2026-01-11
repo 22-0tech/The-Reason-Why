@@ -769,13 +769,6 @@ PSExec64는 특정 계정의 권한으로 프로그램을 실행해주는 도구
 <br>
 <br>
 
-![image 59](/Pictur/Hacking%20lab/AD/privesc2/59.png)<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
 ![image 60](/Pictur/Hacking%20lab/AD/privesc2/60.png)<br>
 <br>
 <br>
