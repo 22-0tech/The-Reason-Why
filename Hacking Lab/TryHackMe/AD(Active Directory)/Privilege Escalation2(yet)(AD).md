@@ -610,17 +610,6 @@ After launching Paint, it can be observed that the account changes from user to 
 <br>
 <br>
 <br>
-
-
-
-
-<br>
-<br>
-<br>
-<br>
-<br>
-
-
 <br>
 <br>
 <br>
@@ -628,7 +617,8 @@ After launching Paint, it can be observed that the account changes from user to 
 <br>
 
 ![image 51](/Pictur/Hacking%20lab/AD/privesc2/50.png)<br>
-
+Privilege escalation can be attempted by directly accessing the Paint application.<br>
+직접 그림판에 가서 권한상승을 시도해볼 수 있습니다.
 <br>
 <br>
 <br>
