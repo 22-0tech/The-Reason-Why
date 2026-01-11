@@ -420,6 +420,13 @@ A shell is opened, and an admin shell is obtained using the corresponding creden
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
+* SAM<br>
+<br>
+<br>
 
 ![image 33](/Pictur/Hacking%20lab/AD/privesc2/33.png)<br>
 
