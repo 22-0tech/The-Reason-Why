@@ -1,6 +1,6 @@
 ![image 1](/Pictur/Hacking%20lab/AD/privesc/1.png)<br>
-The second method will be to perform privilege escalation following the standard approach provided by TryHackMe.<br>
-두 번째 방법은 Tryhackme에서 제공하는 힌트대로 권한상승을 하겠습니다.
+The second approach will attempt privilege escalation using all methods provided by TryHackMe.<br>
+두 번째는 Tryhackme에서 제공하는 모든 방법대로 권한상승을 시도하겠습니다.
 
 <br>
 <br>
@@ -679,17 +679,17 @@ accesschk.exe를 통해 시작메뉴 경로에 권한을 확인합니다. 일반
 <br>
 <br>
 <br>
+![image 54](/Pictur/Hacking%20lab/AD/privesc2/.102.png)<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ![image 54](/Pictur/Hacking%20lab/AD/privesc2/54.png)<br>
-
-
-<br>
-<br>
-<br>
-<br>
-<br>
-
-![image 54](/Pictur/Hacking%20lab/AD/privesc2/102.png)<br>
+cscript is an engine used to execute VBScript and JScript, and it runs the CreateShortCut.vbs file to install a .lnk (shortcut) file.<br>
+csript는 VBScript JScript를 실행하는 엔진으로 CreateShortCut.vbs 파일을 실행해 .lnk (바로가기) 파일을 설치합니다. 
 
 <br>
 <br>
