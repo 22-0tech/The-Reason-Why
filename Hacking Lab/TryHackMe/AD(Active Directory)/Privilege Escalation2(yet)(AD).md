@@ -633,6 +633,8 @@ Privilege escalation can be attempted by directly accessing the Paint applicatio
 <br>
 
 ![image 52](/Pictur/Hacking%20lab/AD/privesc2/52.png)<br>
+Both methods failed to execute.<br>
+두 방법 모두 실행에 실패했습니다.
 <br>
 <br>
 <br>
@@ -641,6 +643,13 @@ Privilege escalation can be attempted by directly accessing the Paint applicatio
 
 ![image 47](/Pictur/Hacking%20lab/AD/privesc2/100.png)<br>
 
+<br>
+<br>
+<br>
+<br>
+<br>
+
+![image 47](/Pictur/Hacking%20lab/AD/privesc2/101.png)<br>
 <br>
 <br>
 <br>
