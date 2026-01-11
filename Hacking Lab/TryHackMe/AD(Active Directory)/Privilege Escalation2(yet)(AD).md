@@ -486,7 +486,8 @@ Administrator의 비밀번호를 평문으로 해독했습니다.
 <br>
 
 ![image 39](/Pictur/Hacking%20lab/AD/privesc2/39.png)<br>
-
+SYSTEM-level privileges are successfully obtained using the cracked admin credentials.<br>
+해독한 admin 로그인으로 시스템 권한 획득에 성공했습니다.
 <br>
 <br>
 <br>
@@ -503,16 +504,39 @@ All successfully cracked hashes can be listed using the --show option.<br>
 <br>
 
 ![image 41](/Pictur/Hacking%20lab/AD/privesc2/41.png)<br>
+Although password cracking was successful, 
+login attempts failed: the user account lacked sufficient privileges, and the Administrator account was disabled.<br>
+
+비밀번호 해독에 성공했어도 user는 권한 부족, Administrator는 계정 비활성화로 로그인에 실패했습니다.
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+* Pass the Hash<br>
 <br>
 <br>
 
 ![image 42](/Pictur/Hacking%20lab/AD/privesc2/42.png)<br>
+The admin account successfully authenticated, <br>
+and login was possible using the NT hash value employed for password authentication without cracking it to plaintext.<br>
+
+admin은 로그인에 성공했는데 비밀번호에 이용되는 NT 해시값만만으로 해독 없이 로그인이 가능합니다.
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+* Scheduled Tasks<br>
 <br>
 <br>
 
