@@ -761,8 +761,10 @@ kali 135번 포트로 들어오는 통신을 윈도우 9999 포트로 포워딩(
 <br>
 
 ![image 58](/Pictur/Hacking%20lab/AD/privesc2/58.png)<br>
+PSExec64 is a tool that executes programs under the privileges of a specified account.<br>
+The malicious code (reverse.exe) will be executed with low privileges as the Local Service account.<br>
 
-PSExec64는 특정 계정의 권한으로 프로그램을 실행해주는 도구입니다. 
+PSExec64는 특정 계정의 권한으로 프로그램을 실행해주는 도구입니다. Local service라는 낮은 권한으로 악성코드(reverse.exe)를 실행하겠습니다.
 <br>
 <br>
 <br>
@@ -780,6 +782,15 @@ PSExec64는 특정 계정의 권한으로 프로그램을 실행해주는 도구
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+* Token Impersonation<br>
 <br>
 <br>
 
