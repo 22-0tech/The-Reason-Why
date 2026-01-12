@@ -1,3 +1,23 @@
+![image break](/Pictur/ethicalhacking/sqlinjection/41.png)<br>
+First, the existence of the database (DB) will be verified.<br>
+데이터베이스(DB)가 실제로 존재하는지 먼저 확인하겠습니다. 
+<br>
+<br>
+<br>
+<br>
+<br>
+
+![image break](/Pictur/ethicalhacking/sqlinjection/42.png)<br>
+There is credit card information in the OWASP10 (DB) table. It can be clearly confirmed that this is a vulnerability.<br>
+OWASP10(DB) 테이블에 credit_cards 정보가 있습니다. 분명한 취약점임을 확인할 수 있습니다. 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 ![image break](/Pictur/ethicalhacking/sqlinjection/1.png)<br>
 The database will be obtained by exploiting an SQL injection vulnerability.<br>
 SQL 인젝션 취약점을 이용해 데이터베이스를 획득하겠습니다.
@@ -6,23 +26,12 @@ SQL 인젝션 취약점을 이용해 데이터베이스를 획득하겠습니다
 <br>
 <br>
 <br>
-
-![image break](/Pictur/ethicalhacking/sqlinjection/41.png)<br>
-
-데이터베이스(DB)가 실제론 존재하는지 확인하겠습니다. 
 <br>
 <br>
 <br>
 <br>
 <br>
-
-![image break](/Pictur/ethicalhacking/sqlinjection/42.png)<br>
-
-<br>
-<br>
-<br>
-<br>
-<br>
+* Mutilliae<br>
 <br>
 <br>
 <br>
