@@ -7,11 +7,20 @@ SQL 인젝션 취약점을 이용해 데이터베이스를 획득하겠습니다
 <br>
 <br>
 
-![image break](/Pictur/ethicalhacking/sqlinjection/1-1.png)<br>
-![image break](/Pictur/ethicalhacking/sqlinjection/1-2.png)<br>
-![image break](/Pictur/ethicalhacking/sqlinjection/1-3.png)<br>
-![image break](/Pictur/ethicalhacking/sqlinjection/1-4.png)<br>
+![image break](/Pictur/ethicalhacking/sqlinjection/41.png)<br>
 
+데이터베이스(DB)가 실제론 존재하는지 확인하겠습니다. 
+<br>
+<br>
+<br>
+<br>
+<br>
+
+![image break](/Pictur/ethicalhacking/sqlinjection/42.png)<br>
+
+<br>
+<br>
+<br>
 <br>
 <br>
 <br>
