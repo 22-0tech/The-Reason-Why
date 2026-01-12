@@ -804,7 +804,9 @@ A Command Prompt opened on the waiting port, resulting in the acquisition of SYS
 <br>
 <br>
 
-![image 62](/Pictur/Hacking%20lab/AD/privesc2/62.png)<br>
+![image 62](/Pictur/Hacking%20lab/AD/privesc2/.62.png)<br>
+This time, token impersonation will be carried out using PrintSpoofer.exe.<br>
+이번엔 PrintSpoofer.exe를 통해 토큰 사칭을 하겠습니다. 낮은 권한 local service에서 상승을 시도합니다.
 <br>
 <br>
 <br>
@@ -812,6 +814,8 @@ A Command Prompt opened on the waiting port, resulting in the acquisition of SYS
 <br>
 
 ![image 63](/Pictur/Hacking%20lab/AD/privesc2/63.png)<br>
+After the port is activated, waiting will commence.<br>
+포트 활성화 후 기다리겠습니다.
 <br>
 <br>
 <br>
@@ -819,6 +823,8 @@ A Command Prompt opened on the waiting port, resulting in the acquisition of SYS
 <br>
 
 ![image 64](/Pictur/Hacking%20lab/AD/privesc2/64.png)<br>
+The Print Spooler service operates with SYSTEM privileges. PrintSpoofer.exe induces the Print Spooler service to establish a fake printer connection.<br>
+Print Spooler 서비스는 SYSTEM 권한으로 작동합니다. PrintSpoofer.exe는 Print Spooler 서비스에게 가짜 프린터 연결을 유도합니다.
 <br>
 <br>
 <br>
@@ -826,6 +832,8 @@ A Command Prompt opened on the waiting port, resulting in the acquisition of SYS
 <br>
 
 ![image 65](/Pictur/Hacking%20lab/AD/privesc2/65.png)<br>
+Privilege escalation to SYSTEM privileges was successfully achieved.<br>
+SYSTEM 권한으로 권한상승에 성공하였습니다.
 <br>
 <br>
 <br>
