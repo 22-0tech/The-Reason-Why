@@ -70,6 +70,15 @@ SMB2 프로토콜을 이용해 공격자의 악성코드 DLL을 타깃이 네트
 <br>
 <br>
 
+![image 1](/Pictur/Hacking%20lab/AD/nightprintmare/7-1.png)<br>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
 ![image 1](/Pictur/Hacking%20lab/AD/nightprintmare/8.png)<br>
 In this step, the attack is performed by exploiting the CVE-2021-1675 vulnerability on the target server and delivering the attacker’s malicious .dll file.
 Errors occur after Try3, which is normal behavior.<br>
@@ -140,9 +149,9 @@ Assuming the role of a defender, the malicious file (reverse.dll) will be delete
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/AD/nightprintmare/16-1.png)<br>
+![image 1](/Pictur/Hacking%20lab/AD/nightprintmare/7-2.png)<br>
 
-
+공격을 수행하기 전에 
 <br>
 <br>
 <br>
@@ -152,24 +161,6 @@ Assuming the role of a defender, the malicious file (reverse.dll) will be delete
 ![image 1](/Pictur/Hacking%20lab/AD/nightprintmare/17.png)<br>
 The running processes will be checked using tasklist.<br>
 tasklist로 실행 중인 프로세스를 조회하겠습니다.
-<br>
-<br>
-<br>
-<br>
-<br>
-
-![image 1](/Pictur/Hacking%20lab/AD/nightprintmare/17-1.png)<br>
-
-
-<br>
-<br>
-<br>
-<br>
-<br>
-
-![image 1](/Pictur/Hacking%20lab/AD/nightprintmare/17-2.png)<br>
-
-
 <br>
 <br>
 <br>
