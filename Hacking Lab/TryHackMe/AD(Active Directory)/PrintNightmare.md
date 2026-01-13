@@ -6,6 +6,9 @@ Windows Print Spooler 서비스의 취약점입니다.
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
 
 ![image 1](/Pictur/Hacking%20lab/AD/nightprintmare/2.png)<br>
 First, CVE-2016-1676 is downloaded using git clone.<br>
@@ -17,7 +20,8 @@ git clone을 이용해서 먼저 CVE-2016-1676를 다운 받습니다.
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/AD/nightprintmare/3.png)<br>
-
+Most Windows system function extensions are .dll. Based on this, a reverse shell payload is generated.<br>
+윈도의 시스템 기능의 확장자는 대부분 .dll입니다. 이를 적용해 리버스 쉘 페이로드를 생성합니다. 
 <br>
 <br>
 <br>
@@ -25,7 +29,8 @@ git clone을 이용해서 먼저 CVE-2016-1676를 다운 받습니다.
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/AD/nightprintmare/4.png)<br>
-
+The payload is configured according to the constructed payload.<br>
+구성한 페이로드대로 페이로드 설정을 합니다.
 <br>
 <br>
 <br>
@@ -33,7 +38,8 @@ git clone을 이용해서 먼저 CVE-2016-1676를 다운 받습니다.
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/AD/nightprintmare/5.png)<br>
-
+The attacker’s IP address and port number are set to localhost.<br>
+localhost에 공격자 IP와 포트번호를 설정합니다.
 <br>
 <br>
 <br>
@@ -41,7 +47,8 @@ git clone을 이용해서 먼저 CVE-2016-1676를 다운 받습니다.
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/AD/nightprintmare/6.png)<br>
-
+It is executed in the background using -j and verified with jobs.<br>
+-j를 이용해 백그라운드에서 실행하고 jobs으로 확인합니다. 
 <br>
 <br>
 <br>
@@ -49,7 +56,8 @@ git clone을 이용해서 먼저 CVE-2016-1676를 다운 받습니다.
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/AD/nightprintmare/7.png)<br>
-
+A Samba server is opened so that the target can download the attacker’s malicious DLL via the network shared folder pn using the SMB2 protocol.<br>
+SMB2 프로토콜을 이용해 공격자의 악성코드 DLL을 타깃이 네트워크 공유폴더 pn을 통해 다운받을 수 있도록 삼바 서버를 오픈합니다.
 <br>
 <br>
 <br>
@@ -57,7 +65,10 @@ git clone을 이용해서 먼저 CVE-2016-1676를 다운 받습니다.
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/AD/nightprintmare/8.png)<br>
+In this step, the attack is performed by exploiting the CVE-2021-1675 vulnerability on the target server and delivering the attacker’s malicious .dll file.
+Errors occur after Try3, which is normal behavior.<br>
 
+CVE-2021-1675의 취약점을 타깃 서버에 전송하여 공격을 수행하는 단계로 공격자의 악성코드 .dll을 전송합니다. Try3 이후로 오류가 나는데 정상적인 상황입니다.
 <br>
 <br>
 <br>
@@ -65,7 +76,8 @@ git clone을 이용해서 먼저 CVE-2016-1676를 다운 받습니다.
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/AD/nightprintmare/9.png)<br>
-
+A Meterpreter session has been successfully opened.<br>
+미터프리터 세션이 성공적으로 열렸습니다.
 <br>
 <br>
 <br>
@@ -74,6 +86,7 @@ git clone을 이용해서 먼저 CVE-2016-1676를 다운 받습니다.
 
 ![image 1](/Pictur/Hacking%20lab/AD/nightprintmare/10.png)<br>
 
+권한을 확인해보면 윈도우 운영체제 최고 권한인 SYSTEM 권한을 획득했습니다. 
 <br>
 <br>
 <br>
