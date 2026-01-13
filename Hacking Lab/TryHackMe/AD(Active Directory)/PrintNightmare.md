@@ -142,6 +142,7 @@ Assuming the role of a defender, the malicious file (reverse.dll) will be delete
 
 ![image 1](/Pictur/Hacking%20lab/AD/nightprintmare/16-1.png)<br>
 
+
 <br>
 <br>
 <br>
@@ -151,6 +152,24 @@ Assuming the role of a defender, the malicious file (reverse.dll) will be delete
 ![image 1](/Pictur/Hacking%20lab/AD/nightprintmare/17.png)<br>
 The running processes will be checked using tasklist.<br>
 tasklist로 실행 중인 프로세스를 조회하겠습니다.
+<br>
+<br>
+<br>
+<br>
+<br>
+
+![image 1](/Pictur/Hacking%20lab/AD/nightprintmare/17-1.png)<br>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+![image 1](/Pictur/Hacking%20lab/AD/nightprintmare/17-2.png)<br>
+
+
 <br>
 <br>
 <br>
