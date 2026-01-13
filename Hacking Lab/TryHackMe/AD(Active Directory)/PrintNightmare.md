@@ -168,8 +168,11 @@ tasklist로 실행 중인 프로세스를 조회하겠습니다.
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/AD/nightprintmare/18.png)<br>
+rundll32.exe is normally executed to open system settings or the Control Panel.<br>
+In addition, since it was running silently in the background, it was determined to be reverse.dll.<br>
 
-rundll32.exe는 보통 시스템 설정이나 제어판 등을 열 때 실행됩니다.
+rundll32.exe는 보통 시스템 설정이나 제어판 등을 열 때 실행됩니다.<br>
+또한 0으로 시스템이 몰래 백그라운드에서 작동 중이기 때문에 reverse.dll로 판단했습니다.
 <br>
 <br>
 <br>
@@ -177,11 +180,12 @@ rundll32.exe는 보통 시스템 설정이나 제어판 등을 열 때 실행됩
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/AD/nightprintmare/19.png)<br>
-
+When the rundll32.exe process was terminated, the Meterpreter session ended. It was the process associated with the malicious file (reverse.dll).<br>
+rundll32.exe 프로세스를 중단시켰더니 미터프리터 세션이 종료되었습니다. 악성파일(reverse.dll)의 프로세스였습니다. 
 <br>
 <br>
 <br>
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/AD/nightprintmare/21.png)<br>
+
