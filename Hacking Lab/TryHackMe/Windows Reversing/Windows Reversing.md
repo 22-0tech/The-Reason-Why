@@ -131,6 +131,7 @@ Overflow Flag  &ensp; &ensp;  &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &
 
 *Example : mov rax, 4<br>
 &ensp; &ensp;&ensp; &ensp; &ensp; &ensp; &ensp;cmp rax, 4<br>
+
 계산 결과가 0이므로 ZF가 1이 됩니다. 만약 음수(-)라면 SF가 1이 되며, ZF 또한 0이 됩니다.<br>
 <br>
 <br>
@@ -138,7 +139,14 @@ Overflow Flag  &ensp; &ensp;  &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &
 <br>
 <br>
 <br>
-
+메모리 영역 구역<br>
+<br>
+* .text(Code) : 실제 실행되는 기계어 코드가 들어있는 곳
+* .data : 초기화된 전역 변수나 정적 변수가 저장되는 곳
+* .bss : 초기화되지 않은 전역 변수가 저장되는 곳
+* Heap(힙) : 실행 중 malloc 등 동적으로 할당되는 데이터가 저장되는 곳 (낮은 주소 → 높은 주소)
+* Stack(스택) : 지역 변수, 함수 매개변수, 리턴 주소 등 저장되는 임시 공간 (높은 주소 → 낮은 주소)
+  
 
 
 
