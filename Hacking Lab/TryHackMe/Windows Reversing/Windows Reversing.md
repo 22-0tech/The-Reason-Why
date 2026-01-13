@@ -163,6 +163,7 @@ Overflow Flag  &ensp; &ensp;  &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &
 <br>
 <br>
 <br>
+<br>
 스택 프레임<br>
 <br>
 함수 인자 : 함수에 전달되는 값들
@@ -174,21 +175,11 @@ Overflow Flag  &ensp; &ensp;  &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &
 <br>
 <br>
 <br>
+<br>
 엔디언(Endianness) : 메모리 배치 방식<br>
 <br>
-Big Endian : 사람이 읽는 순서
-Little Endian : 하위 바이트부터 거꾸로 저장 (0xDEADBEEF) 
-
-
-
-
-
-
-
-
-
-
-
+Big Endian : 사람이 읽는 순서<br>
+Little Endian : 하위 바이트부터 거꾸로 저장 (0xDEADBEEF → EF BE AD DE)
 
 <br>
 <br>
@@ -199,11 +190,5 @@ Little Endian : 하위 바이트부터 거꾸로 저장 (0xDEADBEEF)
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
 
 ![image 1](/Pictur/Hacking%20lab/windowreversing/2.png)
