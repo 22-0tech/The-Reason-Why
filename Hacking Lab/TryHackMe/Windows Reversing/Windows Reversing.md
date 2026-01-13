@@ -109,14 +109,15 @@ rax, rbx &ensp; &ensp;  &ensp; &nbsp; &ensp; &ensp;  &ensp; &nbsp; &ensp; &ensp;
 * CMP : 두 값 비교
 * JCC : jne(다르면 점프), jg(크면 점프)
 *  CALL / RET : 함수 호출 / Return(복귀)
+<br>
+<br>
+<br>
+<br>
+<br>
+상태 플래그(Status Flag)<br>
+<br>
 
-
-
-
-
-
-
-
+이름  &ensp; &ensp; &ensp; &ensp;약자  &ensp; &ensp; &ensp; &ensp; 조건  &ensp; &ensp; &ensp; &ensp; 의미
 
 
 
