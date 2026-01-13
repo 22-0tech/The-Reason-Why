@@ -131,7 +131,13 @@ Overflow Flag  &ensp; &ensp;  &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &
 
 *Example : mov rax, 4<br>
 &ensp; &ensp;&ensp; &ensp; &ensp; &ensp; &ensp;cmp rax, 4<br>
-계산 결과가 0이므로 ZF가 1이 됩니다.<br>
+계산 결과가 0이므로 ZF가 1이 됩니다. 만약 음수(-)라면 SF가 1이 되며, ZF 또한 0이 됩니다.<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 
