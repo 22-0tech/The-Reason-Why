@@ -71,8 +71,8 @@ SMB2 프로토콜을 이용해 공격자의 악성코드 DLL을 타깃이 네트
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/AD/nightprintmare/7-1.png)<br>
-
-
+Before carrying out the attack, it is necessary to check whether the printer service protocols MS-RPRN or MS-PAR are running.<br>
+공격을 수행하기 전에 프린터 서비스인 MS-RPRN 또는 MS-PAR 프로토콜이 작동 중인지 확인을 해야합니다.
 <br>
 <br>
 <br>
@@ -150,8 +150,8 @@ Assuming the role of a defender, the malicious file (reverse.dll) will be delete
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/AD/nightprintmare/7-2.png)<br>
-
-공격을 수행하기 전에 
+Even though the malicious file (reverse.dll) has been deleted, the shell is still running.<br>
+악성파일(reverse.dll)이 삭제되었는데도 쉘이 작동 중입니다.
 <br>
 <br>
 <br>
@@ -169,6 +169,7 @@ tasklist로 실행 중인 프로세스를 조회하겠습니다.
 
 ![image 1](/Pictur/Hacking%20lab/AD/nightprintmare/18.png)<br>
 
+rundll32.exe는 보통 시스템 설정이나 제어판 등을 열 때 실행됩니다.
 <br>
 <br>
 <br>
