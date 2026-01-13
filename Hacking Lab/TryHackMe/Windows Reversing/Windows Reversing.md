@@ -52,25 +52,25 @@ rax, rbx &ensp; &ensp;  &ensp; &nbsp; &ensp; &ensp;  &ensp; &nbsp; &ensp; &ensp;
 
 범용 레지스터<br>
 
-* RAX (Accumulator): 함수의 리턴 값 저장소
-* RCX (Counter) : 반복문(Loop) 횟수 저장
-* RDX (Data) : 연산 또는 입출력 보조
-* RBX (Base) : 메모리 주소를 가리키는 기준점
-* RSI / RDI : 데이터 복사할 때 (Source) / (Destination)
-* RSP / RBP(Base) : 스택의 최상단 및 기준점
+* RAX (Accumulator): 함수의 리턴 값 저장소<br>
+* RCX (Counter) : 반복문(Loop) 횟수 저장<br>
+* RDX (Data) : 연산 또는 입출력 보조<br>
+* RBX (Base) : 메모리 주소를 가리키는 기준점<br>
+* RSI / RDI : 데이터 복사할 때 (Source) / (Destination)<br>
+* RSP / RBP(Base) : 스택의 최상단 및 기준점<br>
 <br>
 <br>
 <br>
 레지스터의 계층<br>
-* RAX : 64비트 전체 (8바이트)
-* EAX : 하위 32비트 (4바이트)
-* AX : 하위 16비트 (2바이트)
-* AH /AL : AX를 상위 8비트, 하위 8비트로 나눈 것 (1바이트)
+* RAX : 64비트 전체 (8바이트)<br>
+* EAX : 하위 32비트 (4바이트)<br>
+* AX : 하위 16비트 (2바이트)<br>
+* AH /AL : AX를 상위 8비트, 하위 8비트로 나눈 것 (1바이트)<br>
 <br>
 <br>
 특수 레지스터<br>
-* RIP (Instrucion) : (가장 중요) 다음에 실행할 코드의 주소
-* R8 ~ R15 : x64에서 추가된  
+* RIP (Instrucion) : (가장 중요) 다음에 실행할 코드의 주소<br>
+ 
 
 
 
