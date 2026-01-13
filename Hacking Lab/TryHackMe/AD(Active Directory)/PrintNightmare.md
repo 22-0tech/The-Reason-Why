@@ -9,6 +9,12 @@ Windows Print Spooler 서비스의 취약점입니다.
 <br>
 <br>
 <br>
+<br>
+<br>
+* 공격(Attack)<br>
+<br>
+<br>
+<br>
 
 ![image 1](/Pictur/Hacking%20lab/AD/nightprintmare/2.png)<br>
 First, CVE-2016-1676 is downloaded using git clone.<br>
@@ -103,9 +109,22 @@ SYSTEM 권한으로 flag를 확인했으며, hashdump로 모든 계정의 비밀
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+* 방어(Deffense)<br>
+
+<br>
+<br>
+<br>
 
 ![image 1](/Pictur/Hacking%20lab/AD/nightprintmare/15.png)<br>
-
+“At the specified path, a malicious file (reverse.dll) planted by the attacker was identified.<br>
+해당 경로에 공격자가 심어놓은 악성파일(reverse.dll)이 있습니다.
 <br>
 <br>
 <br>
@@ -113,7 +132,8 @@ SYSTEM 권한으로 flag를 확인했으며, hashdump로 모든 계정의 비밀
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/AD/nightprintmare/16.png)<br>
-
+Assuming the role of a defender, the malicious file (reverse.dll) will be deleted.<br>
+'방어자'라고 가정하고 악성파일(reverse.dll)을 삭제하겠습니다.
 <br>
 <br>
 <br>
@@ -121,6 +141,7 @@ SYSTEM 권한으로 flag를 확인했으며, hashdump로 모든 계정의 비밀
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/AD/nightprintmare/17.png)<br>
+
 
 <br>
 <br>
