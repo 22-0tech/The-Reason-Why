@@ -27,9 +27,12 @@ rax, rbx &ensp; &ensp;  &ensp; &nbsp; &ensp; &ensp;  &ensp; &nbsp; &ensp; &ensp;
 예시: 0x4B = (16^1 x 4) + (16^0 + 11) = 64 + 11 = 75(10진수)<br>
 <br>
 <br>
-
+<br>
+<br>
+<br>
+<br>
 컴퓨터의 참(True) & 거짓(False)<br>
-
+<br>
 * False : Only 0<br>
 * True : 0이 아닌 모든 값<br>
 
@@ -37,8 +40,10 @@ rax, rbx &ensp; &ensp;  &ensp; &nbsp; &ensp; &ensp;  &ensp; &nbsp; &ensp; &ensp;
 <br>
 <br>
 <br>
-
+<br>
+<br>
 비트 연산<br>
+<br>
 
 * NOT(!) : 반대로 뒤집기 (0 → 1, 1 → 0)<br>
 * AND(&) : 둘 다 1   &ensp;  → &ensp;  1<br>
@@ -49,8 +54,11 @@ rax, rbx &ensp; &ensp;  &ensp; &nbsp; &ensp; &ensp;  &ensp; &nbsp; &ensp; &ensp;
 <br>
 <br>
 <br>
-
+<br>
+<br>
+<br>
 범용 레지스터<br>
+<br>
 
 * RAX (Accumulator): 함수의 리턴 값 저장소<br>
 * RCX (Counter) : 반복문(Loop) 횟수 저장<br>
@@ -61,25 +69,39 @@ rax, rbx &ensp; &ensp;  &ensp; &nbsp; &ensp; &ensp;  &ensp; &nbsp; &ensp; &ensp;
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
 레지스터의 계층<br>
+<br>
+
 * RAX : 64비트 전체 (8바이트)<br>
 * EAX : 하위 32비트 (4바이트)<br>
 * AX : 하위 16비트 (2바이트)<br>
 * AH /AL : AX를 상위 8비트, 하위 8비트로 나눈 것 (1바이트)<br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
 특수 레지스터<br>
+<br>
+
 * RIP (Instrucion) : (가장 중요) 다음에 실행할 코드의 주소<br>
 * XMM / YMM : 소수점 계산 또는 여러 데이터를 한번에 처리(벡터 연산)시 사용<br>
 <br>
 <br>
 <br>
-
+<br>
+<br>
+<br>
 어셈블리어(Assembly Language)<br>
 <br>
+
 * MOV : 데이터 복사
 * LEA : 계산된 주소값 입력
-* PUSH :  값을 스택에 PUSH(백업)<br>
+* PUSH :  값을 스택에 PUSH(백업)
 * POP : 스택 최상단에서 값을 꺼내 레지스터에 복구
 * ADD /SUB : 더하기 / 빼기<br>
 * INC / DEC :  1 증가 / 1 감소
