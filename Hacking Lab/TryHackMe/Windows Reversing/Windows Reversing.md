@@ -127,9 +127,11 @@ Sign Flag  &ensp; &ensp; &ensp;  &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp
 Carry Flag  &ensp; &ensp; &ensp;  &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp;CF  &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; 부호 없는 수 연산에서 넘칠 때  &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp;자릿수 올림 또는 빌림<br>
 
 Overflow Flag  &ensp; &ensp;  &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp;OF &ensp; &ensp; &ensp;  &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp;부호 있는 수 연산에서 넘칠 때  &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp;결과가 레지스터 용량 초과<br>
+<br>
 
-
-
+*Example : mov rax, 4<br>
+&ensp; &ensp;&ensp; &ensp; &ensp; &ensp; &ensp;cmp rax, 4<br>
+계산 결과가 0이므로 ZF가 1이 됩니다.<br>
 
 
 
