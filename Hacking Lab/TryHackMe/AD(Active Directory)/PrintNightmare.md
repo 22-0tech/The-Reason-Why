@@ -123,7 +123,7 @@ SYSTEM 권한으로 flag를 확인했으며, hashdump로 모든 계정의 비밀
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/AD/nightprintmare/15.png)<br>
-“At the specified path, a malicious file (reverse.dll) planted by the attacker was identified.<br>
+At the specified path, a malicious file (reverse.dll) planted by the attacker was identified.<br>
 해당 경로에 공격자가 심어놓은 악성파일(reverse.dll)이 있습니다.
 <br>
 <br>
@@ -140,9 +140,17 @@ Assuming the role of a defender, the malicious file (reverse.dll) will be delete
 <br>
 <br>
 
+![image 1](/Pictur/Hacking%20lab/AD/nightprintmare/16-1.png)<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
 ![image 1](/Pictur/Hacking%20lab/AD/nightprintmare/17.png)<br>
-
-
+The running processes will be checked using tasklist.<br>
+tasklist로 실행 중인 프로세스를 조회하겠습니다.
 <br>
 <br>
 <br>
