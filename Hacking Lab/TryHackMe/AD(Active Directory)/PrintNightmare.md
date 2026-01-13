@@ -68,7 +68,8 @@ SMB2 프로토콜을 이용해 공격자의 악성코드 DLL을 타깃이 네트
 In this step, the attack is performed by exploiting the CVE-2021-1675 vulnerability on the target server and delivering the attacker’s malicious .dll file.
 Errors occur after Try3, which is normal behavior.<br>
 
-CVE-2021-1675의 취약점을 타깃 서버에 전송하여 공격을 수행하는 단계로 공격자의 악성코드 .dll을 전송합니다. Try3 이후로 오류가 나는데 정상적인 상황입니다.
+CVE-2021-1675의 취약점을 타깃 서버에 전송하여 공격을 수행하는 단계로 공격자의 악성코드 .dll을 전송합니다.<br>
+Try3 이후로 오류가 나는데 정상적인 상황입니다.
 <br>
 <br>
 <br>
@@ -85,8 +86,8 @@ A Meterpreter session has been successfully opened.<br>
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/AD/nightprintmare/10.png)<br>
-
-권한을 확인해보면 윈도우 운영체제 최고 권한인 SYSTEM 권한을 획득했습니다. 
+Privilege checks confirm that SYSTEM-level privileges have been obtained.<br>
+윈도우 운영체제 최고 권한인 SYSTEM 권한을 획득했습니다. 
 <br>
 <br>
 <br>
@@ -94,20 +95,14 @@ A Meterpreter session has been successfully opened.<br>
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/AD/nightprintmare/11.png)<br>
-
+“With SYSTEM privileges, the flag was verified, and the passwords of all accounts can also be obtained via hashdump.<br>
+SYSTEM 권한으로 flag를 확인했으며, hashdump로 모든 계정의 비밀번호 또한 확인할 수 있습니다. 
 <br>
 <br>
 <br>
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/AD/nightprintmare/12.png)<br>
-
-<br>
-<br>
-<br>
-<br>
-<br>
 
 ![image 1](/Pictur/Hacking%20lab/AD/nightprintmare/13.png)<br>
 
