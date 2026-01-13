@@ -117,13 +117,16 @@ rax, rbx &ensp; &ensp;  &ensp; &nbsp; &ensp; &ensp;  &ensp; &nbsp; &ensp; &ensp;
 상태 플래그(Status Flag)<br>
 <br>
 
-이름  &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp;약자  &ensp; &ensp; &ensp; &ensp;  &ensp; &ensp; &ensp; &ensp;조건  &ensp; &ensp; &ensp; &ensp;  &ensp; &ensp; &ensp; &ensp;의미
+이름  &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp;  &ensp; &ensp; &ensp; &ensp; 약자  &ensp; &ensp; &ensp; &ensp;  &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp;  &ensp; &ensp; &ensp; &ensp; 조건  &ensp; &ensp; &ensp; &ensp;  &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; 의미
 
 ------------------------
-Zero Flag &ensp; &ensp; &ensp; ZF  &ensp; &ensp; &ensp; &ensp; 결과 0  &ensp; &ensp; &ensp; &ensp; 두 값이 같을 때<br>
-Sign Flag  &ensp; &ensp; &ensp; SF &ensp; &ensp; &ensp; 결과 음수(-)  &ensp; &ensp;  가장 왼쪽 비트 1<br>
-Carry Flag  &ensp; &ensp; &ensp; CF  &ensp; &ensp; &ensp; 부호 없는 수 연산에서 넘칠 때  &ensp; 자릿수 올림 또는 빌림<br>
-Overflow Flag  &ensp; &ensp;  OF &ensp; &ensp; &ensp; 부호 있는 수 연산에서 넘칠 때  &ensp; 결과가 레지스터 용량 초과<br>
+Zero Flag &ensp; &ensp; &ensp;  &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp;ZF  &ensp; &ensp; &ensp; &ensp;  &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &nbsp; 결과 0  &ensp; &ensp; &ensp; &ensp;  &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp;두 값이 같을 때<br>
+
+Sign Flag  &ensp; &ensp; &ensp;  &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp;SF &ensp; &ensp; &ensp;  &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp;결과 음수(-)  &ensp; &ensp;  &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp;가장 왼쪽 비트 1<br>
+
+Carry Flag  &ensp; &ensp; &ensp;  &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp;CF  &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; 부호 없는 수 연산에서 넘칠 때  &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp;자릿수 올림 또는 빌림<br>
+
+Overflow Flag  &ensp; &ensp;  &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp;OF &ensp; &ensp; &ensp;  &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp;부호 있는 수 연산에서 넘칠 때  &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp;결과가 레지스터 용량 초과<br>
 
 
 
