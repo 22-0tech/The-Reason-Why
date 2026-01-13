@@ -95,24 +95,8 @@ Privilege checks confirm that SYSTEM-level privileges have been obtained.<br>
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/AD/nightprintmare/11.png)<br>
-“With SYSTEM privileges, the flag was verified, and the passwords of all accounts can also be obtained via hashdump.<br>
-SYSTEM 권한으로 flag를 확인했으며, hashdump로 모든 계정의 비밀번호 또한 확인할 수 있습니다. 
-<br>
-<br>
-<br>
-<br>
-<br>
-
-
-![image 1](/Pictur/Hacking%20lab/AD/nightprintmare/13.png)<br>
-
-<br>
-<br>
-<br>
-<br>
-<br>
-
-![image 1](/Pictur/Hacking%20lab/AD/nightprintmare/14.png)<br>
+With SYSTEM privileges, the flag was verified, and the passwords of all accounts can also be obtained via hashdump.<br>
+SYSTEM 권한으로 flag를 확인했으며, hashdump로 모든 계정의 비밀번호 또한 확인할 수 있습니다.
 
 <br>
 <br>
