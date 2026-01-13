@@ -70,9 +70,23 @@ rax, rbx &ensp; &ensp;  &ensp; &nbsp; &ensp; &ensp;  &ensp; &nbsp; &ensp; &ensp;
 <br>
 특수 레지스터<br>
 * RIP (Instrucion) : (가장 중요) 다음에 실행할 코드의 주소<br>
- 
+* XMM / YMM : 소수점 계산 또는 여러 데이터를 한번에 처리(벡터 연산)시 사용<br>
+<br>
+<br>
+<br>
 
-
+어셈블리어(Assembly Language)<br>
+<br>
+* MOV : 데이터 복사
+* LEA : 계산된 주소값 입력
+* PUSH :  값을 스택에 PUSH(백업)<br>
+* POP : 스택 최상단에서 값을 꺼내 레지스터에 복구
+* ADD /SUB : 더하기 / 빼기<br>
+* INC / DEC :  1 증가 / 1 감소
+* MUL / DIV : 곱하기 / 나누기
+* CMP : 두 값 비교
+* JCC : jne(다르면 점프), jg(크면 점프)
+*  CALL / RET : 함수 호출 / Return(복귀)
 
 
 
