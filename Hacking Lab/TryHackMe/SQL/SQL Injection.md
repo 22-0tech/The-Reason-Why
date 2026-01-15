@@ -6,9 +6,18 @@ OWASP10의 A03으로 핵심 취약점 SQL Injection입니다.
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+* In-Band<br>
+<br>
+Error-Based SQLi // Union-Based SQLi 두 개로 나뉩니다.<br>
+<br>
+<br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/2.png)<br>
-
+It is an error-based SQL injection displayed on the initial screen when the machine starts.<br>
+머신을 시작하면 나오는 초기 화면으로 Error-Based SQLi입니다.
 <br>
 <br>
 <br>
@@ -16,7 +25,8 @@ OWASP10의 A03으로 핵심 취약점 SQL Injection입니다.
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/3.png)<br>
-
+This time, we change the parameter and enter 2. The data exists.<br>
+파라미터를 바꿔가며 이번에는 2를 넣어보겠습니다. 데이터가 존재합니다.
 <br>
 <br>
 <br>
@@ -24,7 +34,8 @@ OWASP10의 A03으로 핵심 취약점 SQL Injection입니다.
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/4.png)<br>
-
+This time, when 3 is entered, the data does not exist.<br>
+이번엔 3을 넣었더니 데이터가 존재하지 않습니다.
 <br>
 <br>
 <br>
@@ -32,6 +43,7 @@ OWASP10의 A03으로 핵심 취약점 SQL Injection입니다.
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/5.png)<br>
+
 
 <br>
 <br>
