@@ -80,7 +80,11 @@ id=2 또한 column은 3개까지 존재합니다.
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.9-0.png)<br>
+Since there are three columns, the table is queried with three parameters.<br>
+However, because the original data with id=1 exists, the attacker’s input is obscured.<br>
 
+column이 3개이므로 인자를 3개로 맞춰서 테이블을 조회하겠습니다. 
+하지만, 원래 데이터 id=1이 존재하기 때문에 공격자의 입력값이 묻혀진 상태입니다.
 <br>
 <br>
 <br>
@@ -88,7 +92,10 @@ id=2 또한 column은 3개까지 존재합니다.
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.9.png)<br>
+As confirmed above,<br>
+the ID is set to a non-existent value such as 0, similar to the non-existent id 3, and the query is constructed with three parameters.<br>
 
+위에서 확인했듯이 존재하지 않는 id 3처럼 존재하지 않는 0으로 설정하고 인자 3개로 설정하겠습니다.
 <br>
 <br>
 <br>
@@ -111,7 +118,7 @@ id=2 또한 column은 3개까지 존재합니다.
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/12.png)<br>
+![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.12.png)<br>
 
 <br>
 <br>
@@ -119,7 +126,7 @@ id=2 또한 column은 3개까지 존재합니다.
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/13.png)<br>
+![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.13.png)<br>
 
 <br>
 <br>
@@ -127,7 +134,7 @@ id=2 또한 column은 3개까지 존재합니다.
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/14.png)<br>
+![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.14.png)<br>
 
 <br>
 <br>
@@ -135,7 +142,7 @@ id=2 또한 column은 3개까지 존재합니다.
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/15-0.png)<br>
+![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.15-0.png)<br>
 
 <br>
 <br>
@@ -143,7 +150,7 @@ id=2 또한 column은 3개까지 존재합니다.
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/15.png)<br>
+![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.15.png)<br>
 
 <br>
 <br>
@@ -151,7 +158,7 @@ id=2 또한 column은 3개까지 존재합니다.
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/15-2.png)<br>
+![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.15-2.png)<br>
 
 <br>
 <br>
@@ -159,7 +166,7 @@ id=2 또한 column은 3개까지 존재합니다.
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/16.png)<br>
+![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.16.png)<br>
 
 <br>
 <br>
@@ -167,7 +174,7 @@ id=2 또한 column은 3개까지 존재합니다.
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/18.png)<br>
+![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.18.png)<br>
 
 <br>
 <br>
@@ -175,7 +182,7 @@ id=2 또한 column은 3개까지 존재합니다.
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/19.png)<br>
+![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.19.png)<br>
 
 <br>
 <br>
@@ -183,7 +190,7 @@ id=2 또한 column은 3개까지 존재합니다.
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/20.png)<br>
+![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.20.png)<br>
 
 <br>
 <br>
@@ -191,7 +198,7 @@ id=2 또한 column은 3개까지 존재합니다.
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/21.png)<br>
+![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.21.png)<br>
 
 <br>
 <br>
@@ -199,7 +206,7 @@ id=2 또한 column은 3개까지 존재합니다.
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/22.png)<br>
+![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.22.png)<br>
 
 <br>
 <br>
@@ -207,7 +214,7 @@ id=2 또한 column은 3개까지 존재합니다.
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/23.png)<br>
+![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.23.png)<br>
 
 <br>
 <br>
@@ -216,7 +223,7 @@ id=2 또한 column은 3개까지 존재합니다.
 <br>
 
 
-![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/24.png)<br>
+![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.24.png)<br>
 
 <br>
 <br>
@@ -225,7 +232,7 @@ id=2 또한 column은 3개까지 존재합니다.
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/25.png)<br>
+![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.25.png)<br>
 
 <br>
 <br>
@@ -233,7 +240,7 @@ id=2 또한 column은 3개까지 존재합니다.
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/26.png)<br>
+![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.26.png)<br>
 
 <br>
 <br>
@@ -241,7 +248,7 @@ id=2 또한 column은 3개까지 존재합니다.
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/27.png)<br>
+![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.27.png)<br>
 
 <br>
 <br>
@@ -249,7 +256,7 @@ id=2 또한 column은 3개까지 존재합니다.
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/28.png)
+![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.28.png)
 
 <br>
 <br>
@@ -257,7 +264,7 @@ id=2 또한 column은 3개까지 존재합니다.
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/29.png)
+![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.29.png)
 
 <br>
 <br>
@@ -265,7 +272,7 @@ id=2 또한 column은 3개까지 존재합니다.
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/30.png)
+![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.30.png)
 
 <br>
 <br>
@@ -273,7 +280,7 @@ id=2 또한 column은 3개까지 존재합니다.
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/31.png)
+![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.31.png)
 
 <br>
 <br>
@@ -281,7 +288,7 @@ id=2 또한 column은 3개까지 존재합니다.
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/32.png)
+![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.32.png)
 
 <br>
 <br>
@@ -289,7 +296,7 @@ id=2 또한 column은 3개까지 존재합니다.
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/34.png)
+![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.34.png)
 
 <br>
 <br>
@@ -297,7 +304,7 @@ id=2 또한 column은 3개까지 존재합니다.
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/35.png)
+![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.35.png)
 
 <br>
 <br>
@@ -305,7 +312,7 @@ id=2 또한 column은 3개까지 존재합니다.
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/36.png)<br>
+![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.36.png)<br>
 
 <br>
 <br>
@@ -313,7 +320,7 @@ id=2 또한 column은 3개까지 존재합니다.
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/37.png)<br>
+![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.37.png)<br>
 
 <br>
 <br>
@@ -321,7 +328,7 @@ id=2 또한 column은 3개까지 존재합니다.
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/38.png)<br>
+![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.38.png)<br>
 
 <br>
 <br>
@@ -329,7 +336,7 @@ id=2 또한 column은 3개까지 존재합니다.
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/39.png)<br>
+![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.39.png)<br>
 
 
 
