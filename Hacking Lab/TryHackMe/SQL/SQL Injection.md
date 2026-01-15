@@ -26,7 +26,7 @@ It is an error-based SQL injection displayed on the initial screen when the mach
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/3.png)<br>
-This time, we change the parameter and enter 2. The data exists.<br>
+The parameter is changed and 2 is entered. The data exists.<br>
 파라미터를 바꿔가며 이번에는 2를 넣어보겠습니다. 데이터가 존재합니다.
 <br>
 <br>
@@ -44,8 +44,8 @@ This time, when 3 is entered, the data does not exist.<br>
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/5.png)<br>
-This time, we use ORDER BY to determine the number of columns. Since the data exists when the value is 3, there are at least three columns.<br>
-이번엔 order by를 이용해 column의 개수를 파악하겠습니다. 3일 때 데이터가 존재하므로 최소 3개 이상입니다. 
+The ORDER BY clause is used to determine the number of columns. Since the data exists when the value is 3, there are at least three columns.<br>
+order by를 이용해 column의 개수를 파악하겠습니다. 3일 때 데이터가 존재하므로 최소 3개 이상입니다. 
 <br>
 <br>
 <br>
@@ -53,8 +53,8 @@ This time, we use ORDER BY to determine the number of columns. Since the data ex
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.6.png)<br>
-When 4 is entered, it cannot be found, so the number of columns is three.<br>
-4를 넣었더니 찾을 수 없으므로, column은 3개까지 존재합니다. 
+When 4 is entered, it cannot be found, indicating that there are up to three columns.<br>
+4를 넣었더니 찾을 수 없다고 합니다. column은 3개까지 존재함을 알 수 있습니다.
 <br>
 <br>
 <br>
@@ -62,6 +62,7 @@ When 4 is entered, it cannot be found, so the number of columns is three.<br>
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/7.png)<br>
+
 
 <br>
 <br>
