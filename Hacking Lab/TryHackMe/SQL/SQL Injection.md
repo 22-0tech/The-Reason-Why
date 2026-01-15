@@ -62,8 +62,8 @@ When 4 is entered, it cannot be found, indicating that there are up to three col
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.7.png)<br>
-
-
+The ORDER BY clause is used to analyze id=2 as well.<br>
+id=2도 order by를 이용해서 파악하겠습니다.
 <br>
 <br>
 <br>
@@ -71,7 +71,8 @@ When 4 is entered, it cannot be found, indicating that there are up to three col
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.8.png)<br>
-
+For id=2, there are also up to three columns.<br>
+id=2 또한 column은 3개까지 존재합니다.
 <br>
 <br>
 <br>
