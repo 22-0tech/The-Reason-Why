@@ -17,6 +17,7 @@ Error-Based SQLi // Union-Based SQLi 두 개로 나뉩니다.<br>
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.2.png)<br>
+
 It is an error-based SQL injection displayed on the initial screen when the machine starts.<br>
 머신을 시작하면 나오는 초기 화면으로 Error-Based SQLi입니다.
 <br>
@@ -26,6 +27,7 @@ It is an error-based SQL injection displayed on the initial screen when the mach
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.3.png)<br>
+
 The parameter is changed and 2 is entered. The data exists.<br>
 파라미터를 바꿔가며 이번에는 2를 넣어보겠습니다. 데이터가 존재합니다.
 <br>
@@ -35,6 +37,7 @@ The parameter is changed and 2 is entered. The data exists.<br>
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.4.png)<br>
+
 This time, when 3 is entered, the data does not exist.<br>
 이번엔 3을 넣었더니 데이터가 존재하지 않습니다.
 <br>
@@ -44,6 +47,7 @@ This time, when 3 is entered, the data does not exist.<br>
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.5.png)<br>
+
 The ORDER BY clause is used to determine the number of columns. Since the data exists when the value is 3, there are at least three columns.<br>
 order by를 이용해 column의 개수를 파악하겠습니다. 3일 때 데이터가 존재하므로 최소 3개 이상입니다. 
 <br>
@@ -53,6 +57,7 @@ order by를 이용해 column의 개수를 파악하겠습니다. 3일 때 데이
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.6.png)<br>
+
 When 4 is entered, it cannot be found, indicating that there are up to three columns.<br>
 4를 넣었더니 찾을 수 없다고 합니다. column은 3개까지 존재함을 알 수 있습니다.
 <br>
@@ -62,6 +67,7 @@ When 4 is entered, it cannot be found, indicating that there are up to three col
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.7.png)<br>
+
 The ORDER BY clause is used to analyze id=2 as well.<br>
 id=2도 order by를 이용해서 파악하겠습니다.
 <br>
@@ -71,6 +77,7 @@ id=2도 order by를 이용해서 파악하겠습니다.
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.8.png)<br>
+
 For id=2, there are also up to three columns.<br>
 id=2 또한 column은 3개까지 존재합니다.
 <br>
@@ -80,6 +87,7 @@ id=2 또한 column은 3개까지 존재합니다.
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.9-0.png)<br>
+<br>
 Since there are three columns, the table is queried with three parameters.<br>
 However, because the original data with id=1 exists, the attacker’s input is obscured.<br>
 
@@ -92,6 +100,7 @@ column이 3개이므로 인자를 3개로 맞춰서 테이블을 조회하겠습
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.9.png)<br>
+<br>
 As confirmed above,<br>
 the ID is set to a non-existent value such as 0, similar to the non-existent id 3, and the query is constructed with three parameters.<br>
 
