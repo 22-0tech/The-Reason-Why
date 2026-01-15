@@ -103,8 +103,10 @@ column이 3개이므로 인자를 3개로 맞춰서 테이블을 조회하겠습
 <br>
 As confirmed above,<br>
 the ID is set to a non-existent value such as 0, similar to the non-existent id 3, and the query is constructed with three parameters.<br>
+After that, 3 appears on the page, indicating that the third position may be the channel through which data is transmitted.<br>
 
-위에서 확인했듯이 존재하지 않는 id 3처럼 존재하지 않는 0으로 설정하고 인자 3개로 설정하겠습니다.
+위에서 확인했듯이 존재하지 않는 id 3처럼 존재하지 않는 0으로 설정하고 인자 3개로 설정하겠습니다. 
+그 후 페이지에 3이 나왔습니다. 3번 자리가 데이터가 전송되는 통로임을 의심할 수 있습니다.
 <br>
 <br>
 <br>
@@ -112,7 +114,9 @@ the ID is set to a non-existent value such as 0, similar to the non-existent id 
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.10.png)<br>
-
+<br>
+When 10 is entered instead of 3, 10 is displayed. This confirms that it is a data transmission channel.<br>
+3대신 10을 넣었더니 10이 출력이 됐습니다. 데이터가 전송되는 통로로 검증되었습니다. 
 <br>
 <br>
 <br>
@@ -120,7 +124,12 @@ the ID is set to a non-existent value such as 0, similar to the non-existent id 
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.11.png)<br>
+<br>
+To retrieve the table names, table_name is placed in the data transmission channel.<br>
+The table name returned is CHARACTER_SETS, which is a system table, so a user-defined table needs to be identified.<br>
 
+테이블 이름을 조회하기 위해 데이터 전송로에 table_name을 배치시킵니다.<br>
+조회된 테이블 이름은 CHARACTERS_SETS로 기본 테이블이므로, 사용자 정의 테이블을 찾아야합니다.
 <br>
 <br>
 <br>
@@ -128,6 +137,7 @@ the ID is set to a non-existent value such as 0, similar to the non-existent id 
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.12.png)<br>
+
 
 <br>
 <br>
