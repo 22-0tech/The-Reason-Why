@@ -14,6 +14,7 @@ OWASP10의 A03으로 핵심 취약점 SQL Injection입니다.
 Error-Based SQLi // Union-Based SQLi 두 개로 나뉩니다.<br>
 <br>
 <br>
+<br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/2.png)<br>
 It is an error-based SQL injection displayed on the initial screen when the machine starts.<br>
@@ -43,16 +44,17 @@ This time, when 3 is entered, the data does not exist.<br>
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/5.png)<br>
-
-
+This time, we use ORDER BY to determine the number of columns. Since the data exists when the value is 3, there are at least three columns.<br>
+이번엔 order by를 이용해 column의 개수를 파악하겠습니다. 3일 때 데이터가 존재하므로 최소 3개 이상입니다. 
 <br>
 <br>
 <br>
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/6.png)<br>
-
+![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.6.png)<br>
+When 4 is entered, it cannot be found, so the number of columns is three.<br>
+4를 넣었더니 찾을 수 없으므로, column은 3개까지 존재합니다. 
 <br>
 <br>
 <br>
