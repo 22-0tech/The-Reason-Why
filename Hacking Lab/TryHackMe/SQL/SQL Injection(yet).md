@@ -105,7 +105,7 @@ As confirmed above,<br>
 the ID is set to a non-existent value such as 0, similar to the non-existent id 3, and the query is constructed with three parameters.<br>
 After that, 3 appears on the page, indicating that the third position may be the channel through which data is transmitted.<br>
 
-위에서 확인했듯이 존재하지 않는 id 3처럼 존재하지 않는 0으로 설정하고 인자 3개로 설정하겠습니다. 
+위에서 확인했듯이 존재하지 않는 id 3처럼 존재하지 않는 0으로 설정하고 인자 3개로 설정하겠습니다.<br>
 그 후 페이지에 3이 나왔습니다. 3번 자리가 데이터가 전송되는 통로임을 의심할 수 있습니다.
 <br>
 <br>
@@ -137,7 +137,8 @@ The table name returned is CHARACTER_SETS, which is a system table, so a user-de
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.12.png)<br>
-
+Using where table_schema = database(), only the table names required for the current website will be checked.<br>
+where table_schema=database()를 이용해 현재 이 웹사이트에서 필요한 테이블 이름만 확인하겠습니다. 
 
 <br>
 <br>
@@ -146,7 +147,8 @@ The table name returned is CHARACTER_SETS, which is a system table, so a user-de
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.13.png)<br>
-
+In addition to article, a table named staff_users was found.<br>
+article 외에 staff_users 이름의 테이블을 찾았습니다. 
 <br>
 <br>
 <br>
@@ -154,7 +156,8 @@ The table name returned is CHARACTER_SETS, which is a system table, so a user-de
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.14.png)<br>
-
+Based on the identified tables, the names of all columns will be determined.The column names are id, username, and password.<br>
+찾은 테이블을 기반으로 모든 column의 이름을 파악하겠습니다. column의 이름은 각각 id,username,password입니다.
 <br>
 <br>
 <br>
@@ -162,7 +165,8 @@ The table name returned is CHARACTER_SETS, which is a system table, so a user-de
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.15-0.png)<br>
-
+Based on the identified columns, Martin’s password was obtained in username:password format.<br>
+찾은 column을 기반으로 username:password 형식으로 martin의 비밀번호를 찾았습니다.
 <br>
 <br>
 <br>
@@ -170,6 +174,7 @@ The table name returned is CHARACTER_SETS, which is a system table, so a user-de
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.15.png)<br>
+
 
 <br>
 <br>
