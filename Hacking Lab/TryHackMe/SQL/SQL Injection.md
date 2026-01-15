@@ -1,4 +1,4 @@
-![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/1.png)<br>
+![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.1.png)<br>
 OWASP Top 10 A03 identifies SQL Injection as a critical vulnerability.<br>
 OWASP10의 A03으로 핵심 취약점 SQL Injection입니다.
 <br>
@@ -16,7 +16,7 @@ Error-Based SQLi // Union-Based SQLi 두 개로 나뉩니다.<br>
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/2.png)<br>
+![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.2.png)<br>
 It is an error-based SQL injection displayed on the initial screen when the machine starts.<br>
 머신을 시작하면 나오는 초기 화면으로 Error-Based SQLi입니다.
 <br>
@@ -25,7 +25,7 @@ It is an error-based SQL injection displayed on the initial screen when the mach
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/3.png)<br>
+![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.3.png)<br>
 The parameter is changed and 2 is entered. The data exists.<br>
 파라미터를 바꿔가며 이번에는 2를 넣어보겠습니다. 데이터가 존재합니다.
 <br>
@@ -34,7 +34,7 @@ The parameter is changed and 2 is entered. The data exists.<br>
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/4.png)<br>
+![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.4.png)<br>
 This time, when 3 is entered, the data does not exist.<br>
 이번엔 3을 넣었더니 데이터가 존재하지 않습니다.
 <br>
@@ -43,7 +43,7 @@ This time, when 3 is entered, the data does not exist.<br>
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/5.png)<br>
+![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.5.png)<br>
 The ORDER BY clause is used to determine the number of columns. Since the data exists when the value is 3, there are at least three columns.<br>
 order by를 이용해 column의 개수를 파악하겠습니다. 3일 때 데이터가 존재하므로 최소 3개 이상입니다. 
 <br>
@@ -61,7 +61,7 @@ When 4 is entered, it cannot be found, indicating that there are up to three col
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/7.png)<br>
+![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.7.png)<br>
 
 
 <br>
@@ -70,7 +70,7 @@ When 4 is entered, it cannot be found, indicating that there are up to three col
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/8.png)<br>
+![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.8.png)<br>
 
 <br>
 <br>
@@ -78,7 +78,7 @@ When 4 is entered, it cannot be found, indicating that there are up to three col
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/9-0.png)<br>
+![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.9-0.png)<br>
 
 <br>
 <br>
@@ -86,7 +86,7 @@ When 4 is entered, it cannot be found, indicating that there are up to three col
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/9.png)<br>
+![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.9.png)<br>
 
 <br>
 <br>
@@ -94,7 +94,7 @@ When 4 is entered, it cannot be found, indicating that there are up to three col
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/10.png)<br>
+![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.10.png)<br>
 
 <br>
 <br>
@@ -102,7 +102,7 @@ When 4 is entered, it cannot be found, indicating that there are up to three col
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/11.png)<br>
+![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.11.png)<br>
 
 <br>
 <br>
