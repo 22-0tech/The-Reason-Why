@@ -368,7 +368,7 @@ The password is 3845, and the process will proceed to the next step.<br>
 This is a method of forcibly introducing time delays to extract data when no clues are visible on the screen.<br>
 It is an attack that determines a condition as true when the same amount of time is delayed by inserting a waiting time into user input.<br>
 
-화면에 아무런 단서가 없을 때 강제적으로 시간을 넣어 데이터를 이끌어내는 방법입니다.
+화면에 아무런 단서가 없을 때 강제적으로 시간을 넣어 데이터를 이끌어내는 방법입니다.<br>
 사용자 입력값에 대기시간을 넣어 같은 시간이 소요되면 참(True)로 판별하는 공격입니다.
 <br>
 <br>
@@ -380,6 +380,7 @@ It is an attack that determines a condition as true when the same amount of time
 
 By creating a waiting state for 5 seconds using SLEEP(5),<br>
 if a response is received after 5 seconds, it indicates a true result without any syntax errors.<br>
+
 SLEEP(5)처럼 5초 동안 대기상태를 만들어 5초 뒤에 응답이 오면 문법적 오류없이 참(True)를 나타냅니다. 
 <br>
 <br>
@@ -389,7 +390,11 @@ SLEEP(5)처럼 5초 동안 대기상태를 만들어 5초 뒤에 응답이 오�
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.32.png)<br>
 
-기
+Instead of the initial URL tryhackme.com, a non-existent value such as admin123 was used to prevent the user input from being overridden.<br>
+A response was received after a 5-second delay.This confirms normal operation and indicates that the attack can be carried out.<br>
+
+초기화면의 Url tryhackme.com 대신에 'admin123'이라는 존재하지 않는 값을 넣어 사용자 입력값이 묻히는 걸 방지하겠습니다.<br>
+대기시간 5초 뒤에 응답이 왔습니다. 정상작동으로 공격이 가능한 상태입니다.
 <br>
 <br>
 <br>
@@ -398,6 +403,10 @@ SLEEP(5)처럼 5초 동안 대기상태를 만들어 5초 뒤에 응답이 오�
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.34.png)<br>
 
+This is the process of identifying the first character.<br>
+It exists within the ASCII code range of 48 to 57, and a response was received after 3 seconds according to the user input.<br>
+
+첫 번째 글자를 찾는 과정입니다. ascii코드 48에서 57사이에 존재하는 값이며, 사용자 입력값대로 3초뒤에 응답이 왔습니다. 
 <br>
 <br>
 <br>
@@ -406,6 +415,8 @@ SLEEP(5)처럼 5초 동안 대기상태를 만들어 5초 뒤에 응답이 오�
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.35.png)<br>
 
+The second character is 57, which corresponds to the number 9.<br>
+두 번째 글자는 57로 숫자 9입니다.
 <br>
 <br>
 <br>
@@ -414,6 +425,8 @@ SLEEP(5)처럼 5초 동안 대기상태를 만들어 5초 뒤에 응답이 오�
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.36.png)<br>
 
+The second character is 54, which corresponds to the number 6.<br>
+세 번째 글자는 54로 숫자 6입니다.
 <br>
 <br>
 <br>
@@ -422,6 +435,10 @@ SLEEP(5)처럼 5초 동안 대기상태를 만들어 5초 뒤에 응답이 오�
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.37.png)<br>
 
+Finally, the exact value will be identified using LIKE 'a%'.<br>
+Because the response time was 0.001 seconds instead of the expected 1 second, it indicates that the password is not 4960.<br>
+
+마지막은 LIKE 'a%'를 이용해 정확한 값을 찾겠습니다. 사용자 입력값 1초와 다르게 0.001초로 비밀번는 4960이 아닙니다. 
 <br>
 <br>
 <br>
@@ -430,6 +447,8 @@ SLEEP(5)처럼 5초 동안 대기상태를 만들어 5초 뒤에 응답이 오�
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.38.png)<br>
 
+The password was identified as 4961, and it was successfully discovered using LIKE '4961%'.<br>
+비밀번호는 4961로 LIKE '4961%'을 이용해 찾기에 성공했습니다. 
 <br>
 <br>
 <br>
@@ -438,7 +457,8 @@ SLEEP(5)처럼 5초 동안 대기상태를 만들어 5초 뒤에 응답이 오�
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.39.png)<br>
 
-
+In this section, SQL injection was successfully performed, and the flag was obtained.<br>
+이번 섹션의 Flag로 SQL Injection 성공했습니다. 
 
 
 
