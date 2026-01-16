@@ -272,6 +272,7 @@ length는 비밀번호 길이를 확인하는 것으로 3글자일 때 False로 
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.22.png)<br>
+
 When 4 was tested, the result was true, indicating that the password is 4 characters long.<br>
 4를 넣었더니 True로 비밀번호는 4글자입니다. 
 <br>
@@ -315,6 +316,7 @@ The password must be discovered by repeating this process multiple times.<br>
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.26.png)<br>
+
 The first character is 51, which corresponds to the number 3.<br>
 첫 번째 글자는 51로 숫자 3을 나타냅니다.
 <br>
@@ -324,6 +326,7 @@ The first character is 51, which corresponds to the number 3.<br>
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.27.png)<br>
+
 The second character is 56, which corresponds to the number 8.<br>
 두 번째 글자는 56으로 숫자 8입니다.
 <br>
@@ -332,7 +335,8 @@ The second character is 56, which corresponds to the number 8.<br>
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.28.png)
+![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.28.png)<br>
+
 The third character is 52, which corresponds to the number 4.<br>
 세 번째 글자는 52로 숫자 4입니다.
 <br>
@@ -341,7 +345,8 @@ The third character is 52, which corresponds to the number 4.<br>
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.29.png)
+![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.29.png)<br>
+
 The last character is the number 5.<br>
 The password is 3845, and the process will proceed to the next step.<br>
 
@@ -352,7 +357,7 @@ The password is 3845, and the process will proceed to the next step.<br>
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.30.png)
+![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.30.png)<br>
 
 <br>
 <br>
@@ -360,7 +365,7 @@ The password is 3845, and the process will proceed to the next step.<br>
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.31.png)
+![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.31.png)<br>
 
 <br>
 <br>
@@ -368,7 +373,7 @@ The password is 3845, and the process will proceed to the next step.<br>
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.32.png)
+![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.32.png)<br>
 
 <br>
 <br>
@@ -376,7 +381,7 @@ The password is 3845, and the process will proceed to the next step.<br>
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.34.png)
+![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.34.png)<br>
 
 <br>
 <br>
@@ -384,7 +389,7 @@ The password is 3845, and the process will proceed to the next step.<br>
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.35.png)
+![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.35.png)<br>
 
 <br>
 <br>
