@@ -188,6 +188,7 @@ Boolean // Time-Based 두 가지 방법으로 나뉩니다.<br>
 
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.15-0.png)<br>
+
 First, the method of authentication bypass is described.<br>
 먼저 인증우회(Authentication Bypass)방법입니다.
 <br>
@@ -356,9 +357,19 @@ The password is 3845, and the process will proceed to the next step.<br>
 <br>
 <br>
 <br>
+<br>
+<br>
+* Time-Based SQLi<br>
+<br>
+<br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.30.png)<br>
 
+This is a method of forcibly introducing time delays to extract data when no clues are visible on the screen.<br>
+It is an attack that determines a condition as true when the same amount of time is delayed by inserting a waiting time into user input.<br>
+
+화면에 아무런 단서가 없을 때 강제적으로 시간을 넣어 데이터를 이끌어내는 방법입니다.
+사용자 입력값에 대기시간을 넣어 같은 시간이 소요되면 참(True)로 판별하는 공격입니다.
 <br>
 <br>
 <br>
@@ -367,6 +378,9 @@ The password is 3845, and the process will proceed to the next step.<br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.31.png)<br>
 
+By creating a waiting state for 5 seconds using SLEEP(5),<br>
+if a response is received after 5 seconds, it indicates a true result without any syntax errors.<br>
+SLEEP(5)처럼 5초 동안 대기상태를 만들어 5초 뒤에 응답이 오면 문법적 오류없이 참(True)를 나타냅니다. 
 <br>
 <br>
 <br>
@@ -375,6 +389,7 @@ The password is 3845, and the process will proceed to the next step.<br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.32.png)<br>
 
+기
 <br>
 <br>
 <br>
