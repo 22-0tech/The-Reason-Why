@@ -231,7 +231,7 @@ This time, authentication bypass was successfully achieved by appending OR '2=2#
 Depending on the user input, a true or false result is returned. This method infers information based on those responses.<br>
 On the initial screen, admin was provided as a hint for the ID.<br>
 
-사용자 입력값에 따라 참(True) 또는 거짓(False)를 내놓습니다. 이를 이용해 추론하는 방법입니다.
+사용자 입력값에 따라 참(True) 또는 거짓(False)를 내놓습니다. 이를 이용해 추론하는 방법입니다.<br>
 초기 화면으로 ID는 admin을 힌트로 주었습니다.
 <br>
 <br>
@@ -241,7 +241,8 @@ On the initial screen, admin was provided as a hint for the ID.<br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.18.png)<br>
 
-
+Because there was no URL-encoded value, the result was false.<br>
+URL 인코딩값이 없어 False로 나왔습니다.
 <br>
 <br>
 <br>
@@ -250,14 +251,8 @@ On the initial screen, admin was provided as a hint for the ID.<br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.19.png)<br>
 
-<br>
-<br>
-<br>
-<br>
-<br>
-
-![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.20.png)<br>
-
+Because a true result was returned without any syntax errors, the attack can be executed successfully.<br>
+문법적 오류없이 True가 나왔기 때문에, 정상적으로 공격을 실행할 수 있습니다. 
 <br>
 <br>
 <br>
@@ -266,6 +261,10 @@ On the initial screen, admin was provided as a hint for the ID.<br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.21.png)<br>
 
+The length function is used to check the length of the password.<br>
+When tested with a length of 3 characters, the result was false, confirming that the password is not 3.<br>
+
+length는 비밀번호 길이를 확인하는 것으로 3글자일 때 False로 3글자가 아님을 확인했습니다.
 <br>
 <br>
 <br>
@@ -273,7 +272,8 @@ On the initial screen, admin was provided as a hint for the ID.<br>
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.22.png)<br>
-
+When 4 was tested, the result was true, indicating that the password is 4 characters long.<br>
+4를 넣었더니 True로 비밀번호는 4글자입니다. 
 <br>
 <br>
 <br>
@@ -282,6 +282,10 @@ On the initial screen, admin was provided as a hint for the ID.<br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.23.png)<br>
 
+The process of finding the characters will use ASCII character codes.<br>
+Since values greater than 90 return false, it can be determined that the characters are not lowercase letters.<br>
+
+글자를 찾는 과정은 ascii 아스키 문자 코드를 이용해 찾겠습니다. 90 초과는 False이므로 소문자가 아님을 알 수 있습니다.
 <br>
 <br>
 <br>
@@ -291,6 +295,8 @@ On the initial screen, admin was provided as a hint for the ID.<br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.24.png)<br>
 
+When tested with values of 50 or higher, the result was true, narrowing down the range.<br>
+50 이상일 때는 True로 범위가 좁혀졌습니다. 
 <br>
 <br>
 <br>
@@ -300,6 +306,8 @@ On the initial screen, admin was provided as a hint for the ID.<br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.25.png)<br>
 
+The password must be discovered by repeating this process multiple times.<br>
+이러한 과정을 여러번 거쳐서 비밀번호를 찾아야합니다.
 <br>
 <br>
 <br>
@@ -307,7 +315,8 @@ On the initial screen, admin was provided as a hint for the ID.<br>
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.26.png)<br>
-
+The first character is 51, which corresponds to the number 3.<br>
+첫 번째 글자는 51로 숫자 3을 나타냅니다.
 <br>
 <br>
 <br>
@@ -315,7 +324,8 @@ On the initial screen, admin was provided as a hint for the ID.<br>
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.27.png)<br>
-
+The second character is 56, which corresponds to the number 8.<br>
+두 번째 글자는 56으로 숫자 8입니다.
 <br>
 <br>
 <br>
@@ -323,7 +333,8 @@ On the initial screen, admin was provided as a hint for the ID.<br>
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.28.png)
-
+The third character is 52, which corresponds to the number 4.<br>
+세 번째 글자는 52로 숫자 4입니다.
 <br>
 <br>
 <br>
@@ -331,7 +342,10 @@ On the initial screen, admin was provided as a hint for the ID.<br>
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.29.png)
+The last character is the number 5.<br>
+The password is 3845, and the process will proceed to the next step.<br>
 
+마지막은 숫자 5입니다. 비밀번호는 3845로 다음 단계로 넘어가겠습니다.
 <br>
 <br>
 <br>
