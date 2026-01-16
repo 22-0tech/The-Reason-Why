@@ -151,8 +151,11 @@ where table_schema=database()를 이용해 현재 이 웹사이트에서 필요�
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.13.png)<br>
 
-In addition to article, a table named staff_users was found.<br>
-article 외에 staff_users 이름의 테이블을 찾았습니다. 
+A table named staff_users was found in addition to article.<br>
+Based on the identified table, all column names will be examined. The column names are id, username, and password.<br>
+
+article 외에 staff_users 이름의 테이블을 찾았습니다.<br>
+찾은 테이블을 기반으로 모든 column의 이름을 파악하겠습니다. column의 이름은 각각 id,username,password입니다.<br>
 <br>
 <br>
 <br>
@@ -161,8 +164,8 @@ article 외에 staff_users 이름의 테이블을 찾았습니다.
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.14.png)<br>
 
-Based on the identified tables, the names of all columns will be determined.The column names are id, username, and password.<br>
-찾은 테이블을 기반으로 모든 column의 이름을 파악하겠습니다. column의 이름은 각각 id,username,password입니다.
+Based on the identified columns, Martin’s password was obtained in username:password format.<br>
+찾은 column을 기반으로 username:password 형식으로 martin의 비밀번호를 찾았습니다.
 <br>
 <br>
 <br>
@@ -186,8 +189,7 @@ Boolean // Time-Based 두 개로 나뉩니다.<br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.15-0.png)<br>
 
-Based on the identified columns, Martin’s password was obtained in username:password format.<br>
-찾은 column을 기반으로 username:password 형식으로 martin의 비밀번호를 찾았습니다.
+
 <br>
 <br>
 <br>
