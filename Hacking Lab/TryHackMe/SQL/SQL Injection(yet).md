@@ -139,6 +139,7 @@ The table name returned is CHARACTER_SETS, which is a system table, so a user-de
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.12.png)<br>
+
 Using where table_schema = database(), only the table names required for the current website will be checked.<br>
 where table_schema=database()를 이용해 현재 이 웹사이트에서 필요한 테이블 이름만 확인하겠습니다. 
 
@@ -149,6 +150,7 @@ where table_schema=database()를 이용해 현재 이 웹사이트에서 필요�
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.13.png)<br>
+
 In addition to article, a table named staff_users was found.<br>
 article 외에 staff_users 이름의 테이블을 찾았습니다. 
 <br>
