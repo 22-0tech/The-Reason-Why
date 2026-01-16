@@ -13,7 +13,7 @@ OWASP10의 A03으로 핵심 취약점 SQL Injection입니다.
 <br>
 * In-Band<br>
 <br>
-Error-Based SQLi // Union-Based SQLi 두 개로 나뉩니다.<br>
+Error-Based SQLi // Union-Based SQLi 두 가지 방법으로 나뉩니다.<br>
 <br>
 <br>
 <br>
@@ -179,7 +179,7 @@ Based on the identified columns, Martin’s password was obtained in username:pa
 <br>
 * Blind-Based SQLi<br>
 <br>
-Boolean // Time-Based 두 개로 나뉩니다.<br>
+Boolean // Time-Based 두 가지 방법으로 나뉩니다.<br>
 추가로 인증 우회(Authentication Bypass)방법이 있습니다.<br>
 <br>
 <br>
@@ -188,8 +188,8 @@ Boolean // Time-Based 두 개로 나뉩니다.<br>
 
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.15-0.png)<br>
-
-
+First, the method of authentication bypass is described.<br>
+먼저 인증우회(Authentication Bypass)방법입니다.
 <br>
 <br>
 <br>
@@ -198,8 +198,11 @@ Boolean // Time-Based 두 개로 나뉩니다.<br>
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.15.png)<br>
+<br>
+By setting the ID to admin'# and using a random number for the password,<br>
+login was successfully achieved by using the hash symbol (#) to ignore the remaining part of the query.<br>
 
-
+ID에 admin'# 비밀번호는 랜덤숫자로 해시사인#을 이용해 뒤에 오는 문자열을 무시하는 방법으로 로그인에 성공했습니다. 
 <br>
 <br>
 <br>
@@ -208,14 +211,28 @@ Boolean // Time-Based 두 개로 나뉩니다.<br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.15-2.png)<br>
 
+This time, authentication bypass was successfully achieved by appending OR '2=2#' to the password.<br>
+*WHY – 2=2 is always true.<br>
+
+이번엔, 비밀번호에 OR'2=2#'를 붙여 인증 우회 방법에 성공했습니다.<br>
+*WHY- 2=2는 반드시 (True)참이기 때문입니다. 
 <br>
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+* Boolean-Based SQLi<br>
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.16.png)<br>
 
+Depending on the user input, a true or false result is returned. This method infers information based on those responses.<br>
+On the initial screen, admin was provided as a hint for the ID.<br>
+
+사용자 입력값에 따라 참(True) 또는 거짓(False)를 내놓습니다. 이를 이용해 추론하는 방법입니다.
+초기 화면으로 ID는 admin을 힌트로 주었습니다.
 <br>
 <br>
 <br>
@@ -223,6 +240,7 @@ Boolean // Time-Based 두 개로 나뉩니다.<br>
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.18.png)<br>
+
 
 <br>
 <br>
