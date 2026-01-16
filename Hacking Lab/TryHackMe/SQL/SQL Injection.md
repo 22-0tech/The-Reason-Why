@@ -49,7 +49,8 @@ This time, when 3 is entered, the data does not exist.<br>
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.5.png)<br>
-
+<br>
+<br>
 The ORDER BY clause is used to determine the number of columns. Since the data exists when the value is 3, there are at least three columns.<br>
 order by를 이용해 column의 개수를 파악하겠습니다. 3일 때 데이터가 존재하므로 최소 3개 이상입니다. 
 <br>
@@ -59,7 +60,7 @@ order by를 이용해 column의 개수를 파악하겠습니다. 3일 때 데이
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.6.png)<br>
-
+<br>
 When 4 is entered, it cannot be found, indicating that there are up to three columns.<br>
 4를 넣었더니 찾을 수 없다고 합니다. column은 3개까지 존재함을 알 수 있습니다.
 <br>
@@ -69,7 +70,7 @@ When 4 is entered, it cannot be found, indicating that there are up to three col
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.7.png)<br>
-
+<br>
 The ORDER BY clause is used to analyze id=2 as well.<br>
 id=2도 order by를 이용해서 파악하겠습니다.
 <br>
@@ -79,7 +80,7 @@ id=2도 order by를 이용해서 파악하겠습니다.
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.8.png)<br>
-
+<br>
 For id=2, there are also up to three columns.<br>
 id=2 또한 column은 3개까지 존재합니다.
 <br>
@@ -89,6 +90,7 @@ id=2 또한 column은 3개까지 존재합니다.
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.9-0.png)<br>
+<br>
 <br>
 Since there are three columns, the table is queried with three parameters.<br>
 However, because the original data with id=1 exists, the attacker’s input is obscured.<br>
@@ -153,7 +155,8 @@ article 외에 staff_users 이름의 테이블을 찾았습니다.<br>
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.13.png)<br>
-
+<br>
+<br>
 Based on the identified table, all column names will be examined. The column names are id, username, and password.<br>
 찾은 테이블을 기반으로 모든 column의 이름을 파악하겠습니다. column의 이름은 각각 id,username,password입니다.<br>
 <br>
@@ -188,6 +191,7 @@ Boolean // Time-Based 두 가지 방법으로 나뉩니다.<br>
 
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.15-0.png)<br>
+<br>
 
 First, the method of authentication bypass is described.<br>
 먼저 인증우회(Authentication Bypass)방법입니다.
@@ -241,7 +245,7 @@ On the initial screen, admin was provided as a hint for the ID.<br>
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.18.png)<br>
-
+<br>
 Because there was no URL-encoded value, the result was false.<br>
 URL 인코딩값이 없어 False로 나왔습니다.
 <br>
@@ -251,6 +255,7 @@ URL 인코딩값이 없어 False로 나왔습니다.
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.19.png)<br>
+<br>
 
 Because a true result was returned without any syntax errors, the attack can be executed successfully.<br>
 문법적 오류없이 True가 나왔기 때문에, 정상적으로 공격을 실행할 수 있습니다. 
@@ -273,6 +278,7 @@ length는 비밀번호 길이를 확인하는 것으로 3글자일 때 False로 
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.22.png)<br>
+<br>
 
 When 4 was tested, the result was true, indicating that the password is 4 characters long.<br>
 4를 넣었더니 True로 비밀번호는 4글자입니다. 
@@ -283,7 +289,8 @@ When 4 was tested, the result was true, indicating that the password is 4 charac
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.23.png)<br>
-
+<br>
+<br>
 The process of finding the characters will use ASCII character codes.<br>
 Since values greater than 90 return false, it can be determined that the characters are not lowercase letters.<br>
 
@@ -296,6 +303,7 @@ Since values greater than 90 return false, it can be determined that the charact
 
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.24.png)<br>
+<br>
 
 When tested with values of 50 or higher, the result was true, narrowing down the range.<br>
 50 이상일 때는 True로 범위가 좁혀졌습니다. 
@@ -317,6 +325,7 @@ The password must be discovered by repeating this process multiple times.<br>
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.26.png)<br>
+<br>
 
 The first character is 51, which corresponds to the number 3.<br>
 첫 번째 글자는 51로 숫자 3을 나타냅니다.
@@ -327,6 +336,7 @@ The first character is 51, which corresponds to the number 3.<br>
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.27.png)<br>
+<br>
 
 The second character is 56, which corresponds to the number 8.<br>
 두 번째 글자는 56으로 숫자 8입니다.
@@ -337,6 +347,7 @@ The second character is 56, which corresponds to the number 8.<br>
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.28.png)<br>
+<br>
 
 The third character is 52, which corresponds to the number 4.<br>
 세 번째 글자는 52로 숫자 4입니다.
@@ -347,6 +358,7 @@ The third character is 52, which corresponds to the number 4.<br>
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.29.png)<br>
+<br>
 
 The last character is the number 5.<br>
 The password is 3845, and the process will proceed to the next step.<br>
