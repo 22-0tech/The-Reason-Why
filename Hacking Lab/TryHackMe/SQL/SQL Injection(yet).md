@@ -172,7 +172,17 @@ Based on the identified tables, the names of all columns will be determined.The 
 <br>
 <br>
 <br>
-*
+<br>
+<br>
+* Blind-Based SQLi<br>
+<br>
+Boolean // Time-Based 두 개로 나뉩니다.<br>
+추가로 인증 우회(Authentication Bypass)방법이 있습니다.<br>
+<br>
+<br>
+<br>
+<br>
+
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.15-0.png)<br>
 
