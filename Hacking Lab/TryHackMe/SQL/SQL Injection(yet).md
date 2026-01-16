@@ -9,6 +9,8 @@ OWASP10의 A03으로 핵심 취약점 SQL Injection입니다.
 <br>
 <br>
 <br>
+<br>
+<br>
 * In-Band<br>
 <br>
 Error-Based SQLi // Union-Based SQLi 두 개로 나뉩니다.<br>
@@ -156,6 +158,7 @@ article 외에 staff_users 이름의 테이블을 찾았습니다.
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.14.png)<br>
+
 Based on the identified tables, the names of all columns will be determined.The column names are id, username, and password.<br>
 찾은 테이블을 기반으로 모든 column의 이름을 파악하겠습니다. column의 이름은 각각 id,username,password입니다.
 <br>
@@ -163,10 +166,17 @@ Based on the identified tables, the names of all columns will be determined.The 
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
+*
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.15-0.png)<br>
+
 Based on the identified columns, Martin’s password was obtained in username:password format.<br>
 찾은 column을 기반으로 username:password 형식으로 martin의 비밀번호를 찾았습니다.
+<br>
 <br>
 <br>
 <br>
