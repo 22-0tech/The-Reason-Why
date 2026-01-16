@@ -141,7 +141,10 @@ The table name returned is CHARACTER_SETS, which is a system table, so a user-de
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.12.png)<br>
 
 Using where table_schema = database(), only the table names required for the current website will be checked.<br>
-where table_schema=database()를 이용해 현재 이 웹사이트에서 필요한 테이블 이름만 확인하겠습니다. 
+A table named staff_users was found in addition to article.<br>
+
+where table_schema=database()를 이용해 현재 이 웹사이트에서 필요한 테이블 이름만 확인하겠습니다.<br>
+article 외에 staff_users 이름의 테이블을 찾았습니다.<br>
 
 <br>
 <br>
@@ -151,10 +154,7 @@ where table_schema=database()를 이용해 현재 이 웹사이트에서 필요�
 
 ![image 1](/Pictur/Hacking%20lab/sql/sqlinjection/.13.png)<br>
 
-A table named staff_users was found in addition to article.<br>
 Based on the identified table, all column names will be examined. The column names are id, username, and password.<br>
-
-article 외에 staff_users 이름의 테이블을 찾았습니다.<br>
 찾은 테이블을 기반으로 모든 column의 이름을 파악하겠습니다. column의 이름은 각각 id,username,password입니다.<br>
 <br>
 <br>
