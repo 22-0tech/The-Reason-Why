@@ -54,7 +54,7 @@ When the command is executed, targets are displayed. The object of the attack is
 ![image break](../../Pictur/Aireplay/airo6.png)<br>
 To focus the capture on a specific target,<br>
 the command is executed using the unique identifier (BSSID), the channel, a save file name, and the wireless interface<Br>
-* Why-특정하기 위해, 고유 식별자와 채널을 입력 후 저장 파일 이름과 무선네트워크 wlan0mon으로 명령어를 실행합니다.<br>
+* Why-특정하기 위해, 고유 식별자와 채널을 입력 후, 저장 파일 이름과 무선네트워크 wlan0mon으로 명령어를 실행합니다.<br>
 <br>
 <Br>
 <Br>
