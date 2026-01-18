@@ -77,6 +77,7 @@ As packet injection has not commenced, smooth and uninterrupted internet service
 ![image break](../../Pictur/Aireplay/airo8.png)<br>
 Packets are injected into a specific device utilizing aireplay-ng.<br>
 This refers to the Deauthentication attack, which forcibly disconnects the client device from the Access Point (AP).<Br>
+
 Aireplay-ng를 이용해서 특정 기기에 패킷을 주입합니다.<br>
 Deauthentication 디인증 공격으로 공유기(AP)로부터 강제 연결을 해제시키는 공격을 의미합니다.
 <br>
@@ -84,9 +85,9 @@ Deauthentication 디인증 공격으로 공유기(AP)로부터 강제 연결을 
 <br>
 
 
-Although the Wi-Fi connection was active, it was immediately disconnected the moment the packet was injected.<br>
-현재 와이파이가 연결 중인데, 패킷을 주입하는 순간 바로 연결 해제되었습니다.<br>
 
 
 ![image break](../../Pictur/Aireplay/airo13.png)![image break](../../Pictur/Aireplay/airo9.png)<br>
 
+Although the Wi-Fi connection was active, it was immediately disconnected the moment the packet was injected.<br>
+현재 와이파이가 연결 중인데, 패킷을 주입하는 순간 바로 연결 해제되었습니다.<br>
