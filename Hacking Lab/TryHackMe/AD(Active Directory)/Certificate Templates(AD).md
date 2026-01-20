@@ -142,6 +142,7 @@ Rubeus 활용을 위해 인증서 생성을 하겠습니다.
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/AD/template/13.png)<br>
+
 The certificate enrollment is performed.<br>
 인증서 등록을 합니다. 
 <br>
@@ -159,6 +160,7 @@ The certificate enrollment is performed.<br>
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/AD/template/15.png)<br>
+
 The process is completed only after the certificate is enrolled and then extracted.<br>
 인증서를 등록하고 추출까지 해야 완성입니다.
 <br>
@@ -193,7 +195,7 @@ The process is completed only after the certificate is enrolled and then extract
 
 ![image 1](/Pictur/Hacking%20lab/AD/template/19.png)<br>
 A TGT will be requested using Rubeus<br>
-Rubeus를 이용해 TGT를 요구하겠습니다.
+Rubeus를 이용해 TGT를 요청하겠습니다.
 <br>
 <br>
 <br>
@@ -208,6 +210,9 @@ A TGT ticket granting administrator privileges has been issued.<br>
 <br>
 <br>
 <br>
+<br>
+<br>
+* 
 
 ![image 1](/Pictur/Hacking%20lab/AD/template/20-2.png)<br>
 This time, a certificate will be obtained using the aaaa account, and a TGT will be requested.<br>
