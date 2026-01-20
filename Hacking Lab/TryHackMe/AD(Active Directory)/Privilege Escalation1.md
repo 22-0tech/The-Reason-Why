@@ -107,7 +107,7 @@ The malware (reverse.exe) will be copied to the specified file and executed.<br>
 <br>
 
 
-![image 1](/Pictur/Hacking%20lab/AD/privesc/13.png)<br>
+![image 1](/Pictur/Hacking%20lab/AD/privesc/.13.png)<br>
 An active port opens, and identity verification confirms the highest administrative account available on the Windows operating system.<br>
 활성화된 포트가 열리고 신원을 확인하면 윈도우 운영체제에서 존재할 수 있는 최고 관리자 계정입니다.
 <br>
