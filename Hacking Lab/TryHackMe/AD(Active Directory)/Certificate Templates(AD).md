@@ -203,6 +203,7 @@ Rubeus를 이용해 TGT를 요청하겠습니다.
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/AD/template/20.png)<br>
+
 A TGT ticket granting administrator privileges has been issued.<br>
 관리자 권한을 행사할 수 있는 TGT 티켓이 발급되었습니다.
 <br>
@@ -212,9 +213,14 @@ A TGT ticket granting administrator privileges has been issued.<br>
 <br>
 <br>
 <br>
-* 
+<br>
+<br>
+* Other Cases<br>
+<br>
+<br>
 
 ![image 1](/Pictur/Hacking%20lab/AD/template/20-2.png)<br>
+
 This time, a certificate will be obtained using the aaaa account, and a TGT will be requested.<br>
 이번엔 aaaa라는 계정으로 인증서를 받아 TGT를 발급 받아 보겠습니다.
 <br>
