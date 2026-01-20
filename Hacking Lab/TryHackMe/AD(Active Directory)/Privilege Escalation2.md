@@ -822,8 +822,11 @@ After the port is activated, waiting will commence.<br>
 <br>
 
 ![image 64](/Pictur/Hacking%20lab/AD/privesc2/64.png)<br>
-The Print Spooler service operates with SYSTEM privileges. PrintSpoofer.exe induces the Print Spooler service to establish a fake printer connection.<br>
-Print Spooler 서비스는 SYSTEM 권한으로 작동합니다. PrintSpoofer.exe는 Print Spooler 서비스에게 가짜 프린터 연결을 유도합니다.
+The Print Spooler service operates with SYSTEM privileges.<br>
+PrintSpoofer.exe induces the Print Spooler service to establish a fake printer connection.<br>
+
+Print Spooler 서비스는 SYSTEM 권한으로 작동합니다.<br>
+PrintSpoofer.exe는 Print Spooler 서비스에게 가짜 프린터 연결을 유도합니다.
 <br>
 <br>
 <br>
