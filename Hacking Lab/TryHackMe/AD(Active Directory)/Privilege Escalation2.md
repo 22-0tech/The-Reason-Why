@@ -708,9 +708,10 @@ Malicious code (reverse.lnk) has been installed.<br>
 
 ![image 54](/Pictur/Hacking%20lab/AD/privesc2/104.png)<br>
 In a real-world scenario, the left side represents the attacker opening a port and waiting.<br>
-The right side assumes a situation where an administrator logs in.<br>
+On the right, a scenario is assumed in which the victim PC is logged into as a server administrator.<br>
 
-실제 상황이라면, 왼쪽은 공격자가 포트를 열고 기다립니다. 오른쪽은 관리자로 로그인하는 상황을 가정합니다.  
+실제 상황이라면, 왼쪽은 공격자가 포트를 열고 기다립니다.<br>
+오른쪽은 피해PC 서버 관리자로 로그인하는 상황을 가정합니다.  
 <br>
 <br>
 <br>
