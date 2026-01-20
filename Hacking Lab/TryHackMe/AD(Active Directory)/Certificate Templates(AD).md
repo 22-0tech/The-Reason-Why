@@ -77,7 +77,7 @@ as even if a vulnerability exists, it may not be usable.<br>
 Since the permissions are limited to READ only, the approach moves on to the next direction.<br>
 
 인증서 사용 가능 여부를 확인하기 위해 Allow Enroll을 먼저 찾아야합니다. 취약점이 존재해도 사용하지 못할 가능성이 있습니다.<br>
-권한 또한 READ밖에 없기 때문에 다음 방향으로 넘어갑니다.
+하지만, 권한이 READ밖에 없기 때문에 다음 방향으로 넘어갑니다.
 <br>
 <br>
 <br>
