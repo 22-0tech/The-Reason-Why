@@ -219,7 +219,7 @@ A TGT ticket granting administrator privileges has been issued.<br>
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/AD/template/20-2.png)<br>
+![image 1](/Pictur/Hacking%20lab/AD/template/.20-2.png)<br>
 
 This time, a certificate will be obtained using the aaaa account, and a TGT will be requested.<br>
 이번엔 aaaa라는 계정으로 인증서를 받아 TGT를 발급 받아 보겠습니다.
@@ -238,7 +238,7 @@ The issuance failed. The reason for the failure will be examined.<br>
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/AD/template/20-4.png)<br>
+![image 1](/Pictur/Hacking%20lab/AD/template/.20-4.png)<br>
 This time, the certificate will be requested using the name gpage.<br>
 또 다른 gpage라는 이름으로 발급을 받겠습니다.
 <br>
@@ -314,7 +314,7 @@ The password change failed because the identity of the logged-in session was str
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/AD/template/25-1.png)<br>
+![image 1](/Pictur/Hacking%20lab/AD/template/.25-1.png)<br>
 It will be executed in PowerShell using the injected Kerberos ticket.<br>
 주입된 커버로스 티켓을 통해 PowerShell에서 실행하겠습니다. 
 <br>
