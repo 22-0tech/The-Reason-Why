@@ -91,7 +91,8 @@ It sends signals to both sides<br>
 ![image break](../../Pictur/MITM/arp13.png)<br>
 After ARP packets are sent, checking the ARP table shows that the victim’s MAC address appears spoofed as the intermediary’s MAC address.<Br>
 At this point, all traffic passes through the intermediary before reaching the router.<Br>
-ARP 패킷을 보내고 arp테이블 조회를 하면 피해자의 MAC주소는 중간자의 MAC주소로 위조되어 나옵니다. 이때 중간에서 모든 트래픽을 거쳐서 라우터로 이동하게 됩니다.
+ARP 패킷을 보내고 arp테이블 조회를 하면 피해자의 MAC주소는 중간자의 MAC주소로 위조되어 나옵니다.<br>
+이때 중간에서 모든 트래픽을 거쳐서 라우터로 이동하게 됩니다.
 <BR>
 <br>
 <BR>
@@ -107,6 +108,7 @@ HTTP로 이루어진 웹사이트에 로그인을 했을 때, 암호화 되어�
 <br>
 
 ![image break](../../Pictur/MITM/arp15-1.png)<br>
+
 Login information can be viewed through Wireshark.<br>
-wireshark를 통해 로그인 정보를 볼 수 있습니다.
+WireShark를 통해 로그인 정보를 볼 수 있습니다.
 
