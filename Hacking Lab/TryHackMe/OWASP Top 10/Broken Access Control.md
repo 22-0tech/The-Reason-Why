@@ -44,8 +44,10 @@ The dashboard page (dashboard.php) displays the created account’s name(gildong
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/owasp/injection/bac/5.png)<br>
+<br>
 
 The webpage is accessed by replacing dashboard.php with admin.php.<br>
+Unauthorized access to an administrator-only page by the standard account gildong confirms a vertical privilege escalation vulnerability.<br>
 
 웹페이지 dashboard.php 대신 admin.php로 바꿔서 검색하겠습니다.<br>
 관리자 전용 페이지로, 일반 계정 gildong에서 비인가 접근 수행으로 수직적 권한 상승 취약점을 확인했습니다. 
@@ -63,8 +65,15 @@ The webpage is accessed by replacing dashboard.php with admin.php.<br>
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/owasp/injection/bac/6.png)<br>
+<br>
 
+![image 1](/Pictur/Hacking%20lab/owasp/injection/bac/6.png)<br>
+<br>
+
+WHY – Burp Suite is used to inspect hidden parameters that do not appear in the browser address bar.<br>
+*WHY-브라우저 주소창에는 보이지 않는 숨겨진 매개변수를 확인하기 위해 Burp Suite를 사용하겠습니다.<br>
+Proxy-intercept를 켜고 로그인 하면 HTTP 요청 창이 나옵니다.
+<br>
 <br>
 <br>
 <br>
@@ -72,6 +81,7 @@ The webpage is accessed by replacing dashboard.php with admin.php.<br>
 
 ![image 1](/Pictur/Hacking%20lab/owasp/injection/bac/7.png)<br>
 
+Proxy-intercept를 켜고 로그인 하면 브라우저는 멈춘 상태에서, Burp Suite에서 HTTP 요청 창이 나옵니다.
 <br>
 <br>
 <br>
