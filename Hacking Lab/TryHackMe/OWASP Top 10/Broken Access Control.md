@@ -72,7 +72,7 @@ Unauthorized access to an administrator-only page by the standard account gildon
 
 WHY – Burp Suite is used to inspect hidden parameters that do not appear in the browser address bar.<br>
 *WHY-브라우저 주소창에는 보이지 않는 숨겨진 매개변수를 확인하기 위해 Burp Suite를 사용하겠습니다.<br>
-Proxy-intercept를 켜고 로그인 하면 HTTP 요청 창이 나옵니다.
+<br>
 <br>
 <br>
 <br>
@@ -86,7 +86,9 @@ Proxy-intercept를 켜고 로그인 하면 브라우저는 멈춘 상태에서, 
 <br>
 <br>
 <br>
-
+<br>
+<br>
+<br>
 
 ![image 1](/Pictur/Hacking%20lab/owasp/injection/bac/8.png)<br>
 
