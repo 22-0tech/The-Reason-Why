@@ -50,7 +50,7 @@ The webpage is accessed by replacing dashboard.php with admin.php.<br>
 Unauthorized access to an administrator-only page by the standard account gildong confirms a vertical privilege escalation vulnerability.<br>
 
 웹페이지 dashboard.php 대신 admin.php로 바꿔서 검색하겠습니다.<br>
-관리자 전용 페이지로, 일반 계정 gildong에서 비인가 접근 수행으로 수직적 권한 상승 취약점을 확인했습니다. 
+이는 관리자 전용 페이지로, 일반 계정 gildong에서 비인가 접근 수행으로 수직적 권한 상승 취약점을 확인했습니다. 
 <br>
 <br>
 <br>
@@ -80,7 +80,9 @@ WHY – Burp Suite is used to inspect hidden parameters that do not appear in th
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/owasp/injection/bac/7.png)<br>
+<br>
 
+When Proxy Intercept is enabled and login is performed, the browser is paused, and the HTTP request window appears in Burp Suite.<br>
 Proxy-intercept를 켜고 로그인 하면 브라우저는 멈춘 상태에서, Burp Suite에서 HTTP 요청 창이 나옵니다.
 <br>
 <br>
@@ -91,14 +93,25 @@ Proxy-intercept를 켜고 로그인 하면 브라우저는 멈춘 상태에서, 
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/owasp/injection/bac/8.png)<br>
+<br>
 
+WHY – To manipulate the server response, the request is sent to Repeater via right-click.<br>
+*WHY-서버 응답을 조작하기위해, 우클릭으로 Repeater로 보내겠습니다. 
 <br>
 <br>
 <br>
+<br>
+<br>
+
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/owasp/injection/bac/9.png)<br>
 
+A hidden parameter (isadmin) and its value (false) were identified. This parameter is used to attempt privilege escalation.<br>
+숨겨진 매개변수(isadmin)와 값(false)를 확인했습니다. 이걸 이용해 권한 상승을 시도하겠습니다.
+<br>
+<br>
+<br>
 <br>
 <br>
 <br>
@@ -106,9 +119,18 @@ Proxy-intercept를 켜고 로그인 하면 브라우저는 멈춘 상태에서, 
 
 ![image 1](/Pictur/Hacking%20lab/owasp/injection/bac/10.png)<br>
 
+isadmin is changed from false to true in the request, which is then sent.<br>
+false대신 isadmin=true를 붙여 검색하겠습니다.
+<br>
+<br>
+<br>
+<br>
 <br>
 <br>
 <br>
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/owasp/injection/bac/11.png)<br>
+
+Vertical privilege escalation was successfully achieved by exploiting the hidden parameter.<br>
+숨겨진 매개변수를 이용해 수직적 권한 상승에 성공했습니다.
