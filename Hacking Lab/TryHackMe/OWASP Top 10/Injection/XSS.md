@@ -71,16 +71,6 @@
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/owasp/injection/xss/9.png)<br>
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
 
 ![image 1](/Pictur/Hacking%20lab/owasp/injection/xss/10.png)<br>
 
