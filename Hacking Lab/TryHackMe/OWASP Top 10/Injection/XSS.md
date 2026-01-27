@@ -214,6 +214,11 @@ DOM-Based XSS는 이렇게 개발자 코드(F12)를 이용해 클라이언트 �
 
 ![image 1](/Pictur/Hacking%20lab/owasp/injection/xss/.22.png)<br>
 
+The encodeURIComponent() function is used to convert characters such as <, >, /, and " into %3C, %3E, %3F, and %22, preventing them from being recognized as executable tags.<br>
+To mitigate cases where decoding may occur due to the use of innerHTML or document.write(), the defense is completed by using .textContent.<br>
+
+encodeURIComponent()함수를 이용해 <,>,/,"를 &nbsp;&nbsp; %3C,%3E,%3F,%22로 바꿔 실행 태그로 인식하지 못하게 합니다.<br>
+innerHTML 또는 document.write()로 인해 디코딩 될 경우를 방지하기 위해, .textContent로 방어를 완성합니다.
 <br>
 <br>
 <br>
@@ -228,8 +233,28 @@ DOM-Based XSS는 이렇게 개발자 코드(F12)를 이용해 클라이언트 �
 <br>
 <br>
 <br>
+<br>
+<br>
+
+
+* BYPASS<br>
+<br>
+<br>
+<br>
 
 ![image 1](/Pictur/Hacking%20lab/owasp/injection/xss/15.png)<br>
+<br>
+<br>
+An attacker extracts cookie values using <script>alert(document.cookie)</script>.<Br>
+To bypass input filtering, the attacker may terminate an existing tag by appending >,<br>
+such as ><script>alert(document.cookie)</script>, or by closing a quotation mark, as in "><script>alert(document.cookie)</script>.<br>
+Furthermore, filtering can be evaded by terminating the preceding statement with ';, executing alert(1), and commenting out the remaining code using //.<br>
+
+공격자는 <script>alert(document.cookie)</script>로 쿠키값을 추출합니다.<br>
+
+'>' 태그를 붙여 앞의 태그를 끊고 ><script>alert(1)</script> 또는<br>
+"><script>alert(1)</script> 이런식으로 우회합니다.<br>
+더 나아가, ';로 앞의 '를 끊고 alert(1)를 실행하며, 뒤에는 // 주석으로 끊어서 우회합니다. 
 
 
 <br>
@@ -241,4 +266,6 @@ DOM-Based XSS는 이렇게 개발자 코드(F12)를 이용해 클라이언트 �
 
 ![image 1](/Pictur/Hacking%20lab/owasp/injection/xss/16.png)<br>
 
+When a security filter monitors the keyword javascript, attackers may bypass the filter by inserting encoded characters such as &#x09, &#x0A, or &#x0D.<br>
+보안 필터가 javascript 라는 키워드를 감시하고 있을 때, '&#x09' '&#x0A' '&#x0D'를 넣어 필터를 통과합니다. 
 
