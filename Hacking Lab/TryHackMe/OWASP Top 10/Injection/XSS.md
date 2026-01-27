@@ -51,18 +51,20 @@ The output of 1 most intuitively indicates that the script injected by the attac
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/owasp/injection/xss/7.png)<br>
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-
 ![image 1](/Pictur/Hacking%20lab/owasp/injection/xss/7-1.png)<br>
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+![image 1](/Pictur/Hacking%20lab/owasp/injection/xss/7.png)<br>
+There is a method of indicating a vulnerability by inserting the phrase “ihackyou,"<br>
+or by leaving an ID or a specific identifier as proof for bug bounty or verification purposes.<br>
+
+'ihackyou' 문구를 넣어 취약점을 알리거나 ID 또는 특정 식별값을 넣어 버그 바운티 등 인증 자료로 남기는 방법이 있습니다.
 <br>
 <br>
 <br>
