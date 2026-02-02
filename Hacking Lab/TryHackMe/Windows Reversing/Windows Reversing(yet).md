@@ -191,4 +191,62 @@ Little Endian : 하위 바이트부터 거꾸로 저장 (0xDEADBEEF → EF BE AD
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/windowreversing/2.png)
+![image 1](/Pictur/Hacking%20lab/windowreversing/2.png)<br>
+An introduction to Windows reverse engineering for beginners.<br>
+윈도우 리버싱 엔지니어링 Intro로 입문편입니다.
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+![image 1](/Pictur/Hacking%20lab/windowreversing/3.png)<br>
+
+When the machine is started, the IDA engineering tool and two files to be analyzed are provided.<br>
+머신을 시작하면 IDA 엔지니어링 도구와 분석해야 할 파일 2개가 나옵니다.
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+![image 1](/Pictur/Hacking%20lab/windowreversing/4.png)<br>
+The HelloWorld.exe executable will be analyzed first.<br>
+HelloWorld.exe 실행파일 먼저 보겠습니다.
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+![image 1](/Pictur/Hacking%20lab/windowreversing/5.png)<br>
+<br>
+
+The analysis begins at the program entry point, the main function.<br>
+The first instruction executed is a subtraction (sub) of 28h from rsp, which allocates stack space.<br>
+Before a function call (call), the arguments are set up using lea. The first argument is passed in rcx, and the second argument is passed in rdx.<br>
+
+프로그램 시작점 main함수부터 보겠습니다. 가장 먼저 실행되는 명령은 빼기(sub)로 28h - rsp로 메모리 공간을 확보하는 행위입니다.<br>
+함수를 호출(call)하기 전, 인자 설정(lea)을 먼저합니다. 첫 번째 인자는 rcx, 두 번째 인자는 rdx입니다.<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+![image 1](/Pictur/Hacking%20lab/windowreversing/6.png)<br>
+
+<br>
+<br>
+<br>
+
+![image 1](/Pictur/Hacking%20lab/windowreversing/7.png)<br>
+
+<br>
+<br>
+<br>
