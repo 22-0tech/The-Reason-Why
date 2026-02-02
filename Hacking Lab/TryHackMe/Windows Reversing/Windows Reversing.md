@@ -222,17 +222,20 @@ HelloWorld.exe 실행파일 먼저 보겠습니다.
 <br>
 <br>
 
-![image 1](/Pictur/Hacking%20lab/windowreversing/5.png)<br>
+![image 1](/Pictur/Hacking%20lab/windowreversing/.5.png)<br>
 <br>
 
 The analysis begins at the program entry point, the main function.<br>
-The first instruction executed is a subtraction (sub) of 28h from rsp, which allocates stack space.<br>
-Before a function call (call), the arguments are set up using lea. The first argument is passed in rcx, and the second argument is passed in rdx.<br>
+Before invoking a function (call), stack space is allocated by subtracting 28h from rsp.<br>
+Prior to the call, the arguments are set up using lea. The first argument is passed in rcx, and the second argument is passed in rdx.<br>
+Finally, the register is initialized to zero using an exclusive OR (xor), and the previously allocated stack space is restored using add.<br>
 
-프로그램 시작점 main함수부터 보겠습니다. 가장 먼저 실행되는 명령은 빼기(sub)로 28h - rsp로 메모리 공간을 확보하는 행위입니다.<br>
-함수를 호출(call)하기 전, 인자 설정(lea)을 먼저합니다. 첫 번째 인자는 rcx, 두 번째 인자는 rdx입니다.<br>
-
+프로그램 시작점 main함수부터 보겠습니다. 함수를 호출(call)하기 전, sub (28h - rsp)로 메모리 공간을 확보합니다.<br>
+호출(call) 전, 인자(lea)를 먼저 설정합니다. 첫 번째 인자는 rcx, 두 번째 인자는 rdx입니다.<br>
+마지막으로 뒷정리를 해야합니다. (베타적논리합)XOR으로 레지스터를 0으로 초기화 한 후, 확보했던 메모리를 다시 원래대로(add) 돌려놓습니다.
 <br>
+<br>
+
 <br>
 <br>
 <br>
@@ -241,12 +244,29 @@ Before a function call (call), the arguments are set up using lea. The first arg
 
 ![image 1](/Pictur/Hacking%20lab/windowreversing/6.png)<br>
 
+The following is a loop executable file. Focus will be placed on when it terminates, as it runs continuously.<br>
+test is the logical AND operator; test rdx, rdx checks whether rdx is 0.<br>
+If it is 0, jz jumps to the corresponding address, leading to loop exit, which becomes the loop termination point.<br>
+
+
+다음은 루프(loop) 실행파일입니다. 계속 실행되는 파일로 언제 종료되는지에 초점을 맞춰 보겠습니다.<br>
+test는 논리곱(AND)연산자로, test rdx, rdx는 rdx가 0인지 확인합니다.<br>
+0이면 jz 해당주소로 점프해 루프 탈출로, 루프 종료 지점이 됩니다.<br>
+<br>
+<br>
+<br>
 <br>
 <br>
 <br>
 
 ![image 1](/Pictur/Hacking%20lab/windowreversing/7.png)<br>
+<br>
+To prevent the program from entering an infinite loop, a value must change. Look for instructions that modify a value, such as inc or dec.<br>
+inc rcx increments the value; then cmp rcx, rdx compares it with rdx.<br>
+If it is less, jb (jump below) jumps back to the loop start. To exit the loop, the value must increase enough.
 
+프로그램이 무한루프에 빠지지 않으려면 값이 일정해야합니다. inc, dec과 같이 값을 변화시키는 명령어를 찾습니다.<br>
+inc rcx, 증가시켜 cmp(비교) rcx가 rdx와 작으면 jb(Below) 루프 시작점으로 점프합니다. 탈출하기 위해 값이 커야합니다.
 <br>
 <br>
 <br>
