@@ -7,7 +7,7 @@ Setuid가 narnia5로 설정되어 있습니다. 소스코드를 먼저 보겠습
 <br>
 
 ![image break](/Pictur/Level4/nar2.png) <br>
-irst, memset is examined. When the program is executed, all environment variable strings are set to NULL,<br>
+first, memset is examined. When the program is executed, all environment variable strings are set to NULL,<br>
 which indicates that environment variable–based attacks are fundamentally blocked.<br>
 This indicates that the buffer overflow must be triggered using only argv[1].
 
