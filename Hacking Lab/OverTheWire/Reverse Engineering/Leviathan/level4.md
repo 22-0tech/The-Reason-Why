@@ -1,6 +1,6 @@
 ![image break](/Pictur/Level4/levia1.png) <br>
 A sequence of binary numbers should be converted to ASCII, since the answer is a string.<br>
-2진수 숫자 나열 정답은 문자열이므로 ASCII로 변환
+2진수 숫자 나열, 정답은 문자열이므로 ASCII로 변환합니다.
 
 
 ![image break](/Pictur/Level4/levia2.png) <br>
