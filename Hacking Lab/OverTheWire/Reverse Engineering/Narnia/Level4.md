@@ -11,7 +11,7 @@ first, memset is examined. When the program is executed, all environment variabl
 which indicates that environment variable–based attacks are fundamentally blocked.<br>
 This indicates that the buffer overflow must be triggered using only argv[1].
 
-memset먼저 보겠습니다.<br>
+memset 먼저 보겠습니다.<br>
 프로그램이 실행되면 모든 환경변수 문자열을 NULL로 만들기 때문에 환경변수 기반 공격을 원천 차단을 나타냅니다.<br>
 argv[1]로만 BOF를 일으켜야함을 나타냅니다.
 <br>
