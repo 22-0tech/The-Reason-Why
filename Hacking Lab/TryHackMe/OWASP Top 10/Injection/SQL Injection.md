@@ -95,7 +95,7 @@ id=2 또한 column은 3개까지 존재합니다.
 Since there are three columns, the table is queried with three parameters.<br>
 However, because the original data with id=1 exists, the attacker’s input is obscured.<br>
 
-column이 3개이므로 인자를 3개로 맞춰서 테이블을 조회하겠습니다. 
+column이 3개이므로 인자를 3개로 맞춰서 테이블을 조회하겠습니다.<br>
 하지만, 원래 데이터 id=1이 존재하기 때문에 공격자의 입력값이 묻혀진 상태입니다.
 <br>
 <br>
