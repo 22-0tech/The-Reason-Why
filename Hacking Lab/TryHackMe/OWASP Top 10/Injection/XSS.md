@@ -245,10 +245,6 @@ innerHTML 또는 document.write()로 인해 디코딩 될 경우를 방지하기
 ![image 1](/Pictur/Hacking%20lab/owasp/injection/xss/15.png)<br>
 <br>
 <br>
-An attacker extracts cookie values using <script>alert(document.cookie)</script>.<Br>
-To bypass input filtering, the attacker may terminate an existing tag by appending >,<br>
-such as ><script>alert(document.cookie)</script>, or by closing a quotation mark, as in "><script>alert(document.cookie)</script>.<br>
-Furthermore, filtering can be evaded by terminating the preceding statement with ';, executing alert(1), and commenting out the remaining code using //.<br>
 
 공격자는 <script>alert(document.cookie)</script>로 쿠키값을 추출합니다.<br>
 
