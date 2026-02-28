@@ -1,4 +1,4 @@
-* 사전 지식 지식(prior knowledge)<br>
+* 사전 지식(prior knowledge)<br>
 <br>
 <br>
 
