@@ -266,7 +266,7 @@ inc rcx increments the value; then cmp rcx, rdx compares it with rdx.<br>
 If it is less, jb (jump below) jumps back to the loop start. To exit the loop, the value must increase enough.
 
 프로그램이 무한루프에 빠지지 않으려면 값이 일정해야합니다. inc, dec과 같이 값을 변화시키는 명령어를 찾습니다.<br>
-inc rcx, 증가시켜 cmp(비교) rcx가 rdx와 작으면 jb(Below) 루프 시작점으로 점프합니다. 탈출하기 위해 값이 커야합니다.
+inc rcx, 증가시켜 cmp(비교) rcx가 rdx보다 작으면 jb(Below) 루프 시작점으로 점프합니다. 탈출하기 위해 값이 커야합니다.
 <br>
 <br>
 <br>
