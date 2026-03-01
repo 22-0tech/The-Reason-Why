@@ -31,7 +31,7 @@ An anonymous connection was made, and the directory will be accessed.<br>
 <br>
 ![image 4](/Pictur/Hacking%20lab/anonymous/4.png)<br>
 Everything can be downloaded using mget, and due to the weak security, put can also be considered.<br>
-mget을 이용해 전부 다운로드가 가능했고, 허술한 탓에 put까지 고려할 수 있습니다.
+mget을 이용해 전부 다운로드가 가능했고, 취약점으로 put까지 고려할 수 있습니다.
 <br>
 <br>
 <br>
