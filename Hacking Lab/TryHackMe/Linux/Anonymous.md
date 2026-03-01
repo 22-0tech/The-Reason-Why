@@ -41,7 +41,7 @@ If the attacker modifies this script to a reverse shell and uploads it, they cou
 Note: The condition if [ $tmp_files=0 ] will always evaluate to true in Bash, making it a potential vulnerability.<br>
 <br>
 공격자가 이 스크립트를 리버스 쉘로 수정해서 업로드를 하면 권한을 얻을 수도 있습니다.<br>
-참고-if [ $tmp_files=0 ] 이 부분은 Bash 쉘에서 항상 참(True)이 되기 때문에, 취약점이 될 수 있습니다.<br>
+참고-if [ $tmp_files=0 ] 는 Bash 쉘에서 항상 참(True)이 되기 때문에, 취약점이 될 수 있습니다.<br>
 <br>
 <br>
 <br>
