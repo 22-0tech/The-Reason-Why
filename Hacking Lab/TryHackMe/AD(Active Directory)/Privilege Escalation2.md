@@ -97,8 +97,10 @@ For example, if C:\Program Files\Unquoted Path Service\Common Files\service.exe 
 Because the service path is unquoted, the malware at C:\Program Files\Unquoted Path Service\Common.exe<br>
 is executed before the legitimate service binary.<br>
 
-이번엔 따옴표가 없는 서비스 경로입니다. 예를 들어, C:\Program Files\Unquoted Path Service\Common Files\service.exe 이게 원래 실행 파일이면<br>
-C:\Program Files\Unquoted Path Service\Common.exe(Malware) 앞에 있는 악성 코드를 먼저 실행하게 됩니다. 따옴표가 없기 때문입니다.
+이번엔 따옴표가 없는 서비스 경로입니다.<br>
+예를 들어, C:\Program Files\Unquoted Path Service\Common Files\service.exe 이게 원래 실행 파일이면<br>
+C:\Program Files\Unquoted Path Service\Common.exe(Malware) 앞에 있는 악성 코드를 먼저 실행하게 됩니다.<br>
+*WHY-따옴표가 없기 때문입니다.<br>
 
 <br>
 <br>
