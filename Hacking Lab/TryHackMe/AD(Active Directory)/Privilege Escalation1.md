@@ -92,6 +92,9 @@ All users are able to exercise full permissions. By copying reverse.exe to the c
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
 
 
 ![image 1](/Pictur/Hacking%20lab/AD/privesc/11.png)<br>
